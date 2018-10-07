@@ -1,0 +1,16 @@
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\bin\Debug\Langue.exe.config
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\bin\Debug\Langue.exe
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\bin\Debug\Langue.pdb
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.csprojResolveAssemblyReference.cache
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.Form1.resources
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.Properties.Resources.resources
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.csproj.GenerateResource.cache
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.csproj.CoreCompileInputs.cache
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.exe
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.pdb
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\bin\Debug\en\Langue.resources.dll
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.Form1.en.resources
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\en\Langue.resources.dll
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\bin\Debug\fr\Langue.resources.dll
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\Langue.Form1.fr.resources
+C:\Users\panto\Desktop\COURS\1 ERE\PROGRA\Bonus\Langue\Langue\obj\Debug\fr\Langue.resources.dll

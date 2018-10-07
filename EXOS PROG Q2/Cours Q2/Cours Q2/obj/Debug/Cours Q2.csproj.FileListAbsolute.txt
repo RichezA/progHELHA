@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\bin\Debug\Cours Q2.exe.config
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\bin\Debug\Cours Q2.exe
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\bin\Debug\Cours Q2.pdb
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\obj\Debug\Cours Q2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\obj\Debug\Cours Q2.exe
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\obj\Debug\Cours Q2.pdb
+C:\Users\User\Desktop\PROGRAMMING\Cours Q2\Cours Q2\obj\Debug\Cours Q2.csprojResolveAssemblyReference.cache

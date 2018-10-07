@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\bin\Debug\GarageListes.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\bin\Debug\GarageListes.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\bin\Debug\GarageListes.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\obj\Debug\GarageListes.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\obj\Debug\GarageListes.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\obj\Debug\GarageListes.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\GarageListes\GarageListes\obj\Debug\GarageListes.pdb

@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\obj\Debug\Tri LIFO classes génériques.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\obj\Debug\Tri LIFO classes génériques.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\bin\Debug\Tri LIFO classes génériques.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\bin\Debug\Tri LIFO classes génériques.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\bin\Debug\Tri LIFO classes génériques.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\obj\Debug\Tri LIFO classes génériques.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tri LIFO classes génériques\Tri LIFO classes génériques\obj\Debug\Tri LIFO classes génériques.pdb

@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\bin\Debug\09-03-18 (2).exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\bin\Debug\09-03-18 (2).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\bin\Debug\09-03-18 (2).pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\obj\Debug\09-03-18 (2).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\obj\Debug\09-03-18 (2).csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\obj\Debug\09-03-18 (2).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\09-03-18 (2)\09-03-18 (2)\obj\Debug\09-03-18 (2).pdb

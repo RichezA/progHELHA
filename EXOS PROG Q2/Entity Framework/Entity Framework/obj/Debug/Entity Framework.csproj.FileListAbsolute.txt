@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\Entity Framework.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\Entity Framework.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\Entity Framework.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\obj\Debug\Entity Framework.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\obj\Debug\Entity Framework.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\obj\Debug\Entity Framework.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Entity Framework\Entity Framework\obj\Debug\Entity Framework.pdb

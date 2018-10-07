@@ -1,0 +1,2 @@
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Exo récap examenQ2\Exo récap examenQ2\obj\Debug\Exo récap examenQ2.csprojAssemblyReference.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Exo récap examenQ2\Exo récap examenQ2\obj\Debug\Exo récap examenQ2.csproj.CoreCompileInputs.cache

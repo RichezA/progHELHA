@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\bin\Debug\Linq to SQL Older techniques (19-03-18).exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\bin\Debug\Linq to SQL Older techniques (19-03-18).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\bin\Debug\Linq to SQL Older techniques (19-03-18).pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\obj\Debug\Linq to SQL Older techniques (19-03-18).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\obj\Debug\Linq to SQL Older techniques (19-03-18).csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\obj\Debug\Linq to SQL Older techniques (19-03-18).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Linq to SQL Older techniques (19-03-18)\Linq to SQL Older techniques (19-03-18)\obj\Debug\Linq to SQL Older techniques (19-03-18).pdb

@@ -1,0 +1,7 @@
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\bin\Debug\Service windows.exe.config
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\bin\Debug\Service windows.exe
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\bin\Debug\Service windows.pdb
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\obj\Debug\Service windows.csprojAssemblyReference.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\obj\Debug\Service windows.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\obj\Debug\Service windows.exe
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Service windows\Service windows\obj\Debug\Service windows.pdb

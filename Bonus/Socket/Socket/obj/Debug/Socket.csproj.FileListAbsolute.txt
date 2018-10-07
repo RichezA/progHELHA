@@ -1,0 +1,10 @@
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\bin\Debug\Socket.exe.config
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\bin\Debug\Socket.exe
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\bin\Debug\Socket.pdb
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.Form1.resources
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.Properties.Resources.resources
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.csproj.GenerateResource.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.exe
+C:\Users\Thomas\Desktop\COURS\1 ERE\PROGRA\Bonus\Socket\Socket\obj\Debug\Socket.pdb

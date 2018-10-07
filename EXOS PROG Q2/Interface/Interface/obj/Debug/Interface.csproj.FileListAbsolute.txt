@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\bin\Debug\Interface.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\bin\Debug\Interface.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\bin\Debug\Interface.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\obj\Debug\Interface.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Interface\Interface\obj\Debug\Interface.pdb

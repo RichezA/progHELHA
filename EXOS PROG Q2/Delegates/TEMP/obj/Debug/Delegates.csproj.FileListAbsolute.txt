@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\bin\Debug\TEMP.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\bin\Debug\TEMP.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\bin\Debug\TEMP.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\obj\Debug\TEMP.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\TEMP\TEMP\obj\Debug\TEMP.pdb

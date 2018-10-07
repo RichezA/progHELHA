@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TestDatabase" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TestDatabase;Persist Security Info=True;User ID=UserClients2" SettingsObjectName="LINQ_SQL_26_03_18.Properties.Settings" SettingsPropertyName="TestDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.GetClientsByCity" Method="GetClientsByCity">
+    <Parameter Name="ville" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="GetClientsByCityResult">
+      <Column Name="idClient" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="prenom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ville" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAllClients" Method="GetAllClients">
+    <ElementType Name="GetAllClientsResult">
+      <Column Name="nom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="prenom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ville" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

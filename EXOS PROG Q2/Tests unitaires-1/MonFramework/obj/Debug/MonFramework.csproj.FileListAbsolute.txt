@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\bin\Debug\MonFramework.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\bin\Debug\MonFramework.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\obj\Debug\MonFramework.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\obj\Debug\MonFramework.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\obj\Debug\MonFramework.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\MonFramework\obj\Debug\MonFramework.pdb

@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\bin\Debug\12-03-18 WForms.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\bin\Debug\12-03-18 WForms.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\bin\Debug\12-03-18 WForms.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\12-03-18 WForms.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\_12_03_18_WForms.Form1.resources
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\_12_03_18_WForms.Properties.Resources.resources
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\12-03-18 WForms.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\12-03-18 WForms.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\12-03-18 WForms.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\12-03-18 WForms\12-03-18 WForms\obj\Debug\12-03-18 WForms.pdb

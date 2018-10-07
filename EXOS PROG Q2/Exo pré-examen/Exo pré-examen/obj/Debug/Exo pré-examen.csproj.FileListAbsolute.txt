@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\bin\Debug\Exo pré-examen.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\bin\Debug\Exo pré-examen.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\bin\Debug\Exo pré-examen.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\obj\Debug\Exo pré-examen.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\obj\Debug\Exo pré-examen.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\obj\Debug\Exo pré-examen.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Exo pré-examen\Exo pré-examen\obj\Debug\Exo pré-examen.pdb

@@ -1,0 +1,57 @@
+﻿<Window x:Class="WPFApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApplication"
+        mc:Ignorable="d"
+        Title="Mon application de fou de la street" Height="300" Width="525">
+    <Window.Resources>
+        <Style TargetType="StackPanel">
+            <Setter Property="Background" Value="Moccasin"></Setter>
+        </Style>
+        <Style x:Key="validButton" TargetType="Button">
+            <Setter Property="Width" Value="200"></Setter>
+            <Setter Property="Background" Value="Beige"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=changeStyle, Path=IsChecked}" Value="True">
+                    <Setter Property="FontSize" Value="20"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Width" Value="200"></Setter>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+                <MenuItem Header="File">
+                    <MenuItem Header="Ouvrir"></MenuItem>
+                    <MenuItem Header="Sauver"></MenuItem>
+                    <MenuItem Header="Fermer" Name="File_Fermer" Click="File_Fermer_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Affichage"></MenuItem>
+                <MenuItem Header="A propos de"></MenuItem>
+            <ToolBar DockPanel.Dock="Top" HorizontalAlignment="Left" Width="518">
+                <Button Command="New"  Content="New"/>
+                <Button Command="Save" Content="Save"/>
+                <Button Command="Open" Content="Open"/>
+                <ComboBox Name="MaCombo" Text="Tamer">
+                    <ComboBoxItem>test</ComboBoxItem>
+                </ComboBox>
+            </ToolBar>
+            <StatusBar DockPanel.Dock="Bottom"></StatusBar>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Width="500" Height="210">
+                <TextBlock HorizontalAlignment="Center" Margin="5">Introduire votre nom :</TextBlock>
+                <TextBox HorizontalAlignment="Center" Margin="5" Name="Nom"></TextBox>
+                <TextBlock HorizontalAlignment="Center" Margin="5">Introduire votre prenom</TextBlock>
+                <TextBox FontSize="15" HorizontalAlignment="Center" Margin="5"></TextBox>
+                <Button Margin="5,20,5,5" Style="{StaticResource ResourceKey=validButton}">Valider vos données</Button>
+                <CheckBox Width="200" Name="changeStyle" Content="Cliquez ici pour changer le style" Margin="10"></CheckBox>
+            </StackPanel>
+        </Menu>
+    </DockPanel>
+</Window>

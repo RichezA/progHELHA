@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\bin\Debug\SQL (16-03-18).exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\bin\Debug\SQL (16-03-18).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\bin\Debug\SQL (16-03-18).pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\obj\Debug\SQL (16-03-18).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\obj\Debug\SQL (16-03-18).csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\obj\Debug\SQL (16-03-18).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\SQL (16-03-18)\SQL (16-03-18)\obj\Debug\SQL (16-03-18).pdb

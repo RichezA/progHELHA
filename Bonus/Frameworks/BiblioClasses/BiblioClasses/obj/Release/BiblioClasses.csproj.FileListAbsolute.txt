@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\BiblioClasses\BiblioClasses\bin\Release\BiblioClasses.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\BiblioClasses\BiblioClasses\bin\Release\BiblioClasses.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\BiblioClasses\BiblioClasses\obj\Release\BiblioClasses.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\BiblioClasses\BiblioClasses\obj\Release\BiblioClasses.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\BiblioClasses\BiblioClasses\obj\Release\BiblioClasses.pdb

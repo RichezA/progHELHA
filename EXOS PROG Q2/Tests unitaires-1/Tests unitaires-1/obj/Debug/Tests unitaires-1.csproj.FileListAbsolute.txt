@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\bin\Debug\Tests unitaires-1.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\bin\Debug\Tests unitaires-1.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\bin\Debug\Tests unitaires-1.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\bin\Debug\MonFramework.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\bin\Debug\MonFramework.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\obj\Debug\Tests unitaires-1.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\obj\Debug\Tests unitaires-1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\obj\Debug\Tests unitaires-1.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\Tests unitaires-1\Tests unitaires-1\obj\Debug\Tests unitaires-1.pdb

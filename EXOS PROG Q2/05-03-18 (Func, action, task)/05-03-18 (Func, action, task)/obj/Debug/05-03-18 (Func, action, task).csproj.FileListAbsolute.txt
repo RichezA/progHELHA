@@ -1,0 +1,7 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\obj\Debug\05-03-18 (Func, action, task).csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\obj\Debug\05-03-18 (Func, action, task).csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\bin\Debug\05-03-18 (Func, action, task).exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\bin\Debug\05-03-18 (Func, action, task).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\bin\Debug\05-03-18 (Func, action, task).pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\obj\Debug\05-03-18 (Func, action, task).exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\EXOS PROG Q2\05-03-18 (Func, action, task)\05-03-18 (Func, action, task)\obj\Debug\05-03-18 (Func, action, task).pdb

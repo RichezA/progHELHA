@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\bin\Debug\netcoreapp2.0\Entity en .NET core.deps.json
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\bin\Debug\netcoreapp2.0\Entity en .NET core.runtimeconfig.json
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\bin\Debug\netcoreapp2.0\Entity en .NET core.runtimeconfig.dev.json
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\bin\Debug\netcoreapp2.0\Entity en .NET core.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.AssemblyInfo.cs
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\bin\Debug\netcoreapp2.0\Entity en .NET core.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Entity en .NET core\Entity en .NET core\obj\Debug\netcoreapp2.0\Entity en .NET core.pdb

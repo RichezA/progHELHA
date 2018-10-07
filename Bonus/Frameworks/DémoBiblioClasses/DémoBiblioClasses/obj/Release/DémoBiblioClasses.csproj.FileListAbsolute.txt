@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\bin\Release\DémoBiblioClasses.exe.config
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\bin\Release\DémoBiblioClasses.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\bin\Release\DémoBiblioClasses.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\bin\Release\BiblioClasses.dll
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\bin\Release\BiblioClasses.pdb
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\obj\Release\DémoBiblioClasses.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\obj\Release\DémoBiblioClasses.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\obj\Release\DémoBiblioClasses.exe
+C:\Users\User\Desktop\COURS\1 ERE\PROGRA\Bonus\Frameworks\DémoBiblioClasses\DémoBiblioClasses\obj\Release\DémoBiblioClasses.pdb
