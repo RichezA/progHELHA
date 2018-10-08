@@ -1,0 +1,24 @@
+PORTA => 0000 0000
+
+ADDWF PORTA
+ADDWF PORTA
+ADDWF PORTC
+
+PORTA =0000 0001
+PORTC 0001 0000
+
+ADDWF PORTA,0 (ou 1) 	// si 1 => valeur remise dans f à la fin (dans PORTA)
+			// si 0 => valeur additionnée avec f (PORTA) et stocké dans W
+
+PORTA =>1000 1000 
+BCF PORTA,3
+PORTA =>1000 0000
+BSF PORTA,2
+1000 0100
+
+BTFSC	=>
+BTFSS	=>
+
+[Ce qui est maintenant des méthodes, fonctions, etc.]
+Routine, sous-routine(Subroutine)  => routine affiche texte
+								  => Subroutine pour aller à la ligne après avoir affiché du texte
