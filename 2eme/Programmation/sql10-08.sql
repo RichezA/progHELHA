@@ -61,3 +61,4 @@ WHERE I.annee = Ue.annee AND E.matricule = Ue.matricule AND Ue.matricule = P.mat
 --ALTER TABLE Etudiant DROP COLUMN age;
 --ALTER TABLE Etudiant ADD age INT DEFAULT 18;
 --ALTER TABLE Etudiant ADD CONSTRAINT prenomUnique UNIQUE (prenom);
+
