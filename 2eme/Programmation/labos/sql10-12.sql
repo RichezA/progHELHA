@@ -212,3 +212,4 @@ GROUP BY Employe.NoEmp
 HAVING COUNT(Commande.NoCom) = 0;
 
 sql 4-4
+SELECT Societe,Ville,Nomprod FROM Fournisseur F,Produit P WHERE F.NoFour = P.NoFour
