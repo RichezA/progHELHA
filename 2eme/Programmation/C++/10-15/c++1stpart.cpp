@@ -7,7 +7,7 @@ sur plusieurs lignes
 #endif
 
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 
 void f(int m)
