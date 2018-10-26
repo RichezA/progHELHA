@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-struct Point // tout est public de base
+/*struct Point // everything is public at first
 {
     Point(int x, int y)
     {
@@ -27,10 +27,10 @@ struct Point // tout est public de base
 
     private: 
         double x,y;
-};
-class point // tout est private de base
+};*/
+class point // all members & methods are at first private
 {
-    private: // rajouter des champs en privé
+    private: // adding private fields => optional
         double x,y;
         const int z = 10;
         bool copie = false;
@@ -40,7 +40,7 @@ class point // tout est private de base
 
     public:
         //point(int w = 0, int v = 0) : x(w) , y(v), z(10) {}
-
+        // Different types of constructors
         point(int x, int y)
         {
             this -> copie = false;
@@ -49,7 +49,7 @@ class point // tout est private de base
 
             cout << "Construction de " << x << " " << y << endl;
         }
-        point(const point& p){
+        point(const point& p){ // copy constructor
             this -> copie = true;
             this -> x = p.x;
             this -> y = p.y;
@@ -61,7 +61,7 @@ class point // tout est private de base
             this -> x = w;
             this -> y = v;
         }
-        ~point(){
+        ~point(){ // destructor
             cout << "Destruction de " << x << " " << y;
             if(copie){
                 cout << " (copie)";
@@ -78,7 +78,7 @@ class point // tout est private de base
         }
         inline double getY() const 
         {
-            return y;
+            return y; 
         }
         double dist(point p) const
         {
@@ -87,6 +87,7 @@ class point // tout est private de base
         inline double setX(int x)
         {
             this -> x = x;
+            cout << "Edit : " << x << endl;
         }
 };
 
@@ -113,7 +114,7 @@ void f(point& p){
         }
     void print() { cout << "A : " << i << endl;}
 };*/
-struct A
+/*struct A
 {
     int i;
     A(int i) :  i(i) {}
@@ -126,20 +127,20 @@ struct B
     //{
     //  this -> a = a;
     //}
-};
+};*/
 int main(){
-    /*
+    printf("start");
     point p1(1,1); // Si pas de paramètres => pas de ()
     cout << p1.getX() << " " << p1.getY() << endl;
     point p2(2,2);
     cout << p2.getX() << " " << p2.getY() << endl;
     cout << "dist = " << p1.dist(p2) << endl;
     point p3(p1); // explicit copy
-    p3 = p2;
+    //p3 = p2;
     p3.setX(3);
     cout << "Dans le main : " << p2.getX() << " " << p2.getY() << endl;
     cout << "dist = " << p1.dist(p2) << endl; 
-    */
-   A a(2);
-   B b(a);
+   /*A a(2);
+   B b(a);*/
+    return 0;
 }
