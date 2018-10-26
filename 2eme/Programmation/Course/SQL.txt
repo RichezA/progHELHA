@@ -1,0 +1,8 @@
+Caractéristiques 
+    Données structurées
+    Données non redondantes
+    Données cohérentes
+    Données accessibles
+    Accès concurrent aux données/enregistrements
+    Indépendance des données et des programmes
+    Sécurité des données stockées
