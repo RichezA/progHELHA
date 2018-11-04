@@ -42,7 +42,5 @@ int main(int argc, char const *argv[]){
        cout << "Sa racine carrée est: " << sqrt(n) << endl;
 
    }while(1);
-    
-
     return 0;
 }
