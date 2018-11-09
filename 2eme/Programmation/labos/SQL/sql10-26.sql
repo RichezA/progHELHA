@@ -167,3 +167,27 @@ FROM Answer INNER JOIN (SELECT *
 WHERE userAnsw = 'Présent'
 GROUP BY Answer.entryID
 ORDER BY COUNT(Answer.entryID) DESC
+
+SELECT *
+FROM Entree E
+    INNER JOIN Sondage ON Sondage.id = E.idSondage
+    INNER JOIN SondageParGroupe ON Sondage.ID = SondageParGroupe.idSondage
+WHERE SondageParGroupe.idGroupe = 1
+    AND EXISTS (
+            SELECT *
+    FROM Reponse R
+    WHERE R.idEntree = E.id AND R.reponse = 'Présent'
+        );
+
+SELECT Sondage.*, TT.idEntree, TT.NB as NB
+FROM Sondage
+    INNER JOIN
+    (SELECT TopEntries.idSondage, TopEntries.idEntree, MAX(TopEntries.NB) AS NB
+    FROM (
+    SELECT Reponse.idEntree as idEntree, Entree.idSondage AS idSondage, COUNT(*) as NB
+        FROM Reponse
+            INNER JOIN Entree ON idEntree = Entree.id
+        WHERE reponse = 'Présent'
+        GROUP BY Reponse.idEntree
+) AS TopEntries
+    GROUP BY TopEntries.idSondage) AS TT ON TT.idSondage = Sondage.id;
