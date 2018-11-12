@@ -1,24 +1,39 @@
+#include <iostream>
 
-using namespace std;
+class A;
 
-class B;
+class B
+{
+    public:
+        void fB(A &a);
+};
 
 class A
 {
-    class C
-    {
-      public:
-        void m() {}
-    };
     int _i;
 
   public:
-    A(int i) : _i(i) {}
-    int i() const
-    {
-        C c;
-        c.m();
-        return _i;
-    }
+    friend void fA(A &a);   // friend of A, not a member function !
+    friend void B::fB(A &a); // can now be used in the class B cuz it's now a friend of A
     int bJ(B &b) const;
 };
+
+void fA(A &a)
+{
+    a._i = 22;
+    std::cout << a._i << std::endl;
+}
+void B::fB(A& a)    // this function should be defined after definition of class A
+{
+    a._i = 22;
+    std::cout << a._i << std::endl;
+}
+
+int main()
+{
+    A a;
+    fA(a); // calling friend function of the class A
+
+    B b;
+    b.fB(a); // calling B class emmber function fB, B::fB is a friend of the class A
+}
