@@ -1,7 +1,4 @@
 #include <iostream>
-<<<<<<< HEAD
-
-=======
 #include <algorithm>
 #include "declarationHeader.h"
 
@@ -171,4 +168,3 @@ int main()
     Point p2(2, 2);
     std::cout << p2.getX() << std::endl;
 }
->>>>>>> a4c54a3ac143176eaf6fe3d205aa5c7c47175908

@@ -1,5 +1,7 @@
 #include <iostream>
-#include "cpp11-09exosh.h"
+#include <cstring>
+#include "charsetHeader.h"
+//#include "cpp11-09exosh.h"
 
 /*class Chose
 {
@@ -14,26 +16,50 @@
     }
 };*/
 
-int main()
+/*class Point
 {
-    // exo1
-    /*Chose x;
-    std::cout << "Bonjour\n";*/
+    static int nbrPoints;
+    int id;
+    public:
+        Point()
+        {
+            this-> id = ++nbrPoints;
+            std::cout << "Point " << id << " créé" << std::endl;
+        }
+        ~Point()
+        {
+            std::cout << "Point " << this->id << " supprimé" << std::endl;
+        }
+};
+int Point::nbrPoints = 0;*/
 
-    // exo2
-    Point *tab = new Point[4];
-    delete[] tab;
-    tab = nullptr;
+ int main()
+ {
+//     // exo1
+//     /*Chose x;
+//     std::cout << "Bonjour\n";*/
 
-    Point *tt[] = {
-        new Point(),
-        new Point(),
-        new Point(),
-        new Point()};
-    for (int i = 0; i < 4; i++)
-    {
-        delete tt[i];
-        tt[i] = nullptr;
-    }
+//     // exo2
+//     Point *tab = new Point[4];
+//     delete[] tab;
+//     tab = nullptr;
+
+//     Point *tt[] = {
+//         new Point(),
+//         new Point(),
+//         new Point(),
+//         new Point()};
+//     for (int i = 0; i < 4; i++)
+//     {
+//         delete tt[i];
+//         tt[i] = nullptr;
+//     }
+
+    // exo3
+    CharSet char1;
+    char1.addElement();
+    char1.showElement();   
+    char1.showSpace();
     return 0;
-}
+ }
+
