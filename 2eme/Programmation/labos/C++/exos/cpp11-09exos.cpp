@@ -147,6 +147,6 @@ int main()
     ElementRationnel element3(r2, &element4);
     ElementRationnel element2(r3, &element3);
     ElementRationnel element1(r4, &element2);
-    std::cout << element1.sum() << std::endl;
+    std::cout << element1.sum(r4, &element2) << std::endl;
     return 0;
 }
