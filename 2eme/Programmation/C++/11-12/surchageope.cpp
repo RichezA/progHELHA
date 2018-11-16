@@ -45,8 +45,10 @@ ostream &operator<<(ostream &out, const Point &p)
 }
 int main()
 {
+    Point p(2, 4);
     int b, c;
     //int a = add(b, c);
     //int a = b.add(c);
     //int a = b + c;
+    std::cout << p << std::endl;
 }
