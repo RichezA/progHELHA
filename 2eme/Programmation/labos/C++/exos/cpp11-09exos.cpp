@@ -143,7 +143,7 @@ int main()
     Rationnel r2(8, 10);
     Rationnel r3(2, 5);
     Rationnel r4(1, 3);
-    ElementRationnel element4(r1, nullptr);
+    ElementRationnel element4(Rationnel(9, 4), nullptr);
     ElementRationnel element3(r2, &element4);
     ElementRationnel element2(r3, &element3);
     ElementRationnel element1(r4, &element2);
