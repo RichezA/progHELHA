@@ -2,8 +2,9 @@
 
 unsigned int pgcd(unsigned int a, unsigned int b); // function proto
 
-Rationnel::Rationnel(int num, int denom) : _num(num), _denom(denom) {}
-Rationnel::Rationnel() : _num(0), _denom(1) {}
+Rationnel::Rationnel(int num, int denom) : setNumDenom(num, denom) {}
+Rationnel::Rationnel() : Rationnel(0, 1) {} // call the other constructor
+Rationnel::Rationnel(const Rationnel &r);
 int Rationnel::num() { return _num; }
 int Rationnel::denom() { return _denom; }
 void Rationnel::show(std::ostream &out) const
