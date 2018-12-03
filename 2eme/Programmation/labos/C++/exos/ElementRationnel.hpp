@@ -4,12 +4,13 @@
 
 class ElementRationnel
 {
-  bool firstTime = true;
-  public:
-    Rationnel rationnel;
-    class ElementRationnel *nextadr;
-    ElementRationnel(Rationnel &ratio, ElementRationnel *adr = nullptr);
-    ElementRationnel(ElementRationnel &elem);
-    Rationnel sum(Rationnel r,ElementRationnel *adr);
-    Rationnel sum();
+  ElementRationnel *nextadr;
+  Rationnel rationnel;
+
+public:
+  ElementRationnel(Rationnel &ratio, ElementRationnel *adr = nullptr);
+  ElementRationnel(ElementRationnel &elem);
+  void setSuivant(ElementRationnel *element)
+      Rationnel sum(Rationnel &r, ElementRationnel *adr);
+  Rationnel sum();
 };

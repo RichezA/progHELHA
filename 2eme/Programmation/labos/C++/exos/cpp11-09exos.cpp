@@ -105,12 +105,9 @@ Rationnel operator/(Rationnel const &a, Rationnel &b)
 }
 Rationnel operator==(Rationnel const &a, Rationnel const &b)
 {
-    if ((a._num / a._denom) == (b._num / b._denom))
-        std::cout << "Les deux fractions sont égales" << std::endl;
-    else if ((a._num / a._denom) > (b._num / b._denom))
-        std::cout << "La première fonction est plus grande que la deuxieme" << std::endl;
-    else if ((a._num / a._denom) < (b._num / b._denom))
-        std::cout << "La premiere fonction est la plus petite que la deuxieme" << std::endl;
+    const Rationnel &a = a.simplify();
+    const Rationnel &b = b.simplify();
+    return a.num = b.num && a.denom = b.denom;
 }
 unsigned int pgcd(unsigned int a, unsigned int b)
 {
