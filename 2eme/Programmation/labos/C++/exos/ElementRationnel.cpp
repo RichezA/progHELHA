@@ -10,3 +10,9 @@ Rationnel ElementRationnel::sum(Rationnel r, ElementRationnel *adr)
         return r;
     sum(r + (*adr).rationnel, (*adr).nextadr);
 }
+Rationnel ElementRationnel::sum()
+{
+    if (nextadr == nullptr)
+        return rationnel;
+    return (*nextadr).sum() + rationnel;
+}

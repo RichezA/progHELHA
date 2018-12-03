@@ -1,0 +1,3 @@
+Carte *c2;
+c2->xxx;	// egal
+(*c2).xxx;	// egal
