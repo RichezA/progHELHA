@@ -1,1 +1,3 @@
 comprendre la surcharge d'opérateur new et delete
+
+slide 36-41 à passer
