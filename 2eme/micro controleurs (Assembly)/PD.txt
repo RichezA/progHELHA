@@ -1,0 +1,51 @@
+	.file	"setCursor.cpp"
+	.def	__main;	.scl	2;	.type	32;	.endef
+	.section .rdata,"dr"
+.LC0:
+	.ascii "pause\0"
+.LC1:
+	.ascii "Hello World\0"
+.LC2:
+	.ascii "New position\0"
+	.text
+	.globl	main
+	.def	main;	.scl	2;	.type	32;	.endef
+	.seh_proc	main
+main:
+.LFB4459:
+	pushq	%rbp
+	.seh_pushreg	%rbp
+	movq	%rsp, %rbp
+	.seh_setframe	%rbp, 0
+	subq	$48, %rsp
+	.seh_stackalloc	48
+	.seh_endprologue
+	call	__main
+	movw	$10, -4(%rbp)
+	movw	$20, -2(%rbp)
+	leaq	.LC0(%rip), %rcx
+	call	system
+	leaq	.LC1(%rip), %rcx
+	call	puts
+	movl	$-11, %ecx
+	movq	__imp_GetStdHandle(%rip), %rax
+	call	*%rax
+	movq	%rax, %rcx
+	movl	-4(%rbp), %eax
+	movl	%eax, %edx
+	movq	__imp_SetConsoleCursorPosition(%rip), %rax
+	call	*%rax
+	leaq	.LC2(%rip), %rcx
+	call	printf
+	movl	$10, %ecx
+	call	putchar
+	movl	$0, %eax
+	addq	$48, %rsp
+	popq	%rbp
+	ret
+	.seh_endproc
+	.ident	"GCC: (Rev1, Built by MSYS2 project) 7.2.0"
+	.def	system;	.scl	2;	.type	32;	.endef
+	.def	puts;	.scl	2;	.type	32;	.endef
+	.def	printf;	.scl	2;	.type	32;	.endef
+	.def	putchar;	.scl	2;	.type	32;	.endef
