@@ -9,9 +9,9 @@ section .text
 
 global CMAIN
 global Start
-        extern  _ExitProcess@4      ; identique à ;xor eax, eax ;ret sert à sortir du programme (uniquement sous Windows)
+        extern  _ExitProcess@4      ; identique ï¿½ ;xor eax, eax ;ret sert ï¿½ sortir du programme (uniquement sous Windows)
         extern  _GetStdHandle@4
-        extern  _WriteConsoleA@20   ; identique à console.writeline ou printf si vous voulez 
+        extern  _WriteConsoleA@20   ; identique ï¿½ console.writeline ou printf si vous voulez 
         extern  _ReadConsoleA@20    ;
         extern  _SetConsoleTitleA@4
         
@@ -19,10 +19,6 @@ global Start
 
         section .data
 
-        titre:
-        db "Cascio, Soft Inc"
-        titre_L:   equ $-titre
-        
         msg:
         db 'Cascio, Soft Inc',10
         handle:
@@ -32,46 +28,47 @@ global Start
         written:
         db 0
 
-    Titre:db 'Asm Master',10
 
 CMAIN:
     mov ebp, esp; for correct debugging
 
 Start:
-        push dword 0
-        push Titre
+        ;push dword 0
+        ;push Titre
         ;push dword 10
         call _SetConsoleTitleA@4
         
         ; handle = GetStdHandle(-11)
-        push    dword -11
+        push    dword -11           ;output
         call    _GetStdHandle@4
         mov     [handle], eax
 
+        ; read_handle = GetStdHandle(-10)
         push -10  ; stdin
         call _GetStdHandle@4
         mov [read_handle], eax
 
         ; WriteConsole(handle, &msg[0], 13, &written, 0)
-        push    dword 0
-        push    written
-        push    dword 13
-        push    msg
-        push    dword [handle]
+        push    dword 0 ; lpReserved
+        push    written ; numbersOfCharWritten
+        push    dword 13    ; numbersOfCharToWrite
+        push    msg         ; buffer
+        push    dword [handle]  ; console output
         call    _WriteConsoleA@20
 
         push eax
-        mov eax, esp ; buffer for char?
-        push 0
-        push written ; reuse this?
-        push 1 ; characters to read?
-        push eax
-        push dword [read_handle]
+        mov eax, esp                ; buffer for char
+
+        push 0                      ; InputControl
+        push written                ; numberOfCharsRead
+        push 1                      ; characters to read
+        push eax                    ; buffer
+        push dword [read_handle]    ; console input
         call  _ReadConsoleA@20
         PRINT_CHAR 44
 
         pop eax
-        PRINT_CHAR eax ; character read in al?
+        PRINT_CHAR eax              ; character read in al
 
         ; ExitProcess(0)
         push    dword 0
