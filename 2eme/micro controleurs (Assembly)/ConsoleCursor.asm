@@ -22,7 +22,11 @@ CMAIN:
     push eax    ; push coords to the stack
     push dword [handle] ; push the handle to the stack
     call _SetConsoleCursorPosition@8
+<<<<<<< HEAD
     PRINT_STRING "LOL ça marche"
+=======
+    ;PRINT_STRING "LOL ça marche"
+>>>>>>> 83a4721f43c6ca6df7c49809a16b525dfe70d60b
     
     xor eax, eax
     ret
