@@ -1,0 +1,5 @@
+Exam:
+
+User rentre une chaine de caractères (1 ligne)avec des mots séparés par un séparateur(une virgule par exemple)
+
+On peut retrouver un mot par un index (trim par le séparateur)
