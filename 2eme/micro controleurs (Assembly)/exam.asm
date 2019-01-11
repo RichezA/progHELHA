@@ -6,7 +6,6 @@ CMAIN:
     mov ebp, esp; for correct debugging
     ;extern _GetStdHandle@4
 
-    ;mov ebx, written
     JMP getString
 
 
@@ -32,14 +31,12 @@ getIndex:
          
 
 getStrLength:
-    push ecx               
-    mov byte[number], 0            ; number of chars int nbChars = 0;
+    push ecx                 
     dec ecx                        ; real time char
     count:                         ; *for(int i = 0; i < string.length(); i++)
         cmp edx, eax              ; eax = number of commas, edx = adress of value
         jz endProcess
         ;PRINT_CHAR [ecx]
-        inc byte[number]           ; nbChars++;
         inc ecx                    ; real time char
         cmp byte[ecx], ','         ; if(string.at(i) == ',')
         je showVirgule
@@ -50,7 +47,6 @@ endProcess:
     inc ebx
     cmp ebx, ecx        ; 
     JNE endProcess
-    dec byte[number]
     pop ecx     ; for stack overflows   
 
    
@@ -74,12 +70,7 @@ getAddress:
      JMP count
     
 section .data
-    begin: dd "Rentrez votre phrase en délimitant les mots avec des virgules",0
+    begin: dd "Rentrez votre phrase en dï¿½limitant les mots avec des virgules",0
     msg: dd "Index ?, 0 pour quitter ", 0
 section .bss
-    number: resw 1
-    index: resw 1
     written: resb 1
-    ID: resw 1
-    beginAdress: resw 1
-    
