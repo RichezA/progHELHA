@@ -27,7 +27,7 @@ inline double sum(double a, double b)//inline
 
 struct C
 {
-	void f();//not inline
+	 void f();//not inline
 };
 
 //try to add 'inline' keyword on C::f

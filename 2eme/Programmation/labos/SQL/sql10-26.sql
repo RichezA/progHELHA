@@ -159,10 +159,7 @@ FROM Answer INNER JOIN (SELECT *
     FROM Groups
     WHERE groupID = (SELECT groupID
     FROM Groupe
-    WHERE name = 'Profs')
-                                                            )
-                                            )
-                                            AS TEST
+    WHERE name = 'Profs'))) AS TEST
     ON Answer.entryID = TEST.entryID
 WHERE userAnsw = 'Présent'
 GROUP BY Answer.entryID
