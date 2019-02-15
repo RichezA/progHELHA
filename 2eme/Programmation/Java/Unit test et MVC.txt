@@ -1,0 +1,19 @@
+Test d'unité:
+    - Acteurs / Contexte
+    - Actions
+    - Assertions
+
+    But: Tester la méthode
+
+MVC:
+    Permet de mieux maintenir son code (en OOP)
+    Architecture = Comment les objets se parlent-ils les uns les autres ?
+        -   Contrôleurs = orchestre l'application, vue d'ensemble 
+        -   Modèles = Règles du jeu / app qui ne change pas et qui n'est pas relié à la vue / les objets `métiers`
+        -   Vues = Objets qui permettent d'afficher des choses côté utilisateur / 
+
+    Modèles ne doit pas avoir de liens avec une vue ou avec un contrôleur
+    Les vues peuvent accéder aux modèles
+    Le contrôleur (= Main, entre autre) intéragit avec le modèle et demande ensuite à la vue
+
+    Tout a une responsabilité

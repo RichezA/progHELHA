@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3902acaa-107a-4e8d-9e74-6d1142543e22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/Personne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/SecondMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/sousModel/sousPersonne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/dbtest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/dbtest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/score.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/score.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.def" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.def" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h.gch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Projet/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../examplegit" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examplegit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../progtheoricallesson" beforeDir="false" afterPath="$PROJECT_DIR$/../../../progtheoricallesson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/2$CarteTest.ic" NAME="CarteTest Coverage Results" MODIFIED="1549406134392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="203" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/be/helha/bataille/JeuTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Joueur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Jeu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="175" column="5" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#initialiseJoueur#0;class#Jeu#0" />
+                <element signature="method#initialise#0;class#Jeu#0" />
+                <element signature="method#distribuerCartes#0;class#Jeu#0" />
+                <element signature="method#afficherResultat#0;class#Jeu#0" />
+                <element signature="method#joueur1Gagne#0;class#Jeu#0" />
+                <element signature="method#joueur2Gagne#0;class#Jeu#0" />
+                <element signature="method#bataille#0;class#Jeu#0" />
+                <element signature="method#joueur1GagneBataille#0;class#Jeu#0" />
+                <element signature="method#joueur2GagneBataille#0;class#Jeu#0" />
+                <element signature="method#afficher#0;class#Jeu#0" />
+                <element signature="method#getNbCouleurs#0;class#Jeu#0" />
+                <element signature="method#getNbCartesParCouleur#0;class#Jeu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Carte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/be/helha/bataille/CarteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Couleur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Carte.java" />
+        <option value="$PROJECT_DIR$/src/com/company/CarteTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JeuTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/com/company/CarteTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Couleur.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Jeu.kt" />
+        <option value="$PROJECT_DIR$/src/com/company/Jeu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/be/helha/bataille/Carte.java" />
+        <option value="$PROJECT_DIR$/tests/be/helha/bataille/JeuTest.java" />
+        <option value="$PROJECT_DIR$/tests/be/helha/bataille/CarteTest.java" />
+        <option value="$PROJECT_DIR$/src/be/helha/bataille/Joueur.java" />
+        <option value="$PROJECT_DIR$/src/be/helha/bataille/Main.java" />
+        <option value="$PROJECT_DIR$/src/be/helha/bataille/Jeu.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="be" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="be" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helha" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="be" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helha" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bataille" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="2" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="2" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="616d4139:PackageViewModuleNode" />
+              <item name="com.company" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bataille" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="bataille" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550245119957" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.helha.bataille" />
+      <recent name="com.company" />
+      <recent name="tests.com.company" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.Main" />
+      <module name="Labo 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.helha.bataille.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarteTest.estAvant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labo 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.helha.bataille" />
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.CarteTest" />
+      <option name="METHOD_NAME" value="estAvant" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarteTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labo 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.helha.bataille" />
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.CarteTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Labo 2" />
+      <option name="PACKAGE_NAME" value="be.helha.bataille" />
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.JeuTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest.affiche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labo 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.helha.bataille.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.helha.bataille" />
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.JeuTest" />
+      <option name="METHOD_NAME" value="affiche" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest.afficher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labo 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.helha.bataille.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.helha.bataille" />
+      <option name="MAIN_CLASS_NAME" value="be.helha.bataille.JeuTest" />
+      <option name="METHOD_NAME" value="afficher" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.JeuTest" />
+      <item itemvalue="JUnit.CarteTest.estAvant" />
+      <item itemvalue="JUnit.CarteTest.testToString" />
+      <item itemvalue="JUnit.JeuTest.affiche" />
+      <item itemvalue="JUnit.JeuTest.afficher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.CarteTest.estAvant" />
+        <item itemvalue="JUnit.CarteTest.testToString" />
+        <item itemvalue="JUnit.JeuTest.afficher" />
+        <item itemvalue="JUnit.JeuTest.affiche" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3902acaa-107a-4e8d-9e74-6d1142543e22" name="Default Changelist" comment="" />
+      <created>1549404331123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549404331123</updated>
+      <workItem from="1549634489042" duration="5807000" />
+      <workItem from="1549643685907" duration="10641000" />
+      <workItem from="1549657636045" duration="598000" />
+      <workItem from="1550234514829" duration="10368000" />
+      <workItem from="1550245528889" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JeuTest - 2019.02.08 at 17h 53m 41s.xml">
+      <configuration name="JeuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest - 2019.02.08 at 18h 10m 25s.xml">
+      <configuration name="JeuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest - 2019.02.08 at 18h 11m 17s.xml">
+      <configuration name="JeuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest_constructeurABienTreizeCartesParCouleur - 2019.02.08 at 18h 23m 03s.xml">
+      <configuration name="JeuTest.constructeurABienTreizeCartesParCouleur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest_constructeurABienTreizeCartesParCouleur - 2019.02.08 at 18h 24m 37s.xml">
+      <configuration name="JeuTest.constructeurABienTreizeCartesParCouleur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest - 2019.02.08 at 18h 25m 42s.xml">
+      <configuration name="JeuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest - 2019.02.15 at 14h 46m 41s.xml">
+      <configuration name="JeuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JeuTest_afficher - 2019.02.15 at 14h 52m 29s.xml">
+      <configuration name="JeuTest.afficher" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarteTest_testToString - 2019.02.15 at 14h 53m 02s.xml">
+      <configuration name="CarteTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarteTest_estAvant - 2019.02.15 at 14h 54m 52s.xml">
+      <configuration name="CarteTest.estAvant" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27491000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27984595" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3265306" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39920425" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32780612" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3265306" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CodeMR Metrics" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="CodeMR" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven" order="11" />
+      <window_info anchor="right" id="Database" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/CarteTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/JeuTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
+    <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/be/helha/bataille/JeuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Joueur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Carte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/be/helha/bataille/CarteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Couleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Jeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="175" column="5" selection-start-line="175" selection-start-column="5" selection-end-line="175" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initialiseJoueur#0;class#Jeu#0" />
+            <element signature="method#initialise#0;class#Jeu#0" />
+            <element signature="method#distribuerCartes#0;class#Jeu#0" />
+            <element signature="method#afficherResultat#0;class#Jeu#0" />
+            <element signature="method#joueur1Gagne#0;class#Jeu#0" />
+            <element signature="method#joueur2Gagne#0;class#Jeu#0" />
+            <element signature="method#bataille#0;class#Jeu#0" />
+            <element signature="method#joueur1GagneBataille#0;class#Jeu#0" />
+            <element signature="method#joueur2GagneBataille#0;class#Jeu#0" />
+            <element signature="method#afficher#0;class#Jeu#0" />
+            <element signature="method#getNbCouleurs#0;class#Jeu#0" />
+            <element signature="method#getNbCartesParCouleur#0;class#Jeu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
