@@ -2,6 +2,7 @@ package Models;
 
 import java.util.Scanner;
 
+
 public class Tour extends Piece{
     public Tour(int dx, int dy){
         super(dx, dy);

@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3902acaa-107a-4e8d-9e74-6d1142543e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/SecondMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Q2/src/Models/sousModel/sousPersonne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/dbtest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/dbtest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/score.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/score.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.def" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.def" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/database/sqlite3.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Projet/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Projet/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java/Course/02-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Course/02-20.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../examplegit" beforeDir="false" afterPath="$PROJECT_DIR$/../../../examplegit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../progtheoricallesson" beforeDir="false" afterPath="$PROJECT_DIR$/../../../progtheoricallesson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Joueur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="512">
               <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -235,22 +222,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="2" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="2" type="58d84e3e:PackageViewProjectNode" />
-              <item name="2" type="616d4139:PackageViewModuleNode" />
-              <item name="com.company" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +259,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="2" type="58d84e3e:PackageViewProjectNode" />
+              <item name="2" type="616d4139:PackageViewModuleNode" />
+              <item name="com.company" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +288,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/Q2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -460,6 +447,7 @@
       <workItem from="1549657636045" duration="598000" />
       <workItem from="1550234514829" duration="10368000" />
       <workItem from="1550245528889" duration="77000" />
+      <workItem from="1550647686186" duration="598000" />
     </task>
     <servers />
   </component>
@@ -496,7 +484,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27491000" />
+    <option name="totallyTimeSpent" value="28089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,7 +498,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27984595" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2830552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/helha/bataille/Joueur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="512">
           <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />

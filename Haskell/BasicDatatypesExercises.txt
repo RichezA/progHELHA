@@ -1,0 +1,36 @@
+```hs
+    awesome = ["Papuchon","curry", ":)"]
+    also = ["Quake", "The Simons"]
+    allAwesome = [awesome, also]
+```
+
+Exercise 1: type signature of length ? Int 
+            how many arguments, what type ? 1, list 
+            type of result ? Int
+
+Exercise 2: result of following ?
+            - length [1,2,3,4,5] => 5
+            - length [(1,2),(2,3),(3,4)] => 3
+            - length allAwesome => 2
+            - length (concat allAwesome) => 5
+
+Exercise 3: Which will return an error & why ?
+            - 6 / 3 => ok
+            - 6 / length [1,2,3] => error, 
+
+Exercise 4: fix the broken code
+
+
+Exercise 5: type of `2 + 3 == 5` ? What would we expect as a result ?
+            - Boolean, True
+
+Exercise 6: Type & expected value of:
+            > let x = 5     => Int
+            > x + 3 == 5    => Boolean => False
+
+Exercise 7: Which will work ? Why or why not ? If it works, what is the value of the reduction?
+            > length allAwesome == 2 => works, comparison of the length of a list and a number -> True
+            > length [1, 'a', 3, 'b'] => Doesn't work -> literal numbers length only applies on a list
+            > length allAwesome + length awesome => works, 5
+            > (8 == 8) && ('b' < 'a') => works , condition 8 == 8 is true but ascii code of 'b' is greater than 'a' so false as long as it is a AND statement if one of the conditions is False then it returns False, False
+            > (8 == 8) && 9 => Does not work, second element isn't a comparison
