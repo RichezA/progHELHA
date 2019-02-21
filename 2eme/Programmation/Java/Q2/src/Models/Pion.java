@@ -1,5 +1,6 @@
 package Models;
 
+<<<<<<< HEAD
 public class Pion extends Piece{
     boolean firstMove;
 
@@ -24,4 +25,11 @@ public class Pion extends Piece{
             System.out.println(r);
         }
     }
+=======
+public class Pion extends Piece {
+    public Pion(int dx, int dy){
+        super(dx, dy);
+        this.nom = "Pion";
+    }
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
 }

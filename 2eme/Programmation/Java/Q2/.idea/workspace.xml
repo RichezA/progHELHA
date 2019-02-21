@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ef0ea70-aff4-47e3-b291-f29c7cc1c407" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/../Course/02-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Course/02-20.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -11,6 +12,26 @@
       <change beforePath="$PROJECT_DIR$/../../examplegit" beforeDir="false" afterPath="$PROJECT_DIR$/../../examplegit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../labos/Java/2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../labos/Java/2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../progtheoricallesson" beforeDir="false" afterPath="$PROJECT_DIR$/../../progtheoricallesson" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/Models/Case.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/DeplacementImpossibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Echiquier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Pion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2/Models/Personne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2/Models/SecondMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q2/Models/sousModel/sousPersonne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Personne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/SecondMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/sousModel/sousPersonne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../petitprojeten3heures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../labos/Java/labo3" beforeDir="false" afterPath="$PROJECT_DIR$/../../labos/Java/labo3" afterDir="false" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -29,20 +51,43 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Models/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Models/Echiquier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
               <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/Models/Case.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding>
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Models/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -52,11 +97,21 @@
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/Models/Echiquier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+              <folding>
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Models/Case.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,6 +129,16 @@
               <folding>
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Models/Piece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
               </folding>
             </state>
           </provider>
@@ -82,8 +147,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Tour.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="144">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+=======
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
             </state>
           </provider>
         </entry>
@@ -91,8 +161,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Models/Pion.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="128">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+=======
+            <state relative-caret-position="85">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
             </state>
           </provider>
         </entry>
@@ -112,6 +187,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Models/MouvementImpossibleException.java" />
         <option value="$PROJECT_DIR$/src/Controller/Main.java" />
@@ -120,23 +196,37 @@
         <option value="$PROJECT_DIR$/src/Models/Tour.java" />
         <option value="$PROJECT_DIR$/src/Models/Echiquier.java" />
         <option value="$PROJECT_DIR$/src/Models/Case.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Models/DeplacementImpossibleException.java" />
+        <option value="$PROJECT_DIR$/src/Models/Piece.java" />
+        <option value="$PROJECT_DIR$/src/Models/Tour.java" />
+        <option value="$PROJECT_DIR$/src/Models/Pion.java" />
+        <option value="$PROJECT_DIR$/src/Models/Case.java" />
+        <option value="$PROJECT_DIR$/src/Models/Main.java" />
+        <option value="$PROJECT_DIR$/src/Models/Echiquier.java" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
+<<<<<<< HEAD
     <option name="width" value="814" />
     <option name="height" value="457" />
+=======
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +249,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550658636644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550668296636" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../labos/Java/labo3" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -182,6 +279,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Models.Main" />
+      <module name="Q2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -193,26 +299,46 @@
       <option name="presentableId" value="Default" />
       <updated>1550043053720</updated>
       <workItem from="1550043060327" duration="337000" />
+<<<<<<< HEAD
       <workItem from="1550656291160" duration="2364000" />
+=======
+      <workItem from="1550666014900" duration="2148000" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2701000" />
+=======
+    <option name="totallyTimeSpent" value="2485000" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" weight="0.39417988" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
       <window_info anchor="bottom" id="Run" order="2" />
+=======
+      <window_info anchor="bottom" id="Messages" weight="0.32917964" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,6 +363,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Models/sousModel/SecondMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -250,10 +377,20 @@
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Models/DeplacementImpossibleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Models/Pion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -275,10 +412,27 @@
           <folding>
             <element signature="e#129#130#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Models/Tour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -298,12 +452,33 @@
             <element signature="e#263#264#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Models/Pion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Case.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/Echiquier.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="144">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
@@ -313,6 +488,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+=======
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Models/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
         </state>
       </provider>
     </entry>

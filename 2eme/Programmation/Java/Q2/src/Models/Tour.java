@@ -1,5 +1,6 @@
 package Models;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Tour extends Piece {
@@ -22,5 +23,16 @@ public class Tour extends Piece {
             System.out.println(r);
         }
 
+=======
+public class Tour extends Piece{
+    public Tour(int dx, int dy){
+        super(dx, dy);
+        this.nom = "Tour";
+    }
+
+    @Override
+    public String getNom(){
+        return this.nom;
+>>>>>>> e1b24de833333f32dc43e3f5b1eb5c4a9de65d34
     }
 }
