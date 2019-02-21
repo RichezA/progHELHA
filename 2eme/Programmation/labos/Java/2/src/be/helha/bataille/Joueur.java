@@ -35,13 +35,16 @@ public class Joueur {
         return scan.nextLine();
     }
 
-    public void tireUneCarte(int index){
-        this.paquet.remove(index);
+    public Carte tireUneCarte(){
+        return this.paquet.get(0);
     }
+    public void retireCarte() {this.paquet.remove(0);}
     public void ajouterUneCarte(Carte c){
         this.paquet.add(c);
     }
     public void mancheGagnee(){
+
+        System.out.println("Le joueur " + this.nom + " a gagné! Score: " + this.score);
         this.score++;
     }
 

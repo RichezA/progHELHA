@@ -7,6 +7,7 @@
 Exercise 1: type signature of length ? Int 
             how many arguments, what type ? 1, list 
             type of result ? Int
+            = length :: [a] -> Int
 
 Exercise 2: result of following ?
             - length [1,2,3,4,5] => 5
@@ -16,10 +17,10 @@ Exercise 2: result of following ?
 
 Exercise 3: Which will return an error & why ?
             - 6 / 3 => ok
-            - 6 / length [1,2,3] => error, 
+            - 6 / length [1,2,3] => error, cuz length [1,2,3] is not an instance of fractionnal typeclass
 
 Exercise 4: fix the broken code
-
+            - div 6 (length [1,2,3])
 
 Exercise 5: type of `2 + 3 == 5` ? What would we expect as a result ?
             - Boolean, True
@@ -30,7 +31,39 @@ Exercise 6: Type & expected value of:
 
 Exercise 7: Which will work ? Why or why not ? If it works, what is the value of the reduction?
             > length allAwesome == 2 => works, comparison of the length of a list and a number -> True
-            > length [1, 'a', 3, 'b'] => Doesn't work -> literal numbers length only applies on a list
+            > length [1, 'a', 3, 'b'] => Doesn't work -> multiple types in the list
             > length allAwesome + length awesome => works, 5
             > (8 == 8) && ('b' < 'a') => works , condition 8 == 8 is true but ascii code of 'b' is greater than 'a' so false as long as it is a AND statement if one of the conditions is False then it returns False, False
             > (8 == 8) && 9 => Does not work, second element isn't a comparison
+
+Exercise 8: write a function to tell you if a string is a palindrome or not
+            isPalindrome :: (eq a) => [a] -> Bool
+            isPalindrome x = x == reverse x
+
+Exercise 9: write a function that returns the absolute value 
+            absoluteVal :: Int -> Int
+            absoluteVal x = if n >= 0 then n else (negate n)
+
+Exercise 10: fill in the definition of following function:
+        f :: (a,b) -> (c,d) -> ((b,d), (a,c))
+        f x y= ((snd x, snd y), (fst x, fst y))
+
+
+Syntax:
+    -- 1
+    x = (+)
+    
+    f xs = w `x` 1
+        where w = length xs
+
+    -- 2
+
+    id = \x -> x
+
+    -- 3
+
+    f (a,b) = a
+
+Match function to their types
+
+        Desktop\TRAVAIL\Ecole\progHELHA\Haskell
