@@ -1,3 +1,1 @@
-sayHello :: String -> IO ()
-sayHello x = 
-    putStrLn ("Hello, " ++ x ++ "!")
+boomBang xs = [if x < 10 then "Boum" else "Bang" | x <- xs, odd x]
