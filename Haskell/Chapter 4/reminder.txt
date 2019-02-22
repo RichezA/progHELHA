@@ -1,0 +1,17 @@
+
+ FRACTIONAL
+
+    Prelude> t (/)
+    (/) :: Fractional a => a -> a -> a
+
+    `Fractional a =>` denotes a type constraint, it tells us the the type variable a must implement Fractional typeclass, whatever the type a is,
+    it has to have an instance of the Fractional typeclass.
+
+    btw, there must be a declaration of how the operations from that typeclass will work for that type.
+
+    Function `/` will take one number that implements Fractional divided by another one of the same type, it will return a value of the same type 
+    as the result.
+
+    Fractional is a typeclass that requires type to already have an instance of Num typeclass. We can say that Num is a superclass of Fractional.
+    
+    Operations from Num typeclass are available in the Fractional typeclass
