@@ -1,0 +1,40 @@
+
+ FRACTIONAL
+
+    Prelude> t (/)
+    (/) :: Fractional a => a -> a -> a
+
+    `Fractional a =>` denotes a type constraint, it tells us the the type variable a must implement Fractional typeclass, whatever the type a is,
+    it has to have an instance of the Fractional typeclass.
+
+    btw, there must be a declaration of how the operations from that typeclass will work for that type.
+
+    Function `/` will take one number that implements Fractional divided by another one of the same type, it will return a value of the same type 
+    as the result.
+
+    Fractional is a typeclass that requires type to already have an instance of Num typeclass. We can say that Num is a superclass of Fractional.
+    
+    Operations from Num typeclass are available in the Fractional typeclass but Fractional operations cannot be used by all the types of 
+    Num instance.
+
+    ```hs
+    Prelude> 1 / 2
+    0.5
+    Prelude> 4 / 2
+    2.0
+    ```
+    Even when our fraction results in a whole number the result will be fractional.
+    This is because values of `Fractional a => a` default to the floating point type Double.
+    In most cases, you won't want to explicitely use `Double`. May be better to use Integer | Scientific
+
+COMPARISON
+    /= means different than
+
+    True and False are data constructors of Bool datatype
+    ```hs
+    Prelude> t (==)
+    (==) :: Eq a => a -> a -> Bool
+    Prelude> t (<)
+    (<) :: Ord a => a -> a -> Bool
+    ```
+    We also got type constraints here. Eq = typeclass
