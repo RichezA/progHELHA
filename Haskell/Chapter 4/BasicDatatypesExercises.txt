@@ -64,6 +64,12 @@ Syntax:
 
     f (a,b) = a
 
-Match function to their types
+Find the mistakes
+    not True && True => False
+    not (x = 6) => does not compile cuz there is no instanciation of x
+    (1 * 2) > 5 => False
+    [Merry] > [Happy] => does not compile cuz there's no datatype constructors
+    [1,2,3] ++ "look at me!" => does not compile cuz there's a mismatching type between list numbers | String
+
 
         Desktop\TRAVAIL\Ecole\progHELHA\Haskell
