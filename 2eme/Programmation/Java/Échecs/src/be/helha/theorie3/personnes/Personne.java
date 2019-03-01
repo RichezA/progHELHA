@@ -23,7 +23,7 @@ public class Personne {
         @Override
         public String toString() {
             return "Je suis l'adresse de :" + Personne.this.getNom();
-        }
+        } // as long as it is a nested class, we can access the "main" class by the use of "this" (= current object)
     }
 
     static class Date{

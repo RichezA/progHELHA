@@ -16,6 +16,12 @@ public class Tour {
         this.joueur1carte8 = -1;
     }
 
+    @Override
+    public String toString() {
+        return "Tour : " + getCarteJoueur1() +
+                " vs " + getCarteJoueur2() + " => " + ( joueursEgalite() ? " Il y'a égalité" : joueur1Gagnant() ? "Joueur 1 Gagnant" : "Joueur 2 Gagnant");
+    }
+
     // getters
     public Carte getCarteJoueur1(){ return this.carteJoueur1;}
     public Carte getCarteJoueur2(){ return this.carteJoueur2;}

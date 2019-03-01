@@ -1,37 +1,33 @@
 package be.helha.bataille.modeles;
 
 import be.helha.bataille.modeles.exceptions.PlusDeCarteException;
-import com.sun.deploy.util.ArrayUtil;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
 class Paquet {
-    private ArrayList<Carte> cartes;
+    private Carte[] cartes;
     private int nbCartes = 0;
 
     public Paquet(int nb) {
-        cartes = new ArrayList<Carte>();
+        cartes = new Carte[nb];
     }
 
     public void ajouterUneCarte(Carte carte) {
-        cartes.add(carte);
+        cartes[nbCartes] = carte;
         nbCartes++;
     }
 
     public void mélanger() {
-        Collections.shuffle(cartes);
+        Collections.shuffle(Arrays.asList(cartes));
     }
 
     @Override
     public String toString() {
         String s = "";
         for (int i = 0; i < nbCartes; i++) {
-            s += i + ". " + cartes.get(i).toString() + " | ";
+            s += cartes[i].toString() + '\n';
         }
-        System.out.println();
         return s;
     }
 
@@ -39,18 +35,12 @@ class Paquet {
         return nbCartes;
     }
 
-
-    public Carte tirerUneCarte(int index) {
-        // on donne un index on return MAIS on doit doit aussi la retirer après
-        if(this.nbCartes != 0){
-            return cartes.get(index);
-        }
+    public Carte tirerUneCarte() {
+        if(this.nbCartes != 0)
+            return cartes[--nbCartes];
         else throw new PlusDeCarteException();
-    }
 
-    public void retireCarte(int index){
-       cartes.remove(index);
-       nbCartes--;
+
     }
 
     public void ajouterToutesLesCartes() {

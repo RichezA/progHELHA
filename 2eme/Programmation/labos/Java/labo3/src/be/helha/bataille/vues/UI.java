@@ -45,7 +45,6 @@ public class UI {
     public void afficheTour(Tour tour) {
         System.out.println( "Tour : " + tour.getCarteJoueur1() +
                 " vs " + tour.getCarteJoueur2() + " => " + ( tour.joueursEgalite() ? " Il y'a égalité" : tour.joueur1Gagnant() ? "Joueur 1 Gagnant" : "Joueur 2 Gagnant"));
-        System.out.println();
     }
 
     public void afficheFin() {
@@ -55,6 +54,5 @@ public class UI {
             System.out.println("Joueur " + i + " : " + joueur.getScore() + " points");
             i++;
         }
-        System.out.println("Nombre d'égalités: " + jeu.getNbEgalites() + "\n");
     }
 }

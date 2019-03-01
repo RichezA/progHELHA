@@ -35,7 +35,7 @@ public class PaquetTest {
         Paquet paquet = new Paquet(NB_CARTES);
         paquet.ajouterUneCarte(new Carte(10, Couleur.CARREAU));
         assertEquals(paquet.taille(), 1);
-        assertEquals(paquet.tirerUneCarte(paquet.taille() - 1), new Carte(10, Couleur.CARREAU));
+        assertEquals(paquet.tirerUneCarte(), new Carte(10, Couleur.CARREAU));
     }
 
 
@@ -47,7 +47,7 @@ public class PaquetTest {
     public void tirerUneCarte_AucuneCarte() {
         Paquet paquet = new Paquet(NB_CARTES); // paquet initialisé mais pas rempli => only null
         assertEquals(paquet.taille(), 0); // taille = 0
-        paquet.tirerUneCarte(paquet.taille() -1 ); // on retire une carte donc taille = -1 => /!\
+        paquet.tirerUneCarte(); // on retire une carte donc taille = -1 => /!\
     }
 
     @Test
@@ -55,7 +55,7 @@ public class PaquetTest {
         Paquet paquet = new Paquet(NB_CARTES);
         paquet.ajouterUneCarte(new Carte(10, Couleur.CARREAU));
         assertEquals(paquet.taille(), 1);
-        assertEquals(paquet.tirerUneCarte(paquet.taille() - 1), new Carte(10, Couleur.CARREAU));
+        assertEquals(paquet.tirerUneCarte(), new Carte(10, Couleur.CARREAU));
         assertEquals(paquet.taille(), 0);
     }
 
@@ -64,7 +64,7 @@ public class PaquetTest {
         Paquet paquet = new Paquet(NB_CARTES);
         paquet.ajouterToutesLesCartes();
         assertEquals(paquet.taille(), NB_CARTES);
-        paquet.tirerUneCarte(paquet.taille() - 1);
+        paquet.tirerUneCarte();
         assertEquals(paquet.taille(), 51);
     }
 
@@ -83,7 +83,7 @@ public class PaquetTest {
         paquet.ajouterToutesLesCartes();
         for(int i = 0; i < NB_CARTES; i++) {
             assertFalse(paquet.estVide());
-            paquet.tirerUneCarte(paquet.taille() - 1);
+            paquet.tirerUneCarte();
         }
         assertTrue(paquet.estVide());
     }

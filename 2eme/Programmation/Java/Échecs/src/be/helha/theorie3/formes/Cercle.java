@@ -7,19 +7,19 @@ public class Cercle extends Forme {
     protected int rayon;
 
     public Cercle(Point centre, int rayon) {
-        super(centre);
+        super(centre);          // tjrs en premier
         this.rayon = rayon;
     }
 
     public Cercle(Point centre, double rayon) {
-        this(centre, (int)rayon);
+        this(centre, (int)rayon);   // délégation de ctor
 //        super(centre);
     }
 
     @Override
     public double getSurface() {
         return Math.PI * rayon * rayon;
-    }
+    } // implémentation de la méthode d'interface Surfacable
 
     @Override
     public String getNom() {
@@ -30,6 +30,6 @@ public class Cercle extends Forme {
     @Override
     public double getPerimetre() {
         return 2 * Math.PI * rayon;
-    }
+    } // implémentation de la méthode d'interface Perimetrable
 
 }
