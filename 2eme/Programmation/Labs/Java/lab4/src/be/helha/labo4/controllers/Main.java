@@ -1,11 +1,5 @@
 package be.helha.labo4.controllers;
 
-// rendez un noeud observable (java.util.Observable)
-// rendez votre vue observatrice (java.util.Observer)
-// rendez un dossier observateur (java.util.Observer) des sous-noeuds qui le composent
-// mettez en place tous les mécanismes des observers pour qu'un changement dans un dossier (nom, ajout d'un fichier, changement d'un nom de fichier) provoque son affichage
-// créez une classe "FolderSize" qui affichera la taille d'un dossier ou d'un fichier et se réaffichera automatiquement à chaque changement de taille (et pas lors d'un changement de nom...)
-// TODO : testez tout cela en changeant les dossiers et fichiers dans le main (pas de tests unitaires :))
 
 import be.helha.labo4.models.File;
 import be.helha.labo4.models.Folder;

@@ -1,18 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f42ebb7-5b06-4d36-990a-964b27a2e2be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/dbtest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/dbtest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/score.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/score.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.def" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.def" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examplegit" beforeDir="false" afterPath="$PROJECT_DIR$/../examplegit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../progtheoricallesson" beforeDir="false" afterPath="$PROJECT_DIR$/../progtheoricallesson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" afterDir="false" />
+    <list default="true" id="3dda74a0-45ef-4c3b-8c25-f27424f03500" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/JavaFXQ2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXQ2/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit test et MVC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/petitprojeten3heures.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petitprojeten3heures/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/controleurs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/Case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/Echiquier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/Pion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/Tour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/exceptions/MouvementImpossibleException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/modeles/exceptions/PositionIncorrecteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/echecs/vues/EchiquierVue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Cercle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/CercleColore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Forme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Perimetrable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/formes/Surfacable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Échecs/src/be/helha/theorie3/personnes/Personne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Java/lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Java/lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Java/lab4/src/be/helha/labo4/controllers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Java/lab4/src/be/helha/labo4/controllers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Entity en .NET core/Entity en .NET core/obj/Debug/netcoreapp2.0/Entity en .NET core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Entity en .NET core/Entity en .NET core/obj/Debug/netcoreapp2.0/Entity en .NET core.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/FormApp/FormApp/obj/Debug/FormApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/FormApp/FormApp/obj/Debug/FormApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Frameworks/BiblioClasses/BiblioClasses/obj/Debug/BiblioClasses.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Frameworks/BiblioClasses/BiblioClasses/obj/Debug/BiblioClasses.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Frameworks/DémoBiblioClasses/DémoBiblioClasses/obj/Debug/DémoBiblioClasses.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Frameworks/DémoBiblioClasses/DémoBiblioClasses/obj/Debug/DémoBiblioClasses.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Langue/Langue/obj/Debug/Langue.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Langue/Langue/obj/Debug/Langue.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Service windows/Service windows/obj/Debug/Service windows.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Service windows/Service windows/obj/Debug/Service windows.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/Socket/Socket/obj/Debug/Socket.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/Socket/Socket/obj/Debug/Socket.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/MainWindow.baml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication_MarkupCompile.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Bonus/WPFApplication/WPFApplication/obj/Debug/WPFApplication_MarkupCompile.lref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/05-03-18 (1)/05-03-18 (1)/obj/Debug/05-03-18 (1).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/05-03-18 (1)/05-03-18 (1)/obj/Debug/05-03-18 (1).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/05-03-18 (Func, action, task)/05-03-18 (Func, action, task)/obj/Debug/05-03-18 (Func, action, task).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/05-03-18 (Func, action, task)/05-03-18 (Func, action, task)/obj/Debug/05-03-18 (Func, action, task).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/09-03-18 (2)/09-03-18 (2)/obj/Debug/09-03-18 (2).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/09-03-18 (2)/09-03-18 (2)/obj/Debug/09-03-18 (2).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/09-03-18 (Task)/09-03-18 (Task)/obj/Debug/09-03-18 (Task).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/09-03-18 (Task)/09-03-18 (Task)/obj/Debug/09-03-18 (Task).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/12-03-18 WForms/12-03-18 WForms/obj/Debug/12-03-18 WForms.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/12-03-18 WForms/12-03-18 WForms/obj/Debug/12-03-18 WForms.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/12-03-18/12-03-18/obj/Debug/12-03-18.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/12-03-18/12-03-18/obj/Debug/12-03-18.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/23-03-18 SQL/23-03-18 SQL/obj/Debug/23-03-18 SQL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/23-03-18 SQL/23-03-18 SQL/obj/Debug/23-03-18 SQL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Classes génériques/Classes génériques/obj/Debug/Classes génériques.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Classes génériques/Classes génériques/obj/Debug/Classes génériques.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Cours Q2/Cours Q2/obj/Debug/Cours Q2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Cours Q2/Cours Q2/obj/Debug/Cours Q2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Delegates/TEMP/obj/Debug/Delegates.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Delegates/TEMP/obj/Debug/Delegates.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework Code First/Entity Framework Code First/obj/Debug/Entity Framework Code First.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework Code First/Entity Framework Code First/obj/Debug/Entity Framework Code First.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework Model First/Entity Framework Model First/obj/Debug/Entity Framework Model First.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework Model First/Entity Framework Model First/obj/Debug/Entity Framework Model First.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework/Entity Framework/obj/Debug/Entity Framework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Entity Framework/Entity Framework/obj/Debug/Entity Framework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Exo pré-examen/Exo pré-examen/obj/Debug/Exo pré-examen.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Exo pré-examen/Exo pré-examen/obj/Debug/Exo pré-examen.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/GarageListes/GarageListes/obj/Debug/GarageListes.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/GarageListes/GarageListes/obj/Debug/GarageListes.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Gestion Listes/Gestion Listes/obj/Debug/Gestion Listes.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Gestion Listes/Gestion Listes/obj/Debug/Gestion Listes.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Gestion articles/Gestion articles/obj/Debug/Gestion articles.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Gestion articles/Gestion articles/obj/Debug/Gestion articles.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Interface/Interface/obj/Debug/Interface.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Interface/Interface/obj/Debug/Interface.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/LINQ SQL 26-03-18/LINQ SQL 26-03-18/obj/Debug/LINQ SQL 26-03-18.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/LINQ SQL 26-03-18/LINQ SQL 26-03-18/obj/Debug/LINQ SQL 26-03-18.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/LINQ to SQL (19-03-18)/LINQ to SQL (19-03-18)/obj/Debug/LINQ to SQL (19-03-18).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/LINQ to SQL (19-03-18)/LINQ to SQL (19-03-18)/obj/Debug/LINQ to SQL (19-03-18).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Linq (12-03-18)/Linq (12-03-18)/obj/Debug/Linq (12-03-18).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Linq (12-03-18)/Linq (12-03-18)/obj/Debug/Linq (12-03-18).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Linq to SQL Older techniques (19-03-18)/Linq to SQL Older techniques (19-03-18)/obj/Debug/Linq to SQL Older techniques (19-03-18).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Linq to SQL Older techniques (19-03-18)/Linq to SQL Older techniques (19-03-18)/obj/Debug/Linq to SQL Older techniques (19-03-18).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThread WinForms/MultiThread WinForms/obj/Debug/MultiThread WinForms.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThread WinForms/MultiThread WinForms/obj/Debug/MultiThread WinForms.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading/MultiThreading/obj/Debug/MultiThreading.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading/MultiThreading/obj/Debug/MultiThreading.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading2/MultiThreading2/obj/Debug/MultiThreading2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading2/MultiThreading2/obj/Debug/MultiThreading2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading3/MultiThreading3/obj/Debug/MultiThreading3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/MultiThreading3/MultiThreading3/obj/Debug/MultiThreading3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Private et protected/Private et protected/obj/Debug/Private et protected.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Private et protected/Private et protected/obj/Debug/Private et protected.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/SQL (16-03-18)/SQL (16-03-18)/obj/Debug/SQL (16-03-18).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/SQL (16-03-18)/SQL (16-03-18)/obj/Debug/SQL (16-03-18).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFramework/obj/Debug/MonFramework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFramework/obj/Debug/MonFramework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests/obj/Debug/MonFrameworkTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests/obj/Debug/MonFrameworkTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests1/obj/Debug/MonFrameworkTests1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests1/obj/Debug/MonFrameworkTests1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests2/obj/Debug/MonFrameworkTests2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests2/obj/Debug/MonFrameworkTests2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests3/obj/Debug/MonFrameworkTests3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests3/obj/Debug/MonFrameworkTests3.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests4/obj/Debug/MonFrameworkTests4.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests4/obj/Debug/MonFrameworkTests4.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests5/obj/Debug/MonFrameworkTests5.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/MonFrameworkTests5/obj/Debug/MonFrameworkTests5.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/Tests unitaires-1/obj/Debug/Tests unitaires-1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tests unitaires-1/Tests unitaires-1/obj/Debug/Tests unitaires-1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tri LIFO classes génériques/Tri LIFO classes génériques/obj/Debug/Tri LIFO classes génériques.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Tri LIFO classes génériques/Tri LIFO classes génériques/obj/Debug/Tri LIFO classes génériques.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Windows Forms Evenements/Windows Forms Evenements/obj/Debug/Windows Forms Evenements.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/EXOS PROG Q2/Windows Forms Evenements/Windows Forms Evenements/obj/Debug/Windows Forms Evenements.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/Exo récap examenQ2 (2)/Exo récap examenQ2 (2)/obj/Debug/Exo récap examenQ2 (2).csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/Exo récap examenQ2 (2)/Exo récap examenQ2 (2)/obj/Debug/Exo récap examenQ2 (2).csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/project.razor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/BasicDatatypes.hs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/BasicDatatypes.hs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/BasicDatatypesExercises.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/BasicDatatypesExercises.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/Haskell.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/greetIfCool1.hs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Haskell/Chapter 4/greetIfCool1.hs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +120,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="86" column="80" lean-forward="true" selection-start-line="86" selection-start-column="80" selection-end-line="86" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="50" />
-    <option name="width" value="1400" />
-    <option name="height" value="830" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Teacher codes/javafx/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -35,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -43,19 +165,47 @@
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="PremiereAppli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="PremiereAppli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="PremiereAppli" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549444781175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552231073580" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="GitLabConfigurableProvider" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,33 +219,44 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_181\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\riche\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7f42ebb7-5b06-4d36-990a-964b27a2e2be" name="Default Changelist" comment="" />
-      <created>1549438851249</created>
+      <changelist id="3dda74a0-45ef-4c3b-8c25-f27424f03500" name="Default Changelist" comment="" />
+      <created>1552230342154</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549438851249</updated>
-      <workItem from="1549438857371" duration="1360000" />
+      <updated>1552230342154</updated>
+      <workItem from="1552230349272" duration="939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1360000" />
+    <option name="totallyTimeSpent" value="939000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="50" width="1400" height="830" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -121,5 +282,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teacher codes/javafx/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="141" selection-start-line="28" selection-start-column="141" selection-end-line="28" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Teacher codes/PremiereAppli/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="86" column="80" lean-forward="true" selection-start-line="86" selection-start-column="80" selection-end-line="86" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

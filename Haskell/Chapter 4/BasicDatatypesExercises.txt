@@ -46,8 +46,7 @@ Exercise 9: write a function that returns the absolute value
 
 Exercise 10: fill in the definition of following function:
         f :: (a,b) -> (c,d) -> ((b,d), (a,c))
-        f x y= ((snd x, snd y), (fst x, fst y))
-
+        f x y= ((snd x, snd y), (fst x, fst y))  => (a,b) -> (c,d) is here represented as the inputs (x, y)
 
 Syntax:
     -- 1
@@ -70,6 +69,9 @@ Find the mistakes
     (1 * 2) > 5 => False
     [Merry] > [Happy] => does not compile cuz there's no datatype constructors
     [1,2,3] ++ "look at me!" => does not compile cuz there's a mismatching type between list numbers | String
+
+
+
 
 
         Desktop\TRAVAIL\Ecole\progHELHA\Haskell
