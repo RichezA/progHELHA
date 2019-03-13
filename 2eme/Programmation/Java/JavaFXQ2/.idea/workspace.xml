@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc3d12e8-c349-4fc4-af42-ada175d4bcd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFXQ2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFXQ2.iml" afterDir="false" />
+    <list default="true" id="9ed850bd-f978-41c5-841a-559fe7eb84f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Codes/Java/My codes/JavaFXQ2/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -34,18 +33,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaFXQ2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFXQ2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../labos/Java/labo4" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,17 +69,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc3d12e8-c349-4fc4-af42-ada175d4bcd3" name="Default Changelist" comment="" />
-      <created>1552462381979</created>
+      <changelist id="9ed850bd-f978-41c5-841a-559fe7eb84f6" name="Default Changelist" comment="" />
+      <created>1552462121428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552462381979</updated>
-      <workItem from="1552462390001" duration="54000" />
+      <updated>1552462121428</updated>
+      <workItem from="1552462130454" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54000" />
+    <option name="totallyTimeSpent" value="233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
