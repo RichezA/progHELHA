@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <center>
       <BorderPane maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -33,7 +32,7 @@
                               <Label text="HI DUDE, HOW ARE YOU ? " textAlignment="RIGHT" />
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@man.png" />
+                                    <Image url="@../man.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -42,7 +41,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@girl.png" />
+                                    <Image url="@../girl.png" />
                                  </image>
                               </ImageView>
                               <Label text=" HEY, I'M FINE AND YOU ?" />
@@ -52,7 +51,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@girl.png" />
+                                    <Image url="@../girl.png" />
                                  </image>
                               </ImageView>
                               <Label text=" WHAT YOU DOIN ?" />
@@ -63,7 +62,7 @@
                               <Label text="NOTHIN DUDE, WBU ? " textAlignment="RIGHT" />
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@man.png" />
+                                    <Image url="@../man.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -72,7 +71,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@girl.png" />
+                                    <Image url="@../girl.png" />
                                  </image>
                               </ImageView>
                               <Label text=" NOTHIN" />
@@ -82,7 +81,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@girl.png" />
+                                    <Image url="@../girl.png" />
                                  </image>
                               </ImageView>
                               <Label text=" WHAT U DOIN TONIGHT ?" />
@@ -93,7 +92,7 @@
                               <Label text="NOOOOOTHING, WANNA GO OUT ? " textAlignment="RIGHT" />
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@man.png" />
+                                    <Image url="@../man.png" />
                                  </image>
                               </ImageView>
                            </children>
@@ -102,7 +101,7 @@
                            <children>
                               <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@girl.png" />
+                                    <Image url="@../girl.png" />
                                  </image>
                               </ImageView>
                               <Label text=" OK, SEE YA LATER" />
@@ -143,6 +142,6 @@
       </ScrollPane>
    </left>
    <top>
-      <Label text="Menu" BorderPane.alignment="CENTER" />
+      <Label fx:id="currentUser" text="Menu" BorderPane.alignment="CENTER" />
    </top>
 </BorderPane>
