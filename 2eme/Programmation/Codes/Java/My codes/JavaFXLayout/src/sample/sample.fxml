@@ -11,7 +11,11 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.VBox?>
 
+<<<<<<< HEAD
 <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+=======
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+>>>>>>> 4566395359d835c5bb70f0a08eeda8429778f334
    <center>
       <BorderPane maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <bottom>
@@ -23,7 +27,7 @@
             </AnchorPane>
          </bottom>
          <center>
-            <ScrollPane fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+            <ScrollPane fx:id="chatBox" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
                <content>
                   <VBox fx:id="messageBox" alignment="TOP_CENTER" centerShape="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
                      <children>
@@ -142,6 +146,10 @@
       </ScrollPane>
    </left>
    <top>
+<<<<<<< HEAD
       <Label fx:id="currentUser" text="Menu" BorderPane.alignment="CENTER" />
+=======
+      <Label fx:id="nameBar" text="Menu" BorderPane.alignment="CENTER" />
+>>>>>>> 4566395359d835c5bb70f0a08eeda8429778f334
    </top>
 </BorderPane>
