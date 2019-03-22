@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 
@@ -24,6 +25,10 @@ public class MainViewController implements Initializable {
         return this.grid.clone();
     }
 
+    public void setInteraction(MainViewInteraction interaction){
+        this.interaction = interaction;
+    }
+
     @FXML
     private Button playAgain;
 
@@ -31,6 +36,8 @@ public class MainViewController implements Initializable {
     private AnchorPane playGrid;
     @FXML
     private AnchorPane topPane;
+    @FXML
+    private Label currentPlayer;
 
     @FXML
     private void onClickedPlayAgain(MouseEvent event) {
@@ -42,6 +49,9 @@ public class MainViewController implements Initializable {
         }
     }
 
+    public void setPlayerText(String text){
+        this.currentPlayer.setText(text);
+    }
 
 
     private void initGrid() {
@@ -52,7 +62,7 @@ public class MainViewController implements Initializable {
                 playGrid.getChildren().add(this.grid[x][y].getBtn());
             }
         }
-        this.initCheatBtn();
+        //this.initCheatBtn();
     }
 
     private void initCheatBtn(){

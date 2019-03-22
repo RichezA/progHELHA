@@ -26,10 +26,10 @@ public class Main extends Application implements MainViewInteraction {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("../views/MainView.fxml"));
         loader.load();
         Parent root = loader.getRoot();
-        controller = loader.getController();
-
-        Game game = new Game(controller);
-
+        this.controller = loader.getController();
+        controller.setInteraction(this);
+        game = new Game(controller);
+        game.play();
         primaryStage.setTitle("MORPION");
         primaryStage.setScene(new Scene(root, 650, 650));
         primaryStage.show();
@@ -62,6 +62,6 @@ public class Main extends Application implements MainViewInteraction {
 
     @Override
     public void cheatClicked() {
-        game.toggleWin();
+        if(!game.getWin()) game.toggleWin();
     }
 }
