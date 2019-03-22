@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/DuplicateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/EmptyDescriptionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/ToDoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/helha/todoList/views/MainViewInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/src/sample/girl.png" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/src/girl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/src/sample/man.png" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/src/man.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaFXLayout/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaFXLayout/src/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/petitprojeten3heures.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../petitprojeten3heures/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/helha/todoList/models/DuplicateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/DuplicateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/helha/todoList/models/EmptyDescriptionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/EmptyDescriptionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,12 +64,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/controllers/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="784">
               <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,17 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -130,15 +103,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="224">
+              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,15 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/views/MainViewController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2229#2230#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-              </folding>
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -229,53 +192,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todoList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todoList" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todoList" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TODOListFX" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TODOListFX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todoList" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -290,6 +207,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553077947219" />
     <property name="dynamic.classpath" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Labs/Java/lab4" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
@@ -420,25 +338,23 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1553067241433" duration="10597000" />
+      <workItem from="1553258479376" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11899000" />
+    <option name="totallyTimeSpent" value="11971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.51984125" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293011" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3125" />
@@ -453,10 +369,9 @@
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32903227" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,6 +379,10 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -515,13 +434,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/views/MainView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/controllers/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="192" selection-start-line="8" selection-start-column="192" selection-end-line="8" selection-end-column="192" />
+        <state relative-caret-position="784">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/views/MainViewInteraction.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,10 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/DuplicateException.java">
+    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        <state relative-caret-position="320">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -546,60 +467,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="224">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/ToDoItem.java">
+    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/models/DuplicateException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="32">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/controllers/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/views/MainView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="8" column="192" selection-start-line="8" selection-start-column="192" selection-end-line="8" selection-end-column="192" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/helha/todoList/views/MainViewController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
-          </folding>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

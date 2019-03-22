@@ -91,14 +91,6 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-
-    // if we need to clear the terminal
-    public static void clearScreen() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
-    }
-
-    void cleanup(){}
     void restart(Stage stage){
         //cleanup();
         System.out.println("\n\n\n\nNOUVELLE PARTIE\n\n\n");
