@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args) {
         try {
-            Socket toServerSocket =  new Socket("localhost", 10999);
+            Socket toServerSocket =  new Socket("10.11.1.229", 10999);
             ObjectOutputStream oout = new ObjectOutputStream(toServerSocket.getOutputStream());
             ObjectInputStream oin = new ObjectInputStream(toServerSocket.getInputStream());
                 // Messagerie
