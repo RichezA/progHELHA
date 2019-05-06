@@ -1,4 +1,4 @@
-package be.chat.helha;
+package ChatServerMultiThreadConsole;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -7,67 +7,76 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
+
+class ThreadClient extends Thread {
+    private final ObjectSocket objectSocket;
+    private final Server server;
+
+    public ThreadClient(ObjectSocket objectSocket, Server server) {
+        this.objectSocket = objectSocket;
+        this.server = server;
+    }
+
+    @Override
+    public void run() {
+        try {
+            boolean finished = false;
+            while(!finished) {
+                Message message = (Message) objectSocket.read();
+                if (message.getText().equals(":message:quit")) {
+                    server.clientQuit(objectSocket);
+                    finished = true;
+                } else {
+                    server.broadcast(message, objectSocket);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
 public class Server {
 
-    ArrayList<ObjectSocket> objectSockets;
+    private ArrayList<ObjectSocket> objectSockets;
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) {
         Server server = new Server();
-        //server.monoThreadShit();
         server.go();
 
     }
 
-    // Test sans multithread
-    private void monoThreadShit() {
+    private void go() {
         try {
             ServerSocket ss = new ServerSocket(1099);
-            Socket socket = ss.accept();
-            ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
-            ObjectInputStream in = new ObjectInputStream(socket.getInputStream());
-            // ne fonctionne pas car on a seulement 1 user (1 accept) => Solution : rajouter un autre socket
-            Socket socket2 = ss.accept();
-            ObjectOutputStream out2 = new ObjectOutputStream(socket.getOutputStream());
-            ObjectInputStream in2 = new ObjectInputStream(socket.getInputStream());
-
-
-            out.writeObject(1);
-            out.writeObject(2);
-            // NUL car on doit attendre que l'autre parle pour pouvoir parler
-            while(true){
-            Message msg= (Message) in.readObject();
-            out2.writeObject(msg);
-
-            Message msg2 = (Message) in.readObject();
-            out.writeObject(msg2);
+            objectSockets = new ArrayList<>();
+            while(true) {
+                ObjectSocket objectSocket = new ObjectSocket(ss.accept());
+                synchronized (this) {
+                    objectSockets.add(objectSocket);
+                }
+                ThreadClient thread = new ThreadClient(objectSocket, this);
+                thread.start();
             }
 
-        }catch(IOException e){
-            System.err.println("Erreur lors du démarrage du serveur");
-        }catch(ClassNotFoundException e){
-            System.err.println("Erreur lors de la réception du message");
-        }
-    }
-    private void go() throws IOException{
-        ServerSocket ss = new ServerSocket(1099);
-        objectSockets = new ArrayList<>();
 
-        while(true) {
-            ObjectSocket objectSocket = new ObjectSocket(ss.accept());
-            synchronized (this) {
-                objectSockets.add(objectSocket);
-            }
-            ThreadClient thread = new ThreadClient(objectSocket, this);
-            thread.start();
+
+        } catch (IOException e) {
+            System.err.println("Le serveur n'a pu démarrer");
+        }
+
+    }
+
+    public synchronized void broadcast(Message message, ObjectSocket objectSocket) throws IOException {
+        for (ObjectSocket o : objectSockets) {
+            if (!o.equals(objectSocket))
+                o.write(message);
         }
     }
 
-    private void broadcast(User user, ObjectSocket objectSocket) throws IOException{
-        for(ObjectSocket o: objectSockets){
-            if(!o.equals(objectSocket)) o.write(user);
-        }
-    }
-    public void clientQuit(ObjectSocket objectSocket){
-        this.objectSockets.remove(objectSocket);
+    public synchronized void clientQuit(ObjectSocket objectSocket) {
+        objectSockets.remove(objectSocket);
     }
 }

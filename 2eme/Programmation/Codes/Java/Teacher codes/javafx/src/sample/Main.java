@@ -24,10 +24,10 @@ public class Main extends Application {
                 String label = Integer.toString(i * 10 + j);
                 Button button = new Button(label);
                 button.setPrefSize(BUTTON_WIDTH, BUTTON_WIDTH);
-                button.setLayoutX(BUTTON_WIDTH * i);        // position en x
-                button.setLayoutY(BUTTON_WIDTH * j);        // position en y
-                button.setOnAction(event -> System.out.println(label)); // on print le label du bouton dans la console quand on appuie dessus
-                pane.getChildren().add(button);             // on ajoute le bouton au pane
+                button.setLayoutX(BUTTON_WIDTH * i);
+                button.setLayoutY(BUTTON_WIDTH * j);
+                button.setOnAction(event -> System.out.println(label));
+                pane.getChildren().add(button);
 
             }
         }

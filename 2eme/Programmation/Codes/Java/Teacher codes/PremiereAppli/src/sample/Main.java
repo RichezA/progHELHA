@@ -26,23 +26,23 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
 
-        primaryStage.setTitle("Hello World"); // on set le titre de la fenêtre
+        primaryStage.setTitle("Hello World");
         AnchorPane pane = new AnchorPane();
         Scene scene = new Scene(pane);
 
 //        Button button = new Button("Button 111111111111");
 //        pane.getChildren().add(button);
-//        button.setOnAction(event -> System.out.println("Button 1")); // quand on appuie dessus on print Button 1 dans la console
+//        button.setOnAction(event -> System.out.println("Button 1"));
 //
 //        Button button2 = new Button("Button 2");
 //        pane.getChildren().add(button2);
 //        button2.setOnAction(event -> System.out.println("Button 2"));
-//        button2.setLayoutX(100);      // On change la position du bouton en X
-//        button2.setLayoutY(100);      // On change la position du bouton en Y
+//        button2.setLayoutX(100);
+//        button2.setLayoutY(100);
         Button button;
-        EventHandler<MouseEvent> onClick = event -> {               // Quand on appuie sur le bouton
-            Button b = (Button) event.getSource();                  // On prend la source de l'event (le bouton sur lequel on a appuyé) et on le cast en bouton
-            b.setText(Integer.toString(event.getClickCount()));     // On set le texte du bouton en récupérant le nombre de click ayant été faits durant l'événement
+        EventHandler<MouseEvent> onClick = event -> {
+            Button b = (Button) event.getSource();
+            b.setText(Integer.toString(event.getClickCount()));
 //            b.setLayoutX(700);
 //            pane.getChildren().remove(b);
 //            pane.getChildren().add(b);
@@ -57,18 +57,18 @@ public class Main extends Application {
                 e.printStackTrace();
             }
         };
-        EventHandler<MouseEvent> onEnter = event -> {  // quand on met la souris sur le bouton on passe son background color en rouge
+        EventHandler<MouseEvent> onEnter = event -> {
             Button b = (Button) event.getSource();
             b.setStyle("-fx-background-color: red");
         };
-        EventHandler<MouseEvent> onExit = event -> { // quand on sort la souris du focus du bouton on passe son background color en blanc
+        EventHandler<MouseEvent> onExit = event -> {
             Button b = (Button) event.getSource();
             b.setStyle("-fx-background-color: white");
         };
-        Circle circle = new Circle(300, 300, 200, Color.GREEN); // On crée un cercle vert
-        pane.getChildren().add(circle);                         // On l'ajoute au pane
-        circle.setOnMouseEntered(event -> circle.setFill(Color.RED));   // quand on passe sa souris sur le cercle, il devient rouge
-        circle.setOnMouseExited(event -> circle.setFill(Color.GREEN));  // quand elle sort, le cercle redevient vert
+        Circle circle = new Circle(300, 300, 200, Color.GREEN);
+        pane.getChildren().add(circle);
+        circle.setOnMouseEntered(event -> circle.setFill(Color.RED));
+        circle.setOnMouseExited(event -> circle.setFill(Color.GREEN));
         for(int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
                 button = new Button(Integer.toString(i*10 + j), new Rectangle(3,8, Color.RED));

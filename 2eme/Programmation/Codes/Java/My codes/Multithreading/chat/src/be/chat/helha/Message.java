@@ -1,20 +1,22 @@
-package be.chat.helha;
+package ChatServerMultiThreadConsole;
 
 import java.io.Serializable;
 
 public class Message implements Serializable {
-    protected String text;
 
-    public Message(String text) {
+    protected String text;
+    protected String author;
+
+    public Message(String author, String text) {
         this.text = text;
+        this.author = author;
     }
 
     public String getText() {
-        return this.text;
+        return text;
     }
 
-    @Override
-    public String toString() {
-        return this.text;
+    public String getAuthor() {
+        return author;
     }
 }
