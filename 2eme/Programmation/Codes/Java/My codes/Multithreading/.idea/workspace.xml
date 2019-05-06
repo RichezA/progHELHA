@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f1d3daa-670d-4fe6-a90c-15802973ef72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/ObjectSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/ThreadClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/src/be/chat/helha/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/helha/multithread/Multithread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MessagerieConsole/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MessagerieConsole/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MessagerieConsole/objectClientServer/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MessagerieConsole/objectClientServer/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Course/Java/03-27.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Course/Java/03-27.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/lab6bis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/src/be/helha/morpion/controllers/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/src/be/helha/morpion/views/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Labs/Java/lab6bis/src/be/helha/morpion/views/sample.fxml" beforeDir="false" />
-    </list>
+    <list default="true" id="1f1d3daa-670d-4fe6-a90c-15802973ef72" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +10,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="656">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#go#0;class#Client#0" />
@@ -54,19 +27,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="272">
               <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
               <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,23 +40,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
+            <state relative-caret-position="912">
               <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#go#0;class#Server#0" />
-                <element signature="e#2402#2403#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ThreadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="544">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ObjectSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="368">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,18 +74,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="240">
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,7 +167,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554283601792" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../labos/Java/labo4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../../todolistmvc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -303,28 +264,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554272784122</updated>
       <workItem from="1554272788346" duration="10916000" />
+      <workItem from="1556086806300" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10916000" />
+    <option name="totallyTimeSpent" value="11368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.21052632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31632653" />
@@ -332,15 +288,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -391,13 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Main.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -405,35 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ObjectSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="656">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#go#0;class#Client#0" />
@@ -443,42 +374,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="272">
           <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
           <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="912">
           <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#go#0;class#Server#0" />
-            <element signature="e#2402#2403#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ThreadClient.java">
+    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ObjectSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="368">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multithreading.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../../../todolistmvc/6.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/ThreadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/be/chat/helha/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>
