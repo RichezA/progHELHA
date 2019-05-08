@@ -1,0 +1,10 @@
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\bin\Debug\cardiOPWinFormsEdition.exe.config
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\bin\Debug\cardiOPWinFormsEdition.exe
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\bin\Debug\cardiOPWinFormsEdition.pdb
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.csprojAssemblyReference.cache
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.Form1.resources
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.Properties.Resources.resources
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.csproj.GenerateResource.cache
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.csproj.CoreCompileInputs.cache
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.exe
+C:\Users\riche\Desktop\TRAVAIL\progHELHA\2eme\projetArduino\cardiOPWinFormsEdition\cardiOPWinFormsEdition\obj\Debug\cardiOPWinFormsEdition.pdb
