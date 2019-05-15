@@ -14,6 +14,7 @@ namespace cardiOPWinFormsEdition
 {
     public partial class Form1 : Form
     {
+        SerialPort serialPort;
         public Form1()
         {
             InitializeComponent();
@@ -28,9 +29,22 @@ namespace cardiOPWinFormsEdition
             for (int i = 0; i < 100; i++) beatsPerMinuteTB.Text = i.ToString();
             beatsPerMinuteTB.Text = "Initializing...\n";
             String sPort = checkIfTBGoodFormat();
-            SerialPort serialPort = new SerialPort(sPort, 115200);
-            serialPort.Open();
+            try
+            {
+                serialPort = new SerialPort(sPort, 115200);
+                serialPort.DataReceived += onDataReceived;
+                serialPort.Open();
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception.Message);
+            }
             
+        }
+
+        private void onDataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            SerialData data = (SerialData) sender;
         }
 
         private String checkIfTBGoodFormat()
@@ -38,6 +52,11 @@ namespace cardiOPWinFormsEdition
             String bpm = comPortTB.Text;
             if (bpm.Contains("COM")) return bpm;
             throw new Exception();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            serialPort.Close();
         }
     }
 }

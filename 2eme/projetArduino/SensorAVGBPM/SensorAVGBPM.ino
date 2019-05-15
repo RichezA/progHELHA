@@ -6,7 +6,7 @@
 
 MAX30105 particleSensor;
 
-const byte RATE_SIZE = 12;
+const byte RATE_SIZE = 4;
 byte rates[RATE_SIZE]; //Array of heart rates
 byte rateSpot = 0;
 long lastBeat = 0; //Time at which the last beat occurred
@@ -81,7 +81,7 @@ if(irValue > 7000){                                           //If a finger is d
 
     beatsPerMinute = 60 / (delta / 1000.0);           //Calculating the BPM
 
-    if (beatsPerMinute < 255 && beatsPerMinute > 20)               //To calculate the average we strore some values (4) then do some math to calculate the average
+    if (beatsPerMinute < 255 && beatsPerMinute > 20)               
     {
       rates[rateSpot++] = (byte)beatsPerMinute; //Store this reading in the array
       rateSpot %= RATE_SIZE; //Wrap variable
