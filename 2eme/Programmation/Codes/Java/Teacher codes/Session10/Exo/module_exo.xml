@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_exo" default="compile.module.exo">
+  <dirname property="module.exo.basedir" file="${ant.file.module_exo}"/>
+  
+  <property name="module.jdk.home.exo" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.exo" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.exo" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.exo" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="exo.output.dir" value="${module.exo.basedir}/../out/production/Exo"/>
+  <property name="exo.testoutput.dir" value="${module.exo.basedir}/../out/test/Exo"/>
+  
+  <path id="exo.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="exo.module.production.classpath">
+    <path refid="${module.jdk.classpath.exo}"/>
+  </path>
+  
+  <path id="exo.runtime.production.module.classpath">
+    <pathelement location="${exo.output.dir}"/>
+  </path>
+  
+  <path id="exo.module.classpath">
+    <path refid="${module.jdk.classpath.exo}"/>
+    <pathelement location="${exo.output.dir}"/>
+  </path>
+  
+  <path id="exo.runtime.module.classpath">
+    <pathelement location="${exo.testoutput.dir}"/>
+    <pathelement location="${exo.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.exo">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.exo">
+    <patternset refid="excluded.from.module.exo"/>
+  </patternset>
+  
+  <path id="exo.module.sourcepath">
+    <dirset dir="${module.exo.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.exo" depends="compile.module.exo.production,compile.module.exo.tests" description="Compile module Exo"/>
+  
+  <target name="compile.module.exo.production" depends="register.custom.compilers" description="Compile module Exo; production classes">
+    <mkdir dir="${exo.output.dir}"/>
+    <javac2 destdir="${exo.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.exo}/javac">
+      <compilerarg line="${compiler.args.exo}"/>
+      <bootclasspath refid="exo.module.bootclasspath"/>
+      <classpath refid="exo.module.production.classpath"/>
+      <src refid="exo.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.exo"/>
+    </javac2>
+    
+    <copy todir="${exo.output.dir}">
+      <fileset dir="${module.exo.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.exo.tests" depends="register.custom.compilers,compile.module.exo.production" description="compile module Exo; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.exo" description="cleanup module">
+    <delete dir="${exo.output.dir}"/>
+    <delete dir="${exo.testoutput.dir}"/>
+  </target>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_exemple" default="compile.module.exemple">
+  <dirname property="module.exemple.basedir" file="${ant.file.module_exemple}"/>
+  
+  <property name="module.jdk.home.exemple" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.exemple" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.exemple" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.exemple" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="exemple.output.dir" value="${module.exemple.basedir}/../out/production/Exemple"/>
+  <property name="exemple.testoutput.dir" value="${module.exemple.basedir}/../out/test/Exemple"/>
+  
+  <path id="exemple.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="exemple.module.production.classpath">
+    <path refid="${module.jdk.classpath.exemple}"/>
+  </path>
+  
+  <path id="exemple.runtime.production.module.classpath">
+    <pathelement location="${exemple.output.dir}"/>
+  </path>
+  
+  <path id="exemple.module.classpath">
+    <path refid="${module.jdk.classpath.exemple}"/>
+    <pathelement location="${exemple.output.dir}"/>
+  </path>
+  
+  <path id="exemple.runtime.module.classpath">
+    <pathelement location="${exemple.testoutput.dir}"/>
+    <pathelement location="${exemple.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.exemple">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.exemple">
+    <patternset refid="excluded.from.module.exemple"/>
+  </patternset>
+  
+  <path id="exemple.module.sourcepath">
+    <dirset dir="${module.exemple.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.exemple" depends="compile.module.exemple.production,compile.module.exemple.tests" description="Compile module Exemple"/>
+  
+  <target name="compile.module.exemple.production" depends="register.custom.compilers" description="Compile module Exemple; production classes">
+    <mkdir dir="${exemple.output.dir}"/>
+    <javac2 destdir="${exemple.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.exemple}/javac">
+      <compilerarg line="${compiler.args.exemple}"/>
+      <bootclasspath refid="exemple.module.bootclasspath"/>
+      <classpath refid="exemple.module.production.classpath"/>
+      <src refid="exemple.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.exemple"/>
+    </javac2>
+    
+    <copy todir="${exemple.output.dir}">
+      <fileset dir="${module.exemple.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.exemple.tests" depends="register.custom.compilers,compile.module.exemple.production" description="compile module Exemple; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.exemple" description="cleanup module">
+    <delete dir="${exemple.output.dir}"/>
+    <delete dir="${exemple.testoutput.dir}"/>
+  </target>
+</project>

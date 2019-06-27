@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Exo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exo_jar</output-path>
+    <root id="archive" name="Exo.jar">
+      <element id="module-output" name="Exo" />
+    </root>
+  </artifact>
+</component>
