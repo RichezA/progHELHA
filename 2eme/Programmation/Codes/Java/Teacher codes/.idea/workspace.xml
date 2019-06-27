@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4b9da27-d798-41e2-b8d4-0deffe94e025" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../My codes/filereaderEXO/src/sample/models/ExplorerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My codes/CHATMVC/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My codes/CHATMVC/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../My codes/CHATMVC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../My codes/CHATMVC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/Exemple/src/MainFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/10/Exemple/src/MainFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/Exo/src/models/ExplorerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/10/Exo/src/models/ExplorerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/PremiereAppli.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PremiereAppli/src/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatriceclientserveur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/classesEtLambdas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesEtLambdas/src/be/helha/theorie4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demineur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/javafx.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javafx/src/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/theorie8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolistmvc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../projetArduino/finalProject/finalProject.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/BasicDatatypes.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/BasicDatatypesExercises.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/MoodSwing.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/greetIfCool1.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/greetIfCool2.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chapter 4/reminder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Haskell/Chris_Allen_Julie_Moronuki_-_Haskell_Programming_from_First_Principles_2017.pdf" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10/Exemple/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-992">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10/Exemple/src/MainFX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10/Exo/src/controllers/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1541#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10/Exo/src/models/ExplorerState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#2406#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10/Exo/src/views/ExplorerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#3944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/10" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Main.java" />
+        <option value="$PROJECT_DIR$/4/PremiereAppli/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/8/src/IntroThreads/TestThread.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="147" />
+    <option name="width" value="1280" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="Exo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="Exo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="Exo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Teacher codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Teacher codes" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="Exo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4b9da27-d798-41e2-b8d4-0deffe94e025" name="Default Changelist" comment="" />
+      <created>1560259292183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560259292183</updated>
+      <workItem from="1560259300719" duration="5072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5072000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967907" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24967907" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2/demineur/src/demineur/controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2/demineur/src/demineur/views/UserInteractionView.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/personnes/Personne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Forme.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Surfacable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Perimetrable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Cercle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/CercleColore.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3/src/be/helha/theorie3/formes/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/classesEtLambdas/src/be/helha/theorie4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/javafx/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/PremiereAppli/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/PremiereAppli/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5/src/chat/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5/src/chat/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/models/DuplicationItemException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/models/EmptyDescriptionException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/models/ToDoItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/models/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/views/MainViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/todolistmvc/src/be/helha/todolist/views/MainViewInteraction.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7/calculatriceclientserveur/server/src/MainServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7/calculatriceclientserveur/client/src/MainClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatMonoThreadConsole/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatMonoThreadConsole/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatMonoThreadConsole/Client.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/IntroThreads/TestThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/IntroThreads/Exo1_4Threads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatServerMultiThreadConsole/ObjectSocket.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatServerMultiThreadConsole/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatServerMultiThreadConsole/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8/src/ChatServerMultiThreadConsole/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/CommandMessageSend.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/models/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/models/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/ObjectSocket.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/server/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/CommandByeBye.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/CommandConnect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/CommandChangePseudo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/client/src/chat/controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/common/src/network/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/client/src/chat/network/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9/client/src/chat/views/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Exemple/src/MainFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Exo/src/controllers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Exo/src/models/ExplorerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Exo/src/views/ExplorerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10/Exemple/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-992">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

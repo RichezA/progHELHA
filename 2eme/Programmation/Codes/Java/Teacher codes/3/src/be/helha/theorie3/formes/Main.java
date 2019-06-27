@@ -27,8 +27,8 @@ public class Main {
 //        System.out.println(forme.getSurface());
 
 //        Cercle cercle = new Cercle(new Point(5,5), 10);
-//        cercle.getPerimetre();
-//        //((Forme)cercle).getPerimetre();
+//        System.out.println(cercle.getPerimetre());
+//        System.out.println(((Forme)cercle).getPerimetre());
 //        Rectangle rectangle = new Rectangle(new Point(6,6), 5, 8);
 //        affichePerimetre(cercle);
 //        affichePerimetre(rectangle);
@@ -39,7 +39,9 @@ public class Main {
 //                coucou();
 //                return super.getSurface() - 1000;
 //            }
-//            public void coucou() {}
+//            public void coucou() {
+//            System.out.println("Coucou");
+//            }
 //        };
 //        System.out.println(c.getSurface());
 
@@ -54,6 +56,7 @@ public class Main {
                 return 80;
             }
         };
+        System.out.println(forme.getSurface() + " " + forme.getPerimetre());
         Perimetrable p = new Perimetrable() {
             @Override
             public double getPerimetre() {
@@ -68,5 +71,4 @@ public class Main {
     static void affichePerimetre(Perimetrable p) {
         System.out.println(p.getPerimetre());
     }
-
 }

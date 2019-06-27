@@ -19,7 +19,7 @@ public class Rectangle extends Forme {
         Surfacable s = new Surfacable() {
             @Override
             public double getSurface() {
-                return Rectangle.this.getSurface() * longueur;
+                return /*Rectangle.this.getSurface()*/ largeur * longueur;
             }
         };
         return s.getSurface();

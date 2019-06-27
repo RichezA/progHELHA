@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.views.MainViewController">
+   <center>
+      <TableView fx:id="tableView" onMouseClicked="#clickNode" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn fx:id="nameColumn" prefWidth="195.0" text="Nom" />
+            <TableColumn fx:id="sizeColumn" prefWidth="222.0" text="Taille" />
+            <TableColumn fx:id="typeColumn" prefWidth="182.0" text="Type" />
+         </columns></TableView>
+   </center>
+   <top>
+      <FlowPane fx:id="pathBtnPane" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
