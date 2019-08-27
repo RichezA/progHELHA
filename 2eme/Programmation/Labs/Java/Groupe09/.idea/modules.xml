@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClientInterface/ClientInterface.iml" filepath="$PROJECT_DIR$/ClientInterface/ClientInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainInterface/MainInterface.iml" filepath="$PROJECT_DIR$/MainInterface/MainInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Models/Models.iml" filepath="$PROJECT_DIR$/Models/Models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PaiementInterface/PaiementInterface.iml" filepath="$PROJECT_DIR$/PaiementInterface/PaiementInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projet-Groupe09.iml" filepath="$PROJECT_DIR$/Projet-Groupe09.iml" />
+    </modules>
+  </component>
+</project>

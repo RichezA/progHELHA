@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane minHeight="246.0" minWidth="313.0" prefHeight="246.0" prefWidth="313.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.helha.views.PaiementViewController">
+   <children>
+      <Label fx:id="waitingLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="56.0" prefHeight="17.0" prefWidth="313.0" text="Waiting for payment..." textAlignment="CENTER" />
+      <Label fx:id="priceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="86.0" prefHeight="17.0" prefWidth="313.0" text="Label" />
+      <Button fx:id="yesBtn" layoutX="92.0" layoutY="153.0" mnemonicParsing="false" onAction="#yesPressed" text="Yes" />
+      <Button fx:id="noBtn" layoutX="189.0" layoutY="153.0" mnemonicParsing="false" onAction="#noPressed" text="No" />
+   </children>
+</AnchorPane>

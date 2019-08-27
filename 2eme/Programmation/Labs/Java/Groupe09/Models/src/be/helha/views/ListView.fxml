@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane minHeight="600.0" minWidth="300.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.helha.views.ListViewController">
+   <bottom>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="cashBtn" onAction="#cashAction" mnemonicParsing="false" text="Cash in" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" />
+            <Label fx:id="commandPrice" text="0,00€" textFill="#5ad016" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+         <content>
+            <VBox fx:id="commandVbox" />
+         </content>
+      </ScrollPane>
+   </center>
+   <top>
+      <Label disable="true" text="Pending order" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
