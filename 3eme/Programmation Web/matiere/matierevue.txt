@@ -1,0 +1,4 @@
+1. OS Linux / debian
+2. Prog théorique -> Xamarin.Forms        |
+3. Labo de prog -> WPF                    |     XAML
+4. Progra Web -> Asp.NET (MVC + C#)  -> HTML + CSS + JavaScript + Ajax - jQuery
