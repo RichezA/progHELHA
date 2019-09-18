@@ -7,13 +7,57 @@
 
 <html>
 <head>
+    <script type="text/javascript">
+
+        var formHeader = document.getElementById('form-header');
+
+        if (!formHeader) {
+            setTimeout(() => {
+                formHeader = document.getElementById('form-header');
+                document.getElementById('form-header').onclick = ()  => {
+                    this.Modify();
+                }
+            }, 1000);
+        }
+
+        function Modify() {
+            try {
+                document.getElementById('form-header').innerHTML = "NON";
+            } catch (e) {
+                console.log(e);
+            }
+        }
+
+    </script>
+
+
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
     <link href="~/Stylesheet/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <div>
-        <h1>Salute</h1>
+    <div class="introduction-header">
+        <h1>Salut</h1>
+        <h2>Il est @System.DateTime.Now.ToString()</h2>
+        <hr />
+    </div>
+
+    <div class="about-me-description">
+        <p>Je suis un étudiant en IT</p>
+        <p id="about-me">J'ai 19 ans.</p>
+        <h3 class="yellowText">J'aime la marche...</h3>
+        <h3 class="italique gras">Et les ordinateurs.</h3>
+    </div>
+    
+    <div class="about-me-form">
+        <p id="form-header">
+            Quelques questions?
+        </p>
+    </div>
+    
+    <div class="bloc-vs-inline">
+        Ceci est un exemple de <span>bloc</span> simple.
+        Ceci est un autre exemple de <div>bloc</div> simple.
     </div>
 </body>
 </html>

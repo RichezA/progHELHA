@@ -34,3 +34,11 @@ Ou alors directement créer un fichier css à part (on l'import via la commande:
 ```
 )
 On utilise à ce moment-là la même syntaxe qu'on aurait pu utiliser dans la balise `<style>`
+
+
+## Cache
+
+La feuille de style est enregistré en cache. Soit on fixe une période de validité.
+
+Ce qu'on peut faire c'est avoir 
+`stylesheet.css?v1` et si un jour on change l'url par `stylesheet.css?v2` (vu qu'on a modifié la stylesheet), la version 1 du css sera invalidée.

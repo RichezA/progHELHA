@@ -1,5 +1,47 @@
-﻿body {
+﻿a {
+    text-decoration: none;
+}
+
+body {
     background-color: dimgrey;
-    color: white;
+    color: black;
     text-align: center;
+    width: 100%;
+    padding: 0px;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 40px;
+    color: inherit;
+}
+
+#about-me {
+    color: red;
+}
+
+#form-header {
+    color: aquamarine;
+}
+
+.yellowText {
+    color: darkgoldenrod;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.gras {
+    font-weight: bolder;
+}
+
+.haut {
+    position: relative;
+    bottom: 5px;
+}
+
+.bas {
+    position: relative;
+    top: 5px;
 }
