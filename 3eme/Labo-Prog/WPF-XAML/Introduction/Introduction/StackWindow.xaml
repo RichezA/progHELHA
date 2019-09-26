@@ -11,14 +11,14 @@
         <Border BorderThickness="2" BorderBrush="Black" Margin="2 2 2 5">
             <!-- Margin sert à écarter les élements à l'extérieur de son espace -->
             <StackPanel Orientation="Horizontal" Background="DarkGray">
-                <Image Source="C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\resources\AverySims.jpg" Width="120" Height="100" Margin="10" ></Image>
+                <Image Source="C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\resources\AverySims.jpg" Width="120" Height="100" Margin="10" ></Image>
                 <!-- Padding sert à écarter l'élement à l'intérieur de son espace -->
                 <Label VerticalAlignment="Center" FontSize="40" Padding="20 0 0 0">Avery Sims</Label>
             </StackPanel>
         </Border>
         <Border BorderThickness="2" BorderBrush="Black" Margin="2 2 2 5">
             <StackPanel Orientation="Horizontal"  Background="DarkGray">
-                <Image Source="C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\resources\CarmenVasquez.jpg" Width="120" Height="100" Margin="10" ></Image>
+                <Image Source="C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\resources\CarmenVasquez.jpg" Width="120" Height="100" Margin="10" ></Image>
                 <Label VerticalAlignment="Center" FontSize="40" Padding="20 0 0 0">Carmen Vasquez</Label>
             </StackPanel>
         </Border>

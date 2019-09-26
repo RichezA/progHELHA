@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CustomProgressBar.cs" />
     <Compile Include="DockWindow.xaml.cs">
       <DependentUpon>DockWindow.xaml</DependentUpon>
     </Compile>
@@ -70,7 +71,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ArrayGridExercice.xaml">
+    <Page Include="ArrayGridExercise.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListBoxWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DockPanelBindingWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,8 +108,17 @@
     <Compile Include="GridLoginWindow.xaml.cs">
       <DependentUpon>GridLoginWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ArrayGridExercice.xaml.cs">
-      <DependentUpon>ArrayGridExercice.xaml</DependentUpon>
+    <Compile Include="ArrayGridExercise.xaml.cs">
+      <DependentUpon>ArrayGridExercise.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListBoxWindow.xaml.cs">
+      <DependentUpon>ListBoxWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DockPanelBindingWindow.xaml.cs">
+      <DependentUpon>DockPanelBindingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="WrapWindow.xaml.cs">
       <DependentUpon>WrapWindow.xaml</DependentUpon>

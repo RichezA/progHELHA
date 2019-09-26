@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\obj\Debug\
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\
 Introduction
 none
 false
 DEBUG;TRACE
-C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\App.xaml
-7-4694944
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\App.xaml
+10-1202450728
 
-12479111370
+1648527275
 13-1505183044
-Intro.xaml;LoginWindow.xaml;GridLoginWindow.xaml;ArrayGridExercice.xaml;WrapWindow.xaml;StackWindow.xaml;DockWindow.xaml;
+Intro.xaml;LoginWindow.xaml;GridLoginWindow.xaml;ArrayGridExercise.xaml;ListBoxWindow.xaml;DockPanelBindingWindow.xaml;MainWindow.xaml;WrapWindow.xaml;StackWindow.xaml;DockWindow.xaml;
 
-False
+True
 

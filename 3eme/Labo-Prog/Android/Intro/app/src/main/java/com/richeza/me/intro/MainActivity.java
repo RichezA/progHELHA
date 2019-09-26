@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*textView = findViewById(R.id.helloWorldTV);
+        textView = findViewById(R.id.helloWorldTV);
 
         button = findViewById(R.id.clickButton);
         button.setOnClickListener(new View.OnClickListener() {
@@ -27,11 +27,14 @@ public class MainActivity extends AppCompatActivity {
                 nb++;
                 textView.setText("Vous avez cliqué " + nb + " fois");
             }
-        });*/
+        });
     }
 
     public void openNewActivity(View view){
-        Intent intent = new Intent(this, MainActivity.class /*SecondActivity.class*/);
+        /*Button btn = (Button)view;
+        System.out.println(btn.getText());*/
+        Intent intent = new Intent(this, /* MainActivity.class*/ SecondActivity.class);
         startActivity(intent);
+        //this.finish();
     }
 }

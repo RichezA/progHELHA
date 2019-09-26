@@ -1,0 +1,31 @@
+﻿@model Formulaire.Models.AuthInfo
+
+
+<html>
+<head>
+    <meta charset="utf-8" name="viewport" />
+    <link href="~/Stylesheets/login.css" rel="stylesheet" />
+    <title>Login</title>
+    <script>
+        function validateForm() {
+            var userID = document.getElementById('userID').value;
+            var pass = document.getElementById('password').value;
+            return (userID.length != 0 && pass.length != 0);
+        }
+    </script>
+</head>
+<body>
+    <div id="form-div">
+        <div id="form-header">
+            <label id="LbLoginFormTitle">Login Form</label> <img id="padlockIcon" src="/Resources/cadenas.jpg" />
+        </div>
+        <div id="form-body">
+            <form method="post">
+                <label class="LbLoginForm">Nom:</label><input type="text" id="userID" value="@Model.userID" class="TBLoginForm" name="userID"/> <br />
+                <label class="LbLoginForm">Mot de passe:</label><input type="password" id="password" class="TBLoginForm" name="passwd"/> <br />
+                <input type="submit" value="Soumettre" class="BtnLoginForm"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

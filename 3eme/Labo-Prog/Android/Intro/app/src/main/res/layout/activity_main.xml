@@ -6,14 +6,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-
-    <TextView
+    <Button
+            android:text="@string/aller_sur_une_autre_page"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
-
+            android:id="@+id/buttonPage" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="211dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="472dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="162dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="162dp" android:onClick="openNewActivity"/>
+    <Button
+            android:text="@string/cliquez_moi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/clickButton"
+            android:layout_marginTop="200dp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPage" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="161dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="162dp" android:layout_marginBottom="224dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/helloWorldTV"
+            android:layout_marginTop="97dp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPage" android:layout_marginBottom="84dp"
+            app:layout_constraintBottom_toTopOf="@+id/clickButton" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="176dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="176dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

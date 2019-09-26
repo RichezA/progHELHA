@@ -1,0 +1,59 @@
+﻿body {
+    margin: 10px;
+}
+
+#LbLoginFormTitle {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.LbLoginForm {
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#form-header {
+    font-family: 'Fira Code Retina';
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+    #form-header img {
+        vertical-align: middle;
+        height: 40px;
+        width: 40px;
+        float: left;
+
+    }
+
+.BtnLoginForm {
+    display: inline-block;
+    float: right;
+}
+
+.TBLoginForm {
+    margin-bottom: 5px;
+}
+
+#form-body {
+    border-top: 1px solid black;
+    margin: inherit;
+    width: inherit;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#form-div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: darkgray;
+    width: 400px;
+    vertical-align: middle;
+}

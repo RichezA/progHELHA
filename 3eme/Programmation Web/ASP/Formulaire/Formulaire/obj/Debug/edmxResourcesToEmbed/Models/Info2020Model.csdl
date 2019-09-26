@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Info2020Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Info2020Entities1" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="LoginVerify" ReturnType="Collection(Info2020Model.LoginVerify_Result)">
+      <Parameter Name="UserID" Mode="In" Type="String" />
+      <Parameter Name="Passwd" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="VerifyLogin" ReturnType="Collection(Int32)">
+      <Parameter Name="UserID" Mode="In" Type="String" />
+      <Parameter Name="Passwd" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="LoginVerify_Result">
+    <Property Type="String" Name="UserID" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Passwd" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,15 @@
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\bin\Debug\Pendu.exe.config
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\bin\Debug\Pendu.exe
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\bin\Debug\Pendu.pdb
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.csprojAssemblyReference.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\MainWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\App.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu_MarkupCompile.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu_MarkupCompile.lref
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\MainWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.g.resources
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.Properties.Resources.resources
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.csproj.GenerateResource.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.csproj.CoreCompileInputs.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.exe
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.pdb

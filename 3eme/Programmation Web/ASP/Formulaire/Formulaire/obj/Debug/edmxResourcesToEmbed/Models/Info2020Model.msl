@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Info2020ModelStoreContainer" CdmEntityContainer="Info2020Entities1">
+    <FunctionImportMapping FunctionImportName="LoginVerify" FunctionName="Info2020Model.Store.LoginVerify">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Info2020Model.LoginVerify_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Passwd" ColumnName="Passwd" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="VerifyLogin" FunctionName="Info2020Model.Store.LoginVerify" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="Introduction.ListBoxWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Introduction"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <ListBox HorizontalAlignment="Left" SelectionMode="Single" Margin="20" Width="100">
+            <ListBoxItem Content="Coloris 1" IsSelected="True" />
+            <ListBoxItem IsSelected="False">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="10" Height="10" Fill="Blue" />
+                    <Label Content="Coloris 2" />
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem Content="Coloris 3" IsSelected="False" />
+        </ListBox>
+    </StackPanel>
+</Window>

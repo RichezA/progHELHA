@@ -1,0 +1,47 @@
+﻿body {
+    background-color:white;
+    color:black;
+    font-size:18px;
+}
+
+.LbLoginForm{
+    display:inline-block;
+    width:120px;
+}
+
+.InputLoginForm{
+    margin-bottom:15px;
+    width:200px;
+}
+
+#BtEnvoi{
+    float:right;
+}
+
+#LoginDiv{
+    padding:0px;
+    width:380px;
+    border: 1px solid black;
+    margin:auto;
+    height:180px;
+    border-radius:10px 10px;
+}
+#LoginDivBody {
+    padding:20px;
+}
+#LoginDivHeader {
+    border-top-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-bottom:1px gray solid;
+    line-height: 30px;
+    padding: 5px;
+    margin: 0px;
+    height: 30px;
+    text-align: center;
+}
+#LoginDivHeader img{
+    vertical-align:middle;
+    height:30px;
+    width:30px;
+    float:left;
+}

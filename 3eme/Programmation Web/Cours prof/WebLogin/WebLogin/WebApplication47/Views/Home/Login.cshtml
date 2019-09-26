@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/StyleSheet/StyleSheet1.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+    <div id="LoginDiv">
+        <div id="LoginDivHeader">Formulaire de login <img src="~/Images/padlock.png" height="30" /></div>
+        <div id="LoginDivBody">
+        <form method="post">
+            <label class="LbLoginForm">Nom:</label><input name="UserId" class="InputLoginForm" type="text" /><br/>
+            <label class="LbLoginForm">Mot de passe:</label><input name="Passwd" class="InputLoginForm" type="password" /><br/>
+            <input id="BtEnvoi" type="submit" value="Soumettre" />
+        </form>
+        </div>
+    </div>
+</body>
+</html>

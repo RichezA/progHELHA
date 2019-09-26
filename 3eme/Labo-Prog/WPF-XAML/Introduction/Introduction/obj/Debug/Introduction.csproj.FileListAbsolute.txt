@@ -40,3 +40,37 @@ C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduc
 C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\obj\Debug\LoginWindow.baml
 C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\obj\Debug\GridLoginWindow.g.cs
 C:\Users\riche\Documents\progHELHA\3eme\Labo Prog\WPF-XAML\Introduction\Introduction\obj\Debug\GridLoginWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.csprojAssemblyReference.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Intro.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\LoginWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\GridLoginWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\ArrayGridExercise.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\MainWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\WrapWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\StackWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\DockWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\App.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction_MarkupCompile.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction_MarkupCompile.lref
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.exe
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.pdb
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\bin\Debug\Introduction.exe.config
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\bin\Debug\Introduction.exe
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\bin\Debug\Introduction.pdb
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Intro.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\LoginWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\GridLoginWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\ArrayGridExercise.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\MainWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\WrapWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\StackWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\DockWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.g.resources
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.Properties.Resources.resources
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.csproj.GenerateResource.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\ListBoxWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\ListBoxWindow.baml
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\DockPanelBindingWindow.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Introduction\Introduction\obj\Debug\DockPanelBindingWindow.baml

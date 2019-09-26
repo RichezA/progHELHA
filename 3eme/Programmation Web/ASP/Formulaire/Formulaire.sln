@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formulaire", "Formulaire\Formulaire.csproj", "{086F28FC-32E8-460F-8AE1-580AF311662D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086F28FC-32E8-460F-8AE1-580AF311662D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086F28FC-32E8-460F-8AE1-580AF311662D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086F28FC-32E8-460F-8AE1-580AF311662D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086F28FC-32E8-460F-8AE1-580AF311662D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70507888-8903-4291-8877-FC6F1CA57AB4}
+	EndGlobalSection
+EndGlobal

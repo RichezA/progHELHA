@@ -1,0 +1,12 @@
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\bin\Debug\netstandard2.0\Introduction.deps.json
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\bin\Debug\netstandard2.0\Introduction.dll
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\bin\Debug\netstandard2.0\Introduction.pdb
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.csprojAssemblyReference.cache
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.csproj.CoreCompileInputs.cache
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.AssemblyInfoInputs.cache
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.AssemblyInfo.cs
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.dll
+C:\Users\riche\Documents\progHELHA\3eme\Programmation\Introduction\Introduction\Introduction\obj\Debug\netstandard2.0\Introduction.pdb

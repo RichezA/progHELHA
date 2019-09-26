@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Intro</string>
+    <string name="aller_sur_une_autre_page">Aller sur une autre page</string>
+    <string name="cliquez_moi">Cliquez-moi</string>
+    <string name="hello_world">Hello World</string>
+    <string name="second_page">Welcome to the second page</string>
 </resources>

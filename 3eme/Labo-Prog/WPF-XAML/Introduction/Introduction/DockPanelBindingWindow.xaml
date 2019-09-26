@@ -1,0 +1,33 @@
+﻿<Window x:Class="Introduction.MenuStatusBar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Introduction"
+        mc:Ignorable="d"
+        Title="MainWindo" Height="450" Width="800">
+    <DockPanel LastChildFill="False">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Fichier">
+                <MenuItem Header="Ouvrir..." />
+            </MenuItem>
+            <MenuItem Header="Edition">
+                <MenuItem Header="Barre d'outils" IsCheckable="True" />
+            </MenuItem>
+        </Menu>
+
+        <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
+            <TextBox x:Name="textBox" Width="100" />
+            <Label Content="{Binding Text, ElementName=textBox}" />
+        </StackPanel>
+
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem HorizontalAlignment="Left">
+                <local:CustomProgressBar AlertLevel="10" Height="20" Width="200" MinWidth="80"></local:CustomProgressBar>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Name="heure">12:12:12</TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+    </DockPanel>
+</Window>
