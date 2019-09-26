@@ -51,6 +51,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
+<<<<<<< Updated upstream
               "version": "[1.1.0, )"
             },
             "Xamarin.Forms": {
@@ -63,6 +64,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true
+=======
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.709249, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }

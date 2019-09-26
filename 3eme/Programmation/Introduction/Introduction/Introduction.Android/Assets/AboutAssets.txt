@@ -1,7 +1,11 @@
 Any raw assets you want to be deployed with your application can be placed in
 this directory (and child directories) and given a Build Action of "AndroidAsset".
 
+<<<<<<< Updated upstream
 These files will be deployed with you package and will be accessible using Android's
+=======
+These files will be deployed with your package and will be accessible using Android's
+>>>>>>> Stashed changes
 AssetManager, like this:
 
 public class ReadAsset : Activity

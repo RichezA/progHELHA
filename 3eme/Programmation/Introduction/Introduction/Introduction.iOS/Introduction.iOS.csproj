@@ -5,7 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+<<<<<<< Updated upstream
     <ProjectGuid>{8AB74E45-8792-4F41-AFC6-E75A5462BAB0}</ProjectGuid>
+=======
+    <ProjectGuid>{E5C69AC0-583B-42D5-8C1E-6BEBA624EA1D}</ProjectGuid>
+>>>>>>> Stashed changes
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -120,13 +124,22 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+=======
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Introduction\Introduction.csproj">
+<<<<<<< Updated upstream
       <Project>{9CFC9D36-2CD4-4BF2-9A4E-FF76CB964CEF}</Project>
+=======
+      <Project>{F39A0E48-B4D4-4436-A094-B4BF731796D1}</Project>
+>>>>>>> Stashed changes
       <Name>Introduction</Name>
     </ProjectReference>
   </ItemGroup>

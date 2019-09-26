@@ -1,5 +1,9 @@
 {
   "version": 1,
+<<<<<<< Updated upstream
   "dgSpecHash": "VcUL833n6dZyY+zuAxvhiM8wR+SHNu5LZ+aHROK6pkWDLpsxit1KqG5nMwk3gNoIg2SSrw9NqGnYB0mGAE+ZOA==",
+=======
+  "dgSpecHash": "21t+nFVwbMFUent6HByqlmcjEY6E9j2paqAAQwGSdfXAgfQ3imY9UPPADbrKOrNXXDDisodWnIbCsYCAx7brIg==",
+>>>>>>> Stashed changes
   "success": true
 }

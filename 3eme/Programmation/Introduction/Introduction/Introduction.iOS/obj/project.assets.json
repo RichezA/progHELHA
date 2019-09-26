@@ -11,7 +11,11 @@
           "lib/xamarinios10/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Essentials/1.1.0": {
+=======
+      "Xamarin.Essentials/1.2.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -26,7 +30,11 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Forms/4.1.0.555618": {
+=======
+      "Xamarin.Forms/4.2.0.709249": {
+>>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -153,8 +161,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+<<<<<<< Updated upstream
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
+=======
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249"
+>>>>>>> Stashed changes
         },
         "compile": {
           "bin/placeholder/Introduction.dll": {}
@@ -174,7 +187,11 @@
           "lib/xamarinios10/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Essentials/1.1.0": {
+=======
+      "Xamarin.Essentials/1.2.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -189,7 +206,11 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Forms/4.1.0.555618": {
+=======
+      "Xamarin.Forms/4.2.0.709249": {
+>>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -316,8 +337,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+<<<<<<< Updated upstream
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
+=======
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249"
+>>>>>>> Stashed changes
         },
         "compile": {
           "bin/placeholder/Introduction.dll": {}
@@ -337,7 +363,11 @@
           "lib/xamarinios10/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Essentials/1.1.0": {
+=======
+      "Xamarin.Essentials/1.2.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -352,7 +382,11 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Forms/4.1.0.555618": {
+=======
+      "Xamarin.Forms/4.2.0.709249": {
+>>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -479,8 +513,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+<<<<<<< Updated upstream
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
+=======
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249"
+>>>>>>> Stashed changes
         },
         "compile": {
           "bin/placeholder/Introduction.dll": {}
@@ -500,7 +539,11 @@
           "lib/xamarinios10/_._": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Essentials/1.1.0": {
+=======
+      "Xamarin.Essentials/1.2.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -515,7 +558,11 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "Xamarin.Forms/4.1.0.555618": {
+=======
+      "Xamarin.Forms/4.2.0.709249": {
+>>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -642,8 +689,13 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+<<<<<<< Updated upstream
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618"
+=======
+          "Xamarin.Essentials": "1.2.0",
+          "Xamarin.Forms": "4.2.0.709249"
+>>>>>>> Stashed changes
         },
         "compile": {
           "bin/placeholder/Introduction.dll": {}
@@ -702,10 +754,17 @@
         "version.txt"
       ]
     },
+<<<<<<< Updated upstream
     "Xamarin.Essentials/1.1.0": {
       "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
       "type": "package",
       "path": "xamarin.essentials/1.1.0",
+=======
+    "Xamarin.Essentials/1.2.0": {
+      "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
+      "type": "package",
+      "path": "xamarin.essentials/1.2.0",
+>>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -741,6 +800,7 @@
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
         "readme.txt",
+<<<<<<< Updated upstream
         "xamarin.essentials.1.1.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
@@ -749,6 +809,16 @@
       "sha512": "eZHy/yCrKhu3WUI1oszz8Hvq8iC+wQyokEVkzlSmNJD6xa2pGLq5UjOgpXEWu7zKPaoZ5c70SrTv1BBZE+Je1A==",
       "type": "package",
       "path": "xamarin.forms/4.1.0.555618",
+=======
+        "xamarin.essentials.1.2.0.nupkg.sha512",
+        "xamarin.essentials.nuspec"
+      ]
+    },
+    "Xamarin.Forms/4.2.0.709249": {
+      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+      "type": "package",
+      "path": "xamarin.forms/4.2.0.709249",
+>>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -968,13 +1038,20 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+<<<<<<< Updated upstream
+=======
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
+>>>>>>> Stashed changes
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+<<<<<<< Updated upstream
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Items/ItemsViewStyles.xbf",
+=======
+>>>>>>> Stashed changes
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
@@ -987,7 +1064,11 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+<<<<<<< Updated upstream
         "xamarin.forms.4.1.0.555618.nupkg.sha512",
+=======
+        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+>>>>>>> Stashed changes
         "xamarin.forms.nuspec"
       ]
     },
@@ -1000,8 +1081,13 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Introduction >= 1.0.0",
+<<<<<<< Updated upstream
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.1.0.555618"
+=======
+      "Xamarin.Essentials >= 1.2.0",
+      "Xamarin.Forms >= 4.2.0.709249"
+>>>>>>> Stashed changes
     ]
   },
   "packageFolders": {
@@ -1048,11 +1134,19 @@
         "dependencies": {
           "Xamarin.Essentials": {
             "target": "Package",
+<<<<<<< Updated upstream
             "version": "[1.1.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.1.0.555618, )"
+=======
+            "version": "[1.2.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.2.0.709249, )"
+>>>>>>> Stashed changes
           }
         }
       }
