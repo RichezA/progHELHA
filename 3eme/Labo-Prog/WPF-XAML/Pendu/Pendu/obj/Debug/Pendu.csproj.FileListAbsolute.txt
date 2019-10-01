@@ -10,6 +10,5 @@ C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug
 C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.g.resources
 C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.Properties.Resources.resources
 C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.csproj.GenerateResource.cache
-C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.csproj.CoreCompileInputs.cache
 C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.exe
 C:\Users\riche\Documents\progHELHA\3eme\Labo-Prog\WPF-XAML\Pendu\Pendu\obj\Debug\Pendu.pdb

@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function TesterEntier() {
+            var compteur = document.getElementById('compteur').value;
+            if (isNan(compteur)) return false;
+            return true;
+        }
+    </script>
+    <meta charset="utf-8" />
+    <title>another form</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <label>Compteur: </label><input name="Compteur" id="compteur" type="text" />
+            <input type="submit" value="Envoyer" onclick="return(TesterEntier())"/>
+            <span>@ViewData["Message"]</span>
+        </form>
+    </div>
+</body>
+</html>

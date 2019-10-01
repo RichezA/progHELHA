@@ -6,70 +6,73 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" line="5" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a2dbf9-a9b8-4543-bdf2-384c0de6db41" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../2eme/Programmation/Exams + Exercises/Interro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2eme/Programmation/Labs/Java/Groupe09/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2eme/Programmation/Labs/Java/Groupe09/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../2eme/Programmation/Labs/Java/Groupe09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../2eme/Programmation/Labs/Java/Groupe09/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/app/src/main/java/com/richeza/me/intro/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/app/src/main/java/com/richeza/me/intro/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Intro/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Intro/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/Cours.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/ComponentDeclaration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/DockPanelStatusToolMenuBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/LinkXAMLClass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/WrapPanel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/attributeCodeManipulation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/attributeInComponent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/buttonCreation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/columnDefinitions.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/loginFormStackPanel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/stackPanelRender.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cours écrit/resources/tableauExercice.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/ArrayGridExercice.xaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/ArrayGridExercice.xaml.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/Introduction.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/Introduction.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/StackWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/StackWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/bin/Debug/Introduction.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/bin/Debug/Introduction.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/ArrayGridExercice.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/ArrayGridExercice.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.i.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.i.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/Introduction_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.baml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/Introduction/Introduction/obj/Debug/StackWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/Controllers/MainController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/Intro.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/Intro.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/Views/Main/Index.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/Intro.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/Intro.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/Intro.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Intro/Intro/obj/Debug/Intro.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/balises.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/balises.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/HTML base/HTML5-CSS3-V2.1.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/HTML base/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/HTML base/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/matiere/matierevue.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SE/Rapports/DefinitionProjet.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../SE/Rapports/RapportJournalier.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CriminalIntent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CriminalIntent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/CheatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/Activity/CheatActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/EndActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/Activity/EndActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/java/com/example/quiz/Controllers/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout-land/activity_cheat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout-land/activity_cheat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout-land/activity_end.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout-land/activity_end.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_cheat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_cheat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_end.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_end.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Formulaire/Formulaire/obj/Debug/Formulaire.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Formulaire/Formulaire/obj/Debug/Formulaire.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation/Cours-ecrit/Xamarin.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation/Cours-ecrit/Xamarin.MD" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,79 +81,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_22" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state relative-caret-position="304">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
-                <element signature="e#386#413#0" expanded="true" />
-                <element signature="e#562#588#0" expanded="true" />
-                <element signature="e#779#808#0" expanded="true" />
-                <element signature="e#1113#1141#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/CrimeLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            <state relative-caret-position="112">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/SingleFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="432">
+              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2205#2409#0" expanded="true" />
-                <element signature="e#2408#2409#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border_line.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="48">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -160,9 +176,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
+        <option value="Enum" />
+        <option value="valueResourceFile" />
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
-        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -173,12 +192,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/SingleFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/crime_list_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/gravity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Gravity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/array.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/SingleFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/SpinnerCrimeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/CrimeLab.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/white_dashed_border.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/border_line.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item_crime.xml" />
       </list>
     </option>
   </component>
@@ -191,7 +227,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="952" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1066" />
@@ -204,7 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -233,25 +269,31 @@
             <path>
               <item name="CriminalIntent" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="CriminalIntent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="criminalintent" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Fragments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.criminalintent.Controllers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -343,55 +385,32 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.13258786" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" weight="0.32976446" />
-      <window_info active="true" anchor="bottom" id="Logcat" visible="true" weight="0.32976446" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32976446" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32976446" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.33297643" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Preview" weight="0.14643237" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13258786" />
-      <window_info id="Structure" order="1" side_tool="true" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Build Variants" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13258786" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
-      <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Logcat" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.33297643" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.9678801" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.32976446" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32976446" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32976446" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.3522484" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32976446" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.14643237" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.14643237" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
@@ -419,72 +438,175 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/androidx/fragment/app/FragmentManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="2662" selection-start-line="2662" selection-end-line="2662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta04/5d2ed701688dea01250296f6e14757e86b16987/recyclerview-1.1.0-beta04-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="10941" column="24" selection-start-line="10941" selection-start-column="24" selection-end-line="10941" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10240">
+          <caret line="800" column="13" selection-start-line="800" selection-start-column="13" selection-end-line="800" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Crime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="304">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/Gravity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="192">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2205#2409#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fragment.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_crime.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/SpinnerCrimeFragment.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/widget/ArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="207" column="11" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/crime_list_fragment.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/white_dashed_border.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/border_line.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_crime.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Models/CrimeLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
-            <element signature="e#386#413#0" expanded="true" />
-            <element signature="e#562#588#0" expanded="true" />
-            <element signature="e#779#808#0" expanded="true" />
-            <element signature="e#1113#1141#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        <state relative-caret-position="112">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/SingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Controllers/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/criminalintent/Fragments/CrimeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

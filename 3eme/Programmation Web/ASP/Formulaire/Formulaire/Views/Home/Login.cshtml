@@ -10,6 +10,9 @@
         function validateForm() {
             var userID = document.getElementById('userID').value;
             var pass = document.getElementById('password').value;
+            if (userID.length == 0) document.getElementById('userIdError').style.visibility = 'visible';
+            if (pass.length == 0) document.getElementById('passwordError').style.visibility = 'visible';
+            document.getElementsByClassName('Error').style.visibility = 'hidden';
             return (userID.length != 0 && pass.length != 0);
         }
     </script>
@@ -20,10 +23,12 @@
             <label id="LbLoginFormTitle">Login Form</label> <img id="padlockIcon" src="/Resources/cadenas.jpg" />
         </div>
         <div id="form-body">
+            <!--Cette partie de text <span id="Visible" style="visibility:hidden">est visible </span> ou pas -->
             <form method="post">
-                <label class="LbLoginForm">Nom:</label><input type="text" id="userID" value="@Model.userID" class="TBLoginForm" name="userID"/> <br />
-                <label class="LbLoginForm">Mot de passe:</label><input type="password" id="password" class="TBLoginForm" name="passwd"/> <br />
-                <input type="submit" value="Soumettre" class="BtnLoginForm"/>
+                <label class="LbLoginForm">Nom:</label><input type="text" id="userID" value="@Model.userID" class="TBLoginForm" name="userID" /> <span id="userIdError" class="Error">(*)</span>  <br />
+                <label class="LbLoginForm">Mot de passe:</label><input type="password" id="password" class="TBLoginForm" name="passwd" /> <span id="passwordError" class="Error">(*)</span> <br />
+                <input type="submit" value="Soumettre" class="BtnLoginForm" onclick="validateForm()"/> <br />
+                <span id="SummaryError" class="Error">(*) Champs obligatoires</span>
             </form>
         </div>
     </div>

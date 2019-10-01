@@ -4,14 +4,14 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Controllers.CheatActivity">
+    tools:context=".Controllers.Activity.CheatActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:context="com.example.quiz.Controllers.CheatActivity">
+        tools:context="com.example.quiz.Controllers.Activity.CheatActivity">
 
         <TextView
             android:layout_width="wrap_content"

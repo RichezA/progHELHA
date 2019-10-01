@@ -89,3 +89,17 @@ __Du bas vers le haut:__
 - Pour iOS, le compilateur Xamarin génère un code dans un langage intermédiaire qui est ensuite compilé par le compilateur Apple.
 - Pour Android, Xamarin compile dans un langage interprété qui sera exécuté par la version Mono installée sur le périphérique.
 
+## Exécution
+
+On peut exécuter notre application Xamarin sur un téléphone physique ou alors via un émulateur. Un émulateur est bien dans le cas où l'on veut vérifier la rétrocompatibilité 
+
+
+## Test
+
+Tester une app sur iPhone physique est moins simple que pour Android. Le Free Provisioning permet aux dévs Xamarin.iOS de déployer et tester leurs apps sur des appareils iOS sans faire partie du programme du dev Apple. /!\ Le certificat a une durée de validité de 6 jours.
+
+Pour lier notre mac à notre visual studio sous windows, nosu pouvons rentrer les identifiants Apple dans les paramètres > Xamarin > Apple accounts
+
+## Prerealase
+
+Attention aux prereleases lors des projets, cela peut poser des soucis

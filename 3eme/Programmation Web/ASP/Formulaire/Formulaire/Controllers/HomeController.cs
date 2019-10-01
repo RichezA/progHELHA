@@ -18,12 +18,12 @@ namespace Formulaire.Controllers
         [HttpPost]
         public ActionResult Login(AuthInfo info)
         {
-            Info2020Entities1 myModel = new Info2020Entities1();
-            var resultat = myModel.VerifyLogin(info.userID, info.passwd).ToList();
-            if (resultat[0].Value == 0)
+            Info2020Entities2 myModel = new Info2020Entities2();
+            var resultat = myModel.LoginVerify(info.userID, info.passwd).ToList();
+            if (resultat[0].Count == 0)
             {
-                info.passwd = "";
-                return View();
+                info.passwd = " ";
+                return View(info);
             }
             else
             {
@@ -36,7 +36,7 @@ namespace Formulaire.Controllers
         {
             AuthInfo authinfo = new AuthInfo();
             authinfo.userID = " ";
-            return View();
+            return View(authinfo);
         }
     }
 }

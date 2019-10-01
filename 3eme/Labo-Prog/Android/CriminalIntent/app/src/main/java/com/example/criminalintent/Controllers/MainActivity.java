@@ -1,30 +1,19 @@
 package com.example.criminalintent.Controllers;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 
+import com.example.criminalintent.Fragments.CrimeFragment;
 import com.example.criminalintent.R;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.UUID;
+
+public class MainActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        Fragment fragment = fragmentManager.findFragmentById(R.id.fragment_crime_cont);
-        System.out.println("AFTER FRAGMENT FOUND");
-        if(fragment != null) {
-            System.out.println("FRAGMENT IS NOT NULL");
-            fragment = new CrimeFragment();
-            fragmentManager.beginTransaction()
-                    .add(R.id.fragment_container, fragment)
-                    .commit();
-        }
+    protected Fragment createFragment() {
+        return new CrimeFragment();
     }
 
 
@@ -39,5 +28,7 @@ public class MainActivity extends AppCompatActivity {
             Quelle est la classe permettant d'écouter:
             - Un TextView : TODO TextWatcher
             - Un CheckBox : TODO CompoundButton.OnCheckedChangeListener
+        - Question 3:
+            Outre le nom du fichier, quels sont le/les changements effectués par le refactoring (renommage du fichier XML) que vous venez de faire ? TODO readonly abstraction de la classe
     */
 }

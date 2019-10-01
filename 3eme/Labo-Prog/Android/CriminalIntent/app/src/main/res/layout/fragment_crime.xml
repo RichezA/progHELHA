@@ -17,6 +17,7 @@
     android:hint="@string/crime_title_hint"/>
 
     <TextView
+        android:id="@+id/crime_details"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     style="?android:listSeparatorTextViewStyle"
@@ -32,6 +33,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="@string/crime_solved_label"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crime_gravity" />
 
 
 </LinearLayout>
