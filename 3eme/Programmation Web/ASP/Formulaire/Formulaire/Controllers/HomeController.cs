@@ -20,9 +20,9 @@ namespace Formulaire.Controllers
         {
             Info2020Entities2 myModel = new Info2020Entities2();
             var resultat = myModel.LoginVerify(info.userID, info.passwd).ToList();
-            if (resultat[0].Count == 0)
+            if (resultat[0].Value == 0)
             {
-                info.passwd = " ";
+                info.passwd = string.Empty;
                 return View(info);
             }
             else
@@ -35,7 +35,7 @@ namespace Formulaire.Controllers
         public ActionResult Login()
         {
             AuthInfo authinfo = new AuthInfo();
-            authinfo.userID = " ";
+            authinfo.userID = string.Empty;
             return View(authinfo);
         }
     }

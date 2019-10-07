@@ -10,9 +10,9 @@
         function validateForm() {
             var userID = document.getElementById('userID').value;
             var pass = document.getElementById('password').value;
+            document.getElementsByClassName('Error').style.visibility = 'hidden';
             if (userID.length == 0) document.getElementById('userIdError').style.visibility = 'visible';
             if (pass.length == 0) document.getElementById('passwordError').style.visibility = 'visible';
-            document.getElementsByClassName('Error').style.visibility = 'hidden';
             return (userID.length != 0 && pass.length != 0);
         }
     </script>

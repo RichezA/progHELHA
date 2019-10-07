@@ -13,15 +13,33 @@ namespace FirstApp
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        User user;
         public MainPage()
         {
             InitializeComponent();
+            this.userIDToSend.WidthRequest = 50;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            this.myLabel.Text = "Valider";
-            Console.WriteLine(this.myLabel.Text);
+            //this.myLabel.Text = "Valider";
+            //Console.WriteLine(this.myLabel.Text);
+            String id = this.userIDToSend.Text;
+            Console.WriteLine("DEBUG - just clicked the button");
+
+
+            user = await GetUser(id);
+            if (user != null)
+            {
+                this.userName.Text = user.prenom;
+                this.surName.Text = user.nom;
+            }
+        }
+
+        private async Task<User> GetUser(String id)
+        {
+            Console.WriteLine("DEBUG - entered the getuser method");
+            return await WebClient.getUserById(id);
         }
     }
 }

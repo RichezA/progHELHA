@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="FirstApp.MainPage">
 
-    <StackLayout>
+    <StackLayout x:Name="mainStackLayout">
         <!-- Place new controls here -->
         <!--<Label Text="Welcome to Xamarin.Forms!" 
                x:Name="myLabel"
@@ -15,12 +15,20 @@
 
         <Button Text="Valider" Clicked="Button_Clicked" /> -->
 
-        
-        <Button>Envoyer</Button>
-        <Label>Nom:</Label>
-        <Label>Prenom:</Label>
-        
-        
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="userIDToSend" Keyboard="Telephone" WidthRequest="20" HorizontalTextAlignment="Center"></Entry>
+            <Button Clicked="Button_Clicked" Text="Envoyer"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label MinimumWidthRequest="80">Nom:</Label>
+            <Label x:Name="userName" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label MinimumWidthRequest="80">Prenom:</Label>
+            <Label x:Name="surName" />
+        </StackLayout>
+
+
     </StackLayout>
 
 </ContentPage>

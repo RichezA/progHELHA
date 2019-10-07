@@ -1,0 +1,14 @@
+Questions type Snips standalone: heure, jour, ...
+Réaliser un echo: le Haut-Parleur répète ce que l'on a dit
+Allumer une lampe à distance via le bux MQTT
+Utiliser une webAPI pour récupérer la météo
+Récupérer un nbre d'habitants dans une ville bien précise via webAPI.
+
+But du projet: 
+ - Documentation de comment fonctionne le protocole MQTT 
+ - Tester le moteur de reco vocale Snips
+ - Comparaison utilisation autonome / en ligne
+
+Objectifs alternatifs: 
+Voix par défaut pas ouf, est-ce qu'il y'a moyen de la changer? Si l'on récupère une voix, elle doit être en standalone
+(On peut essayer de déclencher notre propre trame -> en JavaScript)

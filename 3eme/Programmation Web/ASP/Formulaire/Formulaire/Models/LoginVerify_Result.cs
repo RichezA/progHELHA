@@ -13,6 +13,6 @@ namespace Formulaire.Models
     
     public partial class LoginVerify_Result
     {
-        public Nullable<int> Count { get; set; }
+        public Nullable<int> Value { get; set; }
     }
 }
