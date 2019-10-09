@@ -27,41 +27,77 @@
         <label>Prenom: </label>
         <input type="text" id="nameTB" />
         <br />
+        <input class="btn btn-success" id="btnToSend" />
     </div>
 
     <script>
         //document.addEventListener("ready", () => {
 
-        let apiURL = "/Home/GetInfo/";
+        let apiURL = "/Home/GetInfo";
+        let surname = document.getElementById('surnameTB');
+        let name = document.getElementById('nameTB');
+        let idTB = document.getElementById('idTB');
 
         document.getElementById('btnToId').onclick = () => {
             if (isEverythingNumerical()) {
-                apiURL += document.getElementById('idTB').value;
-                //let request = new XMLHttpRequest;
 
-                //request.open('GET', apiURL);
+                name.value = "";
+                surname.value = "";
 
-                //request.onreadystatechange = () => {
-                //    if (request == 4) {
-                //        console.log(result);
-                //        alert('Successfully retrieved');
-                //    }
-                //    else {
-                //        console.log('twtf');
-                //    }
-                //}
-                fetch(apiURL)
-                    .then(response => {
-                        return response.json();
-                    })
-                    .then(response => {
-                        console.log(response);
-                        document.getElementById('surnameTB').value = response[0].nom;
-                        document.getElementById('nameTB').value = response[0].prenom;
-                    });
+                $.ajax({
+                    url: apiURL + "/" + $('#idTB').val(),
+                    success: function (result) {
+                        surname.value = result.nom;
+                        name.value = result.prenom;
+                        idTB.value = "";
+                    }
+                }).fail(function (xhr, textStatus, errorThrown) {
+                    switch (xhr.status) {
+                        case 404:
+                            alert("Pas de personne pour l'id renseigné");
+                            break;
+                        default:
+                            alert("Erreur inconnue");
+                            break;
+                    }
+                });
+
+
+                //fetch(apiURL + idTB.value)
+                //    .then(response => {
+                //        return response.json();
+                //    })
+                //    .then(response => {
+                //        console.log(response);
+                //        surname.value = response[0].nom;
+                //        name.value = response[0].prenom;
+                //        idTB.value = "";
+                //    });
             } else {
                 alert('NO');
             }
+        }
+
+        $('#btnToSend').on('click', () => {
+            if (!fieldsAreEmpty()) {
+                let surnameToSend = surname.value;
+                let nameToSend = name.value;
+                let jsonToSend = JSON.stringify({ nom: surnameToSend, prenom: nameToSend });
+                console.log(jsonToSend);
+                $.ajax({
+                    url: apiURL + "2/",
+                    method: "POST",
+                    data: jsonToSend,
+                    success: function (result) {
+                        alert('successfully sent');
+                    },
+                    dataType: "JSON"
+                })
+            }
+        });
+
+        function fieldsAreEmpty() {
+            return surname.value == "" && name.value == "";
         }
 
         function isEverythingNumerical() {

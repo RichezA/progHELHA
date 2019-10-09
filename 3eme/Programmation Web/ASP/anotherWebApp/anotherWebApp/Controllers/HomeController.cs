@@ -1,4 +1,5 @@
 ﻿using anotherWebApp.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,18 +17,24 @@ namespace anotherWebApp.Controllers
             return View();
         }
 
-        public JsonResult GetInfo(string id)
+        [System.Web.Mvc.HttpGet]
+        public ActionResult GetInfo(string id)
         {
             int intID;
             Info2020Entities entity = new Info2020Entities();
 
             if (!int.TryParse(id, out intID)) throw new HttpResponseException(System.Net.HttpStatusCode.BadRequest);
             var result = entity.GetWebUserInfo(intID).ToList();
-            if (result.Count == 0) throw new HttpResponseException(System.Net.HttpStatusCode.NotFound);
-
-            return Json(result, JsonRequestBehavior.AllowGet);
+            if (result.Count != 0) return Json(result[0], JsonRequestBehavior.AllowGet);
+            else return new HttpStatusCodeResult(System.Net.HttpStatusCode.NotFound);
         }
 
+        [System.Web.Mvc.HttpPost]
+        public ActionResult GetInfo2([FromBody] string result)
+        {
+            var json = JsonConvert.SerializeObject(result);
+            return Json(json);
+        }
 
         /*
          * Validation de l'input

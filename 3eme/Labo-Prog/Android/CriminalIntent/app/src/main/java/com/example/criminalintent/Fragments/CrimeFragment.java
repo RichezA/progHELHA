@@ -3,6 +3,7 @@ package com.example.criminalintent.Fragments;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,14 +24,15 @@ import com.example.criminalintent.Models.CrimeLab;
 import com.example.criminalintent.Models.Gravity;
 import com.example.criminalintent.R;
 
-import java.lang.reflect.Array;
-import java.text.ParseException;
+import java.util.Arrays;
 import java.util.UUID;
 
 
 public class CrimeFragment extends Fragment {
 
     // Définit un fragment pour détailler un crime
+
+    private final String TAG = "CrimeFragment";
 
     Crime mCrime;
     EditText mTitleField;
@@ -61,6 +63,7 @@ public class CrimeFragment extends Fragment {
         mSolvedCheckBox = v.findViewById(R.id.crime_solved);
         mDateButton = v.findViewById(R.id.crime_date);
         mCrimeGravityCombo = v.findViewById(R.id.crime_gravity);
+        Log.d(TAG, mCrime.getmCrimeGravity().toString());
         this.setCombo(mCrimeGravityCombo);
 
         mTitleField.setText(mCrime.getmTitle());
@@ -102,6 +105,7 @@ public class CrimeFragment extends Fragment {
         ArrayAdapter<Gravity> adapter = new ArrayAdapter<>(getActivity(), R.layout.spinner_layout, R.id.spinner_layout, Gravity.values());
         adapter.setDropDownViewResource(R.layout.spinner_layout);
         mCrimeGravityCombo.setAdapter(adapter);
+        if(mCrime.getmCrimeGravity() != Gravity.DEFAULT) mCrimeGravityCombo.setSelection(Arrays.asList(Gravity.values()).indexOf(mCrime.getmCrimeGravity()));
         mCrimeGravityCombo.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -110,7 +114,8 @@ public class CrimeFragment extends Fragment {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-                mCrime.setmCrimeGravity(Gravity.DEFAULT);
+                if ((mCrime.getmCrimeGravity() != Gravity.DEFAULT)) mCrime.setmCrimeGravity(mCrime.getmCrimeGravity());
+                else mCrime.setmCrimeGravity(Gravity.DEFAULT);
             }
         });
     }

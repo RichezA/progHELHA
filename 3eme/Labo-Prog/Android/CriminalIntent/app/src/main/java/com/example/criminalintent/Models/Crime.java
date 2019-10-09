@@ -17,7 +17,11 @@ public class Crime {
     Gravity mCrimeGravity;
 
     public Crime(){
-        mId = UUID.randomUUID();
+        this(UUID.randomUUID());
+    }
+
+    public Crime(UUID id){
+        this.mId = id;
         dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         mDate = new Date();
         mSolved =  false;
@@ -55,4 +59,6 @@ public class Crime {
     public void setmCrimeGravity(Gravity mCrimeGravity) {
         this.mCrimeGravity = mCrimeGravity;
     }
+
+    public void setmDate(Date date) { this.mDate = date; }
 }
