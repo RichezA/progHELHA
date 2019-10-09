@@ -21,19 +21,24 @@ namespace DataBinder
     /// </summary>
     public partial class MainWindow : Window
     {
-        public Client client { get; set; }
-        
+        public Client Client1 { get; set; }
+        public List<Client> ClientsList { get; set; }
+
         public MainWindow()
         {
-            //this.DataContext = this; // Pas bien car on mélange les data, vues, etc
-            client = new Client { Nom = "Richez", Prenom = "Antoine", Localite = "Tournai" };
+            this.DataContext = this; // Pas bien car on mélange les data, vues, etc
+            Client1 = new Client { Nom = "Richez", Prenom = "Antoine", Localite = "Tournai" };
+            Clients = new List<Client>();
+            Clients.Add(Client1);
+            Clients.Add(new Client { Nom = "Wilfart", Prenom = "Manu", Localite = "Tournai" });
+            Clients.Add(new Client { Nom = "Pluquet", Prenom = "Fred", Localite = "Tournai" });
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // Liaisons = polydirectionnelles, si l'on modifie le prenom, la propriété 'Prenom' de notre client changera elle aussi
-            client.Nom = "Dupond";
+            Client1.Nom = "Dupond";
         }
     }
 }

@@ -48,15 +48,15 @@
             <StackPanel Orientation="Horizontal">
                 <Label>Nom: </Label>
                 <!-- Style="{StaticResource TextBoxPerso}" -->
-                <TextBox x:Name="nomTextBox" Text="{Binding Path = client.Nom}"></TextBox>
+                <TextBox x:Name="nomTextBox" Text="{Binding Path = Client1.Nom}"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label>Prénom: </Label>
-                <TextBox x:Name="prenomTextBox" Text="{Binding Path = client.Prenom}"></TextBox>
+                <TextBox x:Name="prenomTextBox" Text="{Binding Path = Client1.Prenom}"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <Label>Localité: </Label>
-                <TextBox x:Name="localiteTextBox" Text="{Binding Path = client.Localite}"></TextBox>
+                <TextBox x:Name="localiteTextBox" Text="{Binding Path = Client1.Localite}"></TextBox>
             </StackPanel>
             <Button Click="Button_Click">Envoyer</Button>
         </StackPanel>

@@ -1,0 +1,76 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <label>Identifiant: </label>
+        <input type="text" id="idTB" />
+        <input class="btn btn-success" id="btnToId" />
+    </div>
+
+    <div>
+        <label>Nom: </label>
+        <input type="text" id="surnameTB" />
+        <br />
+
+        <label>Prenom: </label>
+        <input type="text" id="nameTB" />
+        <br />
+    </div>
+
+    <script>
+        //document.addEventListener("ready", () => {
+
+        let apiURL = "/Home/GetInfo/";
+
+        document.getElementById('btnToId').onclick = () => {
+            if (isEverythingNumerical()) {
+                apiURL += document.getElementById('idTB').value;
+                //let request = new XMLHttpRequest;
+
+                //request.open('GET', apiURL);
+
+                //request.onreadystatechange = () => {
+                //    if (request == 4) {
+                //        console.log(result);
+                //        alert('Successfully retrieved');
+                //    }
+                //    else {
+                //        console.log('twtf');
+                //    }
+                //}
+                fetch(apiURL)
+                    .then(response => {
+                        return response.json();
+                    })
+                    .then(response => {
+                        console.log(response);
+                        document.getElementById('surnameTB').value = response[0].nom;
+                        document.getElementById('nameTB').value = response[0].prenom;
+                    });
+            } else {
+                alert('NO');
+            }
+        }
+
+        function isEverythingNumerical() {
+            let inputContent = document.getElementById('idTB').value;
+            if (isNaN(inputContent)) return false;
+            else return true;
+        }
+
+            //});
+    </script>
+</body>
+</html>
