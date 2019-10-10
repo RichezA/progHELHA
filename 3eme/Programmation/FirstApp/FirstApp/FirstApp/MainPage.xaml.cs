@@ -17,7 +17,6 @@ namespace FirstApp
         public MainPage()
         {
             InitializeComponent();
-            this.userIDToSend.WidthRequest = 50;
         }
 
         private async void Button_Clicked(object sender, EventArgs e)

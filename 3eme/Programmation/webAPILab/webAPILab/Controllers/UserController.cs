@@ -24,7 +24,7 @@ namespace webAPILab.Controllers
         [HttpGet]
         public ActionResult<User> Get(int id)
         {
-            
+            return null;
         }
 
     }

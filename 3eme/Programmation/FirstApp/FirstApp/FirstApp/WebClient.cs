@@ -10,7 +10,7 @@ namespace FirstApp
     static class WebClient
     {
         static HttpClient HttpClient = new HttpClient();
-        static String apiURL = "http://192.168.178.25:45457/api/values/";
+        static String apiURL = "http://192.168.137.82:45455/api/values/";
 
 
         public static async Task<List<User>> GetSampleUsers()
