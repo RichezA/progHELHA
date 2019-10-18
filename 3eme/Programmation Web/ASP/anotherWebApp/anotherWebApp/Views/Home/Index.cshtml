@@ -47,6 +47,7 @@
                 $.ajax({
                     url: apiURL + "/" + $('#idTB').val(),
                     success: function (result) {
+                        console.log(result);
                         surname.value = result.nom;
                         name.value = result.prenom;
                         idTB.value = "";
@@ -83,15 +84,35 @@
                 let surnameToSend = surname.value;
                 let nameToSend = name.value;
                 let jsonToSend = JSON.stringify({ nom: surnameToSend, prenom: nameToSend });
-                console.log(jsonToSend);
                 $.ajax({
                     url: apiURL + "2/",
                     method: "POST",
                     data: jsonToSend,
                     success: function (result) {
-                        alert('successfully sent');
+                        console.log(result);
+                        let name = result.prenom;
+                        let surname = result.nom;
+                        alert(name + " " + surname + " exists !");
+
                     },
-                    dataType: "JSON"
+                    dataType: "JSON",
+                    ContentType: "application/json"
+                }).fail(function (xhr, textStatus, errorThrown) {
+                    switch (xhr.status) {
+                        case 300:
+                            alert('There are multiple records for this person');
+                            break;
+                        case 404:
+                            alert('The selected user does not exist');
+                            break;
+                        case 500:
+                            alert('Error');
+                            break;
+                        default:
+                            alert("Couldn't find");
+                            break;
+                    }
+
                 })
             }
         });

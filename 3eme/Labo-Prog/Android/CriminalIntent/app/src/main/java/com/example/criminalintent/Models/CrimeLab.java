@@ -34,6 +34,7 @@ public class CrimeLab {
             for(int i = 0; i < 100; i++){
                 tempCrime = new Crime();
                 tempCrime.setmTitle("Crime #" + ( i+1 ));
+                tempCrime.setmSolved(i % 2 == 0 ? true : false);
                 this.addCrime(tempCrime);
             }
         }
@@ -86,7 +87,7 @@ public class CrimeLab {
         values.put(CrimeDbSchema.CrimeTable.cols.TITLE, crime.getmTitle());
         values.put(CrimeDbSchema.CrimeTable.cols.DATE, crime.getmDate());
         values.put(CrimeDbSchema.CrimeTable.cols.SOLVED, crime.getmSolved() ? 1 : 0);
-        values.put(CrimeDbSchema.CrimeTable.cols.GRAVITY, crime.getmCrimeGravity().toString());
+        //values.put(CrimeDbSchema.CrimeTable.cols.GRAVITY, crime.getmCrimeGravity().returnGravityEnum());
 
         return values;
     }

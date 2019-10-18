@@ -36,5 +36,18 @@ namespace anotherWebApp.Models
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetWebUserInfo_Result>("GetWebUserInfo", userIdParameter);
         }
+    
+        public virtual ObjectResult<Nullable<int>> CheckClient(string nom, string prenom)
+        {
+            var nomParameter = nom != null ?
+                new ObjectParameter("Nom", nom) :
+                new ObjectParameter("Nom", typeof(string));
+    
+            var prenomParameter = prenom != null ?
+                new ObjectParameter("Prenom", prenom) :
+                new ObjectParameter("Prenom", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<Nullable<int>>("CheckClient", nomParameter, prenomParameter);
+        }
     }
 }

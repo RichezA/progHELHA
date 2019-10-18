@@ -25,6 +25,8 @@ namespace ClientsList
         public Client CurrentClient { get; set; }
         public List<Client> ClientsList { get; set; }
 
+        //public MVVMClient CurrClient;
+
         public Info2020Entities entity = new Info2020Entities();
         public MainWindow()
         {

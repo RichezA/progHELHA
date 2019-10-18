@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<NavigationPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="FirstApp.MainPage">
 
-    <StackLayout x:Name="mainStackLayout">
-        <!-- Place new controls here -->
+    <!--<StackLayout x:Name="mainStackLayout">
+        --><!-- Place new controls here -->
         <!--<Label Text="Welcome to Xamarin.Forms!" 
                x:Name="myLabel"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
-        <Button Text="Valider" Clicked="Button_Clicked" /> -->
+        <Button Text="Valider" Clicked="Button_Clicked" /> --><!--
 
         <StackLayout Orientation="Horizontal">
             <Entry x:Name="userIDToSend" Keyboard="Telephone" WidthRequest="20" HorizontalTextAlignment="Center"></Entry>
@@ -29,6 +29,8 @@
         </StackLayout>
 
 
-    </StackLayout>
+    </StackLayout>-->
 
-</ContentPage>
+    
+    
+</NavigationPage>

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Layout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,6 +25,7 @@ import java.text.ParseException;
 import java.util.List;
 
 public class CrimeListFragment extends Fragment {
+    private static final String TAG = "CrimeListFragment";
     // Fragment qui permettra d'afficher une liste de crimes, pour afficher une list (ListView) on utilise un 'RecyclerView'
 
     private RecyclerView mCrimeRecyclerView;
@@ -54,6 +56,8 @@ public class CrimeListFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+        Log.d(TAG, "RESUMING");
+
         this.updateUI();
     }
 

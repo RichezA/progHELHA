@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
@@ -11,6 +12,7 @@ namespace anotherWebApp.Controllers
 {
     public class HomeController : Controller
     {
+        Info2020Entities entity = new Info2020Entities();
         // GET: Home
         public ActionResult Index()
         {
@@ -21,7 +23,6 @@ namespace anotherWebApp.Controllers
         public ActionResult GetInfo(string id)
         {
             int intID;
-            Info2020Entities entity = new Info2020Entities();
 
             if (!int.TryParse(id, out intID)) throw new HttpResponseException(System.Net.HttpStatusCode.BadRequest);
             var result = entity.GetWebUserInfo(intID).ToList();
@@ -30,10 +31,28 @@ namespace anotherWebApp.Controllers
         }
 
         [System.Web.Mvc.HttpPost]
-        public ActionResult GetInfo2([FromBody] string result)
+        public ActionResult GetInfo2()
         {
-            var json = JsonConvert.SerializeObject(result);
-            return Json(json);
+            Stream req = Request.InputStream;
+            req.Seek(0, System.IO.SeekOrigin.Begin);
+            string json = new StreamReader(req).ReadToEnd();
+
+            GetWebUserInfo_Result result = new GetWebUserInfo_Result();
+            
+            try
+            {
+                result = JsonConvert.DeserializeObject<GetWebUserInfo_Result>(json);
+
+                var res = entity.CheckClient(result.nom, result.prenom).ToList();
+                if (res[0] == 0) return new HttpStatusCodeResult(System.Net.HttpStatusCode.NotFound);
+                else if (res[0]  > 1) return new HttpStatusCodeResult(System.Net.HttpStatusCode.Ambiguous);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return new HttpStatusCodeResult(System.Net.HttpStatusCode.InternalServerError);
+            }
+            return Json(result);
         }
 
         /*

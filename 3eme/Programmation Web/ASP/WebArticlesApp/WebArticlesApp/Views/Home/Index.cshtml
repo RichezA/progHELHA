@@ -1,0 +1,70 @@
+﻿@model List<WebArticlesApp.Models.GetProducts_Result>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Articles</title>
+    <link href="~/Stylesheets/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="articleDiv">
+        <table>
+            <thead>
+                <tr>
+                    <th>?</th>
+                    <th>Nom</th>
+                    <th>Stock</th>
+                    <th>Prix</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            @foreach(var product in Model)
+            {
+                <tr>
+                    <td>
+                        <input 
+                               type="checkbox" 
+                               id="CB\@product.articleID" 
+                        />
+                    </td>
+                    <td>
+                        <!-- <label>Nom: </label> -->
+                        @*<a href="/Home/GetDetails/@product.articleID" target="_blank">@product.Nom</a>*@
+                        <label>
+                            @product.Nom
+                        </label>
+                    </td>
+                    <td>
+                        @*<label>Stock: </label>*@
+                        <label>
+                            @product.Stock
+                        </label>
+                    </td>
+                    <td>
+                        @*<label>Prix/u: </label>*@
+                        <label>
+                            @product.Price
+                        </label> 
+                        <span>
+                            €
+                        </span>
+                    </td>
+                    <td>
+                        <input 
+                               type="number" 
+                               step="1" 
+                               class="numbersInput" 
+                               id="TB\@product.Nom"
+                        />
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

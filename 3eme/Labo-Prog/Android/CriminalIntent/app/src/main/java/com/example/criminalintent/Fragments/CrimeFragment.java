@@ -34,6 +34,8 @@ public class CrimeFragment extends Fragment {
 
     private final String TAG = "CrimeFragment";
 
+    CrimeLab crimeLab;
+
     Crime mCrime;
     EditText mTitleField;
     Button mDateButton;
@@ -49,6 +51,7 @@ public class CrimeFragment extends Fragment {
         //mCrime = new Crime();
         UUID crime_id = (UUID) getActivity().getIntent().getSerializableExtra("crime_id");
         mCrime = CrimeLab.get(getActivity()).getCrime(crime_id);
+        crimeLab = CrimeLab.get(getActivity());
     }
 
 
@@ -99,6 +102,13 @@ public class CrimeFragment extends Fragment {
         });
 
         return v;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        crimeLab.updateCrime(mCrime);
+        //Log.d(TAG, "PAUSING");
     }
 
     private void setCombo(Spinner mCrimeGravityCombo) {

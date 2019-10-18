@@ -25,7 +25,7 @@ public class CrimeCursorWrapper extends CursorWrapper {
         crime.setmTitle(title);
         crime.setmDate(new Date(date));
         crime.setmSolved(isSolved != 0);
-        crime.setmCrimeGravity(Gravity.valueOf(gravity));
+//        crime.setmCrimeGravity(Gravity.valueOf(gravity));
 
         return crime;
     }

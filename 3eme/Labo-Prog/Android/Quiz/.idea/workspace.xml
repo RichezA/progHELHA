@@ -14,62 +14,22 @@
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CriminalIntent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/CriminalIntent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/CriminalIntent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B43gpCN_4v9t+5Hw23NhAPTHGjo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Gb3CgtuR7B3Xn2FcanpYT7CPQXA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q+0TDpq4TfyfxDceGdtpyLfzQiU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_EP5C0ur_z8fYpG3AqSCTw9dn+U=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/h5YwReJmS3B+Hi7gODIxwZu0dqE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Controllers/CrimeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Fragments/CrimeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Controllers/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/Crime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/Crime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/layout/activity_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/layout/fragment_crime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/layout/fragment_crime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debugAndroidTest/manifest-merger-blame-debug-androidTest-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/CheatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/CheatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/EndActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/EndActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_cheat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_cheat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_end.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_end.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cheat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cheat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_end.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_end.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/Formulaire/Formulaire/obj/Debug/Formulaire.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/Formulaire/Formulaire/obj/Debug/Formulaire.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Programmation/Cours-ecrit/Xamarin.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation/Cours-ecrit/Xamarin.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/CrimeLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/CrimeLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/Gravity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CriminalIntent/app/src/main/java/com/example/criminalintent/Models/Gravity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/ClientsList/ClientsList/ClientsList.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/ClientsList/ClientsList/ClientsList.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WPF-XAML/ClientsList/ClientsList/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../WPF-XAML/ClientsList/ClientsList/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Models/UserModel.Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Models/UserModel.Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Models/UserModel.edmx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Models/UserModel.edmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/bin/anotherWebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/bin/anotherWebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/bin/anotherWebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/anotherWebApp/anotherWebApp/bin/anotherWebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/asp.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/asp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/styles.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/Cours écrit/styles.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,56 +37,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_22" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view />
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/CheatActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/EndActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1344">
-              <caret line="230" column="110" selection-start-line="230" selection-start-column="110" selection-end-line="230" selection-end-column="110" />
-              <folding>
-                <element signature="method#onCreate#0;class#MainActivity#0" />
-                <element signature="method#handleQuestionAnswer#0;class#MainActivity#0" />
-                <element signature="method#recoverState#0;class#MainActivity#0" />
-                <element signature="method#setIds#0;class#MainActivity#0" />
-                <element signature="method#onSaveInstanceState#0;class#MainActivity#0" />
-                <element signature="method#onActivityResult#0;class#MainActivity#0" />
-                <element signature="method#updateScore#0;class#MainActivity#0" />
-                <element signature="method#resetButtonsState#0;class#MainActivity#0" />
-                <element signature="method#openEndActivity#0;class#MainActivity#0" />
-                <element signature="method#goToCheatActivity#0;class#MainActivity#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,17 +62,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/EndActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Interfaces/EndPageToControllerInteraction.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Interfaces/CheatPageToControllerInteraction.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/MainController.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -174,17 +79,6 @@
   <component name="ProjectId" id="1RJqi7OefNZFFqYKe8e6Tn8zt2F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -225,14 +119,14 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+    <configuration default="true" type="AndroidJUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -249,31 +143,8 @@
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
-      <Auto>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Auto>
-      <Hybrid>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Hybrid>
       <Java />
-      <Native>
-        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
-        <option name="SHOW_STATIC_VARS" value="true" />
-        <option name="WORKING_DIR" value="" />
-        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
-        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
-      </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
@@ -297,35 +168,9 @@
       <option name="presentableId" value="Default" />
       <updated>1568968827244</updated>
       <workItem from="1569395680818" duration="134000" />
+      <workItem from="1571213042320" duration="38000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18903089" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Build Variants" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Resources Explorer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.32976446" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -336,12 +181,7 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -361,44 +201,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Interfaces/MainPageToControllerInteraction.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Interfaces/EndPageToControllerInteraction.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Interfaces/CheatPageToControllerInteraction.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/MainController.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/CheatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/EndActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/quiz/Controllers/Activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="230" column="110" selection-start-line="230" selection-start-column="110" selection-end-line="230" selection-end-column="110" />
-          <folding>
-            <element signature="method#onCreate#0;class#MainActivity#0" />
-            <element signature="method#handleQuestionAnswer#0;class#MainActivity#0" />
-            <element signature="method#recoverState#0;class#MainActivity#0" />
-            <element signature="method#setIds#0;class#MainActivity#0" />
-            <element signature="method#onSaveInstanceState#0;class#MainActivity#0" />
-            <element signature="method#onActivityResult#0;class#MainActivity#0" />
-            <element signature="method#updateScore#0;class#MainActivity#0" />
-            <element signature="method#resetButtonsState#0;class#MainActivity#0" />
-            <element signature="method#openEndActivity#0;class#MainActivity#0" />
-            <element signature="method#goToCheatActivity#0;class#MainActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

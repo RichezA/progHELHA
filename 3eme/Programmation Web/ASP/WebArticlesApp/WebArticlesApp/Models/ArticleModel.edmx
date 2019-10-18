@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Info2020Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="GetProductById" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="articleID" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="GetProducts" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="Info2020ModelStoreContainer" />
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Info2020Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="Info2020Entities" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="GetProductById" ReturnType="Collection(Info2020Model.GetProductById_Result)">
+          <Parameter Name="articleID" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="GetProducts" ReturnType="Collection(Info2020Model.GetProducts_Result)" />
+        </EntityContainer>
+        <ComplexType Name="GetProductById_Result">
+          <Property Type="Guid" Name="articleID" Nullable="false" />
+          <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" />
+          <Property Type="Guid" Name="categorieID" Nullable="false" />
+          <Property Type="Int32" Name="Stock" Nullable="false" />
+          <Property Type="Single" Name="Price" Nullable="false" />
+          <Property Type="String" Name="Description" Nullable="false" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="GetProducts_Result">
+          <Property Type="Guid" Name="articleID" Nullable="false" />
+          <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" />
+          <Property Type="Int32" Name="Stock" Nullable="false" />
+          <Property Type="Single" Name="Price" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Info2020ModelStoreContainer" CdmEntityContainer="Info2020Entities" >
+          <FunctionImportMapping FunctionImportName="GetProductById" FunctionName="Info2020Model.Store.GetProductById">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Info2020Model.GetProductById_Result">
+                <ScalarProperty Name="articleID" ColumnName="articleID" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="categorieID" ColumnName="categorieID" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetProducts" FunctionName="Info2020Model.Store.GetProducts">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Info2020Model.GetProducts_Result">
+                <ScalarProperty Name="articleID" ColumnName="articleID" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

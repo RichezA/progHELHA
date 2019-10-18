@@ -3,7 +3,7 @@ package com.example.criminalintent.Models;
 import androidx.annotation.NonNull;
 
 public enum Gravity {
-    DEFAULT ("Not defined"),
+    DEFAULT ("Default"),
     MILD ("Mild"),
     MODERATE ("Moderate"),
     SEVERE ("Severe");
@@ -20,4 +20,6 @@ public enum Gravity {
     public String toString() {
         return this.name;
     }
+
+    public String returnGravityEnum() { return this.name.toUpperCase(); }
 }

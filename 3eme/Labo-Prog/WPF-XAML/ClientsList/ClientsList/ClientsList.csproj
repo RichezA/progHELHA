@@ -103,6 +103,7 @@
     <Compile Include="MVVM\GetXAMLClients_Result.cs">
       <DependentUpon>ClientModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="MVVM\MVVMClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

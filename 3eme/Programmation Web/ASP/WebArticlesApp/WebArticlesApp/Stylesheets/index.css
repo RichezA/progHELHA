@@ -1,0 +1,11 @@
+﻿body {
+}
+.articleDiv {
+    border: 1px solid black;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.numbersInput {
+    width: 50px;
+}

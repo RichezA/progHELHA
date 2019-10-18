@@ -42,3 +42,23 @@ La feuille de style est enregistré en cache. Soit on fixe une période de valid
 
 Ce qu'on peut faire c'est avoir 
 `stylesheet.css?v1` et si un jour on change l'url par `stylesheet.css?v2` (vu qu'on a modifié la stylesheet), la version 1 du css sera invalidée.
+
+## Quelques attributs
+
+_border-radius_ : 
+
+_text-shadow_ : Ombrage pour un texte
+_box-shadow_ _-moz-box-shadow_ _-webkit-box-shadow_ : Ombrage pour une div
+_font-family_ : Pour changer la police
+```css
+@font-face {
+  font-family:"MaPolice";
+  src:url('rage.ttf');
+}
+
+.MaPolice {
+  font-family: MaPolice;
+}
+```
+
+_opacity_ : Opacité (besoin d'une couleur de fond pour pouvoir appliquer l'attribut)
