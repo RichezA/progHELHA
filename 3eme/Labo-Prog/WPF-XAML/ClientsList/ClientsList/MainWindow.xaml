@@ -79,7 +79,7 @@
 
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem HorizontalAlignment="Right">
-                <TextBlock>Heure</TextBlock>
+                <TextBlock Text="{Binding CurrentHour}"></TextBlock>
             </StatusBarItem>
         </StatusBar>
 
