@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicTacToe_MVC</string>
+    <string name="winner">Winner</string>
+    <string name="reset_button">Reset</string>
+</resources>
