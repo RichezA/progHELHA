@@ -1,0 +1,46 @@
+﻿body {
+}
+#buildingDiv {
+    height: 250px;
+    width: 100%;
+    background-color: lightgray;
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+#imgDiv {
+    background-color: inherit;
+    height: 100%;
+    width: 33%;
+    float:left;
+    padding: 5px;
+    border-right: 1px solid;
+    border-color: black;
+}
+
+#infoDiv {
+    background-color: inherit;
+    vertical-align: middle;
+    padding: 5px;
+    height: 100%;
+    line-height: 300%;
+    width: 66%;
+    float:left;
+}
+#imgPicture {
+    height: 100%;
+    width: 100%;
+}
+
+.ModelSpan {
+    font-size: 15px;
+    color: blue;
+}
+
+.labelBuilding {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    width: 150px;
+    color: white;
+}

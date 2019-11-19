@@ -13,11 +13,13 @@ namespace essaiExam.MVVM
     
     public partial class getRestauFromCatId_Result
     {
-        public System.Guid RestoID { get; set; }
-        public string Nom { get; set; }
+        public System.Guid RestoId { get; set; }
+        public string NomResto { get; set; }
         public string Adresse { get; set; }
         public string Telephone { get; set; }
+        public string NomCat { get; set; }
         public byte[] Photo { get; set; }
         public int Evaluation { get; set; }
+        public System.Guid CategorieId { get; set; }
     }
 }

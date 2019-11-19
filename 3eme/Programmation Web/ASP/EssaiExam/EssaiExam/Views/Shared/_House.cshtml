@@ -1,0 +1,30 @@
+﻿@model EssaiExam.Models.GetBuildingsByLocationANDnumbersOfRoomsANDTypeOfBuilding_Result
+
+@{
+    var imgSrc = "";
+    if (Model.Photo != null)
+    {
+        var base64 = Convert.ToBase64String(Model.Photo);
+        imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+    }
+    else
+    {
+        imgSrc = @"..\..\Resources\LOGO.png";
+    }
+}
+<div id="buildingDiv">
+    <div id="imgDiv">
+        <img src=@imgSrc id="imgPicture" />
+    </div>
+    <div id="infoDiv">
+        <label class="labelBuilding">Adresse:</label>
+        <span class="ModelSpan">@Model.Adresse</span> <br />
+        <label class="labelBuilding">Localité:</label>
+        <span class="ModelSpan">@Model.Localite</span> <br />
+        <label class="labelBuilding">Nombre de chambres:</label>
+        <span class="ModelSpan">@Model.NbrChambres</span> <br />
+        <label class="labelBuilding">Description:</label>
+        <span class="ModelSpan">@Model.Description</span> <br />
+    </div>
+</div>
+

@@ -1,0 +1,32 @@
+﻿<!-- Header, banner + menu -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <link href="~/Stylesheets/Header.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <div>
+        <header></header>
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-ligh bg-light" id="navmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ventes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    @RenderBody()
+</body>
+</html>

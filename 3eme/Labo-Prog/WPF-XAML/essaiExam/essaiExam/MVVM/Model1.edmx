@@ -4,41 +4,60 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Info2020Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="Info2020Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <Function Name="getCommentsByRestoId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="RestoId" Type="uniqueidentifier" Mode="In" />
+        </Function>
         <Function Name="getEvalFromRestauId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="RestauID" Type="uniqueidentifier" Mode="In" />
         </Function>
+        <Function Name="getRestauCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <Function Name="getRestauFromCatId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
           <Parameter Name="catID" Type="uniqueidentifier" Mode="In" />
         </Function>
         <Function Name="getRestaurants" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="getUserNameByUserId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UserId" Type="uniqueidentifier" Mode="In" />
+        </Function>
         <EntityContainer Name="Info2020ModelStoreContainer" />
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Info2020Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="Info2020Entities" annotation:LazyLoadingEnabled="true" >
           <FunctionImport Name="getEvalFromRestauId" ReturnType="Collection(Info2020Model.getEvalFromRestauId_Result)">
-            <Parameter Name="RestauID" Mode="In" Type="Guid" />
+          <Parameter Name="RestauID" Mode="In" Type="Guid" />
           </FunctionImport>
+          <FunctionImport Name="getRestauCategories" ReturnType="Collection(Info2020Model.getRestauCategories_Result)" />
           <FunctionImport Name="getRestauFromCatId" ReturnType="Collection(Info2020Model.getRestauFromCatId_Result)">
-            <Parameter Name="catID" Mode="In" Type="Guid" />
+          <Parameter Name="catID" Mode="In" Type="Guid" />
           </FunctionImport>
           <FunctionImport Name="getRestaurants" ReturnType="Collection(Info2020Model.getRestaurants_Result)" />
+          <FunctionImport Name="getCommentsByRestoId" ReturnType="Collection(Info2020Model.getCommentsByRestoId_Result)">
+          <Parameter Name="RestoId" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="getUserNameByUserId" ReturnType="Collection(Info2020Model.getUserNameByUserId_Result)">
+          <Parameter Name="UserId" Mode="In" Type="Guid" />
+          </FunctionImport>
         </EntityContainer>
         <ComplexType Name="getEvalFromRestauId_Result">
           <Property Type="Guid" Name="EvaluationId" Nullable="false" />
           <Property Type="Guid" Name="UserId" Nullable="false" />
           <Property Type="String" Name="Commentaire" Nullable="true" MaxLength="50" />
         </ComplexType>
-        <ComplexType Name="getRestauFromCatId_Result">
-          <Property Type="Guid" Name="RestoID" Nullable="false" />
+        <ComplexType Name="getRestauCategories_Result">
+          <Property Type="Guid" Name="CategorieId" Nullable="false" />
           <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="getRestauFromCatId_Result">
+          <Property Type="Guid" Name="RestoId" Nullable="false" />
+          <Property Type="String" Name="NomResto" Nullable="false" MaxLength="50" />
           <Property Type="String" Name="Adresse" Nullable="false" MaxLength="50" />
           <Property Type="String" Name="Telephone" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="NomCat" Nullable="false" MaxLength="50" />
           <Property Type="Binary" Name="Photo" Nullable="true" MaxLength="Max" />
           <Property Type="Int32" Name="Evaluation" Nullable="false" />
+          <Property Type="Guid" Name="CategorieId" Nullable="false" />
         </ComplexType>
         <ComplexType Name="getRestaurants_Result">
           <Property Type="Guid" Name="RestoId" Nullable="false" />
@@ -48,6 +67,17 @@
           <Property Type="String" Name="NomCat" Nullable="false" MaxLength="50" />
           <Property Type="Binary" Name="Photo" Nullable="true" MaxLength="Max" />
           <Property Type="Int32" Name="Evaluation" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="getCommentsByRestoId_Result">
+          <Property Type="Guid" Name="EvaluationId" Nullable="false" />
+          <Property Type="String" Name="Commentaire" Nullable="true" MaxLength="50" />
+          <Property Type="Guid" Name="RestoId" Nullable="false" />
+          <Property Type="Guid" Name="evalUserId" Nullable="false" />
+          <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="getUserNameByUserId_Result">
+          <Property Type="Guid" Name="UserId" Nullable="false" />
+          <Property Type="String" Name="Nom" Nullable="false" MaxLength="50" />
         </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
@@ -64,15 +94,25 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
-          <FunctionImportMapping FunctionImportName="getRestauFromCatId" FunctionName="Info2020Model.Store.getRestauFromCatId">
+          <FunctionImportMapping FunctionImportName="getRestauCategories" FunctionName="Info2020Model.Store.getRestauCategories">
             <ResultMapping>
-              <ComplexTypeMapping TypeName="Info2020Model.getRestauFromCatId_Result">
-                <ScalarProperty Name="RestoID" ColumnName="RestoID" />
+              <ComplexTypeMapping TypeName="Info2020Model.getRestauCategories_Result">
+                <ScalarProperty Name="CategorieId" ColumnName="CategorieId" />
                 <ScalarProperty Name="Nom" ColumnName="Nom" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="getRestauFromCatId" FunctionName="Info2020Model.Store.getRestauFromCatId">
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="Info2020Model.getRestauFromCatId_Result">
+                <ScalarProperty Name="RestoId" ColumnName="RestoId" />
+                <ScalarProperty Name="NomResto" ColumnName="NomResto" />
                 <ScalarProperty Name="Adresse" ColumnName="Adresse" />
                 <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+                <ScalarProperty Name="NomCat" ColumnName="NomCat" />
                 <ScalarProperty Name="Photo" ColumnName="Photo" />
                 <ScalarProperty Name="Evaluation" ColumnName="Evaluation" />
+                <ScalarProperty Name="CategorieId" ColumnName="CategorieId" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
@@ -86,6 +126,25 @@
                 <ScalarProperty Name="NomCat" ColumnName="NomCat" />
                 <ScalarProperty Name="Photo" ColumnName="Photo" />
                 <ScalarProperty Name="Evaluation" ColumnName="Evaluation" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="getCommentsByRestoId" FunctionName="Info2020Model.Store.getCommentsByRestoId">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Info2020Model.getCommentsByRestoId_Result">
+                <ScalarProperty Name="EvaluationId" ColumnName="EvaluationId" />
+                <ScalarProperty Name="Commentaire" ColumnName="Commentaire" />
+                <ScalarProperty Name="RestoId" ColumnName="RestoId" />
+                <ScalarProperty Name="evalUserId" ColumnName="evalUserId" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="getUserNameByUserId" FunctionName="Info2020Model.Store.getUserNameByUserId">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Info2020Model.getUserNameByUserId_Result">
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>

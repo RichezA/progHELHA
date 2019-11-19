@@ -37,6 +37,11 @@ namespace essaiExam.MVVM
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getEvalFromRestauId_Result>("getEvalFromRestauId", restauIDParameter);
         }
     
+        public virtual ObjectResult<getRestauCategories_Result> getRestauCategories()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getRestauCategories_Result>("getRestauCategories");
+        }
+    
         public virtual ObjectResult<getRestauFromCatId_Result> getRestauFromCatId(Nullable<System.Guid> catID)
         {
             var catIDParameter = catID.HasValue ?
@@ -49,6 +54,24 @@ namespace essaiExam.MVVM
         public virtual ObjectResult<getRestaurants_Result> getRestaurants()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getRestaurants_Result>("getRestaurants");
+        }
+    
+        public virtual ObjectResult<getCommentsByRestoId_Result> getCommentsByRestoId(Nullable<System.Guid> restoId)
+        {
+            var restoIdParameter = restoId.HasValue ?
+                new ObjectParameter("RestoId", restoId) :
+                new ObjectParameter("RestoId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getCommentsByRestoId_Result>("getCommentsByRestoId", restoIdParameter);
+        }
+    
+        public virtual ObjectResult<getUserNameByUserId_Result> getUserNameByUserId(Nullable<System.Guid> userId)
+        {
+            var userIdParameter = userId.HasValue ?
+                new ObjectParameter("UserId", userId) :
+                new ObjectParameter("UserId", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<getUserNameByUserId_Result>("getUserNameByUserId", userIdParameter);
         }
     }
 }

@@ -1,0 +1,28 @@
+﻿body,html,div {
+    background-color: gray;
+    width:100%;
+    font-size:12px;
+    padding:0px;
+    margin:0px;
+}
+
+
+header {
+    height: 217px;
+    border-bottom: 1px solid;
+    border-color: blue;
+    
+    background-color: gray;
+    background-image: url(../Resources/LOGO.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#navmenu {
+    border-bottom: 1px solid;
+    border-color: blue;
+}
+
+.active {
+    font-weight: bold;
+}

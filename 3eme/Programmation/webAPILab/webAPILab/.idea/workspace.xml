@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a020cd7-19ab-4960-bee8-44a333436b05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.Context.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.edmx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.edmx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.edmx.diagram" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/Model1.edmx.diagram" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/getRestauFromCatId_Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MVVM/getRestauFromCatId_Result.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/essaiExam.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labo-Prog/WPF-XAML/essaiExam/essaiExam/essaiExam.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/AuthenticationEmpty.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/AuthenticationEmpty.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.Context.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.Context.tt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.edmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.edmx.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Model1.tt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/ExternalLoginConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/ExternalLoginConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/ForgotPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/SendCode.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/SendCode.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/VerifyCode.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/VerifyCode.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/_ExternalLoginsListPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Views/Account/_ExternalLoginsListPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.dll.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/AuthenticationEmpty.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.SqlServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/EntityFramework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.Cookies.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.Cookies.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.Cookies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.Cookies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.OAuth.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.OAuth.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.OAuth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.OAuth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Microsoft.Owin.Security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Newtonsoft.Json.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/Newtonsoft.Json.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.Managed.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/Microsoft.Managed.Core.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Collections.Immutable.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Collections.Immutable.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.IO.Pipes.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.IO.Pipes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Reflection.Metadata.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Reflection.Metadata.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Security.AccessControl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Security.Claims.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/System.Security.Principal.Windows.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/VBCSCompiler.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/VBCSCompiler.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/csc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/csc.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/csi.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/csi.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/vbc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/bin/roslyn/vbc.exe.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation Web/ASP/AuthenticationEmpty/AuthenticationEmpty/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp.Android/GetYourFaceOnMyApp.Android.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp.Android/GetYourFaceOnMyApp.Android.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MVVM/UserClientHttp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MVVM/UserClientHttp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../GetYourFaceOnMyApp/GetYourFaceOnMyApp/GetYourFaceOnMyApp/MainPage.xaml.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1TbAM2c6MaaRFTNrqA3tLCNLKzC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a020cd7-19ab-4960-bee8-44a333436b05" name="Default Changelist" comment="" />
+      <created>1573718370498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573718370498</updated>
+      <workItem from="1573718374524" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

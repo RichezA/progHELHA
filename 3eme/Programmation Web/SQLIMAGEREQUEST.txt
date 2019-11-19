@@ -1,0 +1,1 @@
+UPDATE <Table> SET [<Picture field>] = (SELECT MyImage.* from Openrowset(Bulk '<path>', Single_Blob) MyImage) where <Table ID> = <ID>

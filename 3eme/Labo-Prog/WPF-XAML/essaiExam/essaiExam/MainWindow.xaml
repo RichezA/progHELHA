@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:essaiExam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1024" DataContext="{Binding RelativeSource={RelativeSource Self}}">
+        Title="MainWindow" Height="600" Width="1024">
     <Window.Resources>
         <local:DefaultImageConverter x:Key="DefaultImageConverter"></local:DefaultImageConverter>
+        <local:DefaultMvpConverter x:Key="DefaultMvpConverter"></local:DefaultMvpConverter>
         <Style TargetType="{x:Type Window}">
             <Setter Property="Background">
                 <Setter.Value>
@@ -37,6 +38,25 @@
             <Setter Property="Height" Value="25" />
             <Setter Property="Width" Value="50" />
         </Style>
+        <Style TargetType="Image" x:Key="mvpImage">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Width" Value="30" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+        <Style TargetType="StackPanel" x:Key="mvpImagePanel">
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="CommentName">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="24" />
+        </Style>
+        <Style TargetType="TextBlock" x:Key="CommentContent">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style TargetType="StackPanel" x:Key="CommentPanel">
+            <Setter Property="Width" Value="800" />
+        </Style>
     </Window.Resources>
 
     <DockPanel>
@@ -44,8 +64,7 @@
             <MenuItem Header="A propos de"></MenuItem>
         </Menu>
         <ToolBar DockPanel.Dock="Top">
-            <!--ItemsSource="{Binding Categories}"-->
-            <ComboBox>
+            <ComboBox MinWidth="50" MaxWidth="150" SelectedIndex="0" ItemsSource="{Binding Categories}" DisplayMemberPath="Nom" SelectionChanged="ComboBox_SelectionChanged">
             </ComboBox>
         </ToolBar>
 
@@ -68,38 +87,31 @@
                                             <Image Width="80" Height="80" Source="{Binding Path=Photo}" />
                                         </StackPanel>
                                         <StackPanel Orientation="Vertical">
-                                            <Grid>
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition />
-                                                    <ColumnDefinition />
-                                                </Grid.ColumnDefinitions>
-                                                <Grid.RowDefinitions>
-                                                    <RowDefinition Height="2"/>
-                                                    <RowDefinition />
-                                                    <RowDefinition />
-                                                    <RowDefinition />
-                                                </Grid.RowDefinitions>
-                                            </Grid>
 
-                                            <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0">
-                                                <TextBlock Text="{Binding Path=NomResto}" Style="{StaticResource NomRestau}"></TextBlock>
-                                            </StackPanel>
-                                            <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="0">
-                                                <Image Source="{Binding Converter={StaticResource DefaultImageConverter}}" Style="{StaticResource starImage}" />
-                                            </StackPanel>
+                                            <StackPanel Orientation="Vertical">
 
-                                            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0">
-                                                <TextBlock Style="{StaticResource RestauDataLb}">Adresse:</TextBlock>
-                                                <TextBlock Text="{Binding Path=Adresse}" Style="{StaticResource TBData}"></TextBlock>
+                                                <StackPanel Orientation="Horizontal" >
+                                                    <TextBlock Text="{Binding Path=NomResto}" Style="{StaticResource NomRestau}"></TextBlock>
+                                                    <Image Source="{Binding Converter={StaticResource DefaultImageConverter}}" Style="{StaticResource starImage}" />
+                                                </StackPanel>
+
+                                                <StackPanel Orientation="Horizontal" >
+                                                    <TextBlock Style="{StaticResource RestauDataLb}">Adresse:</TextBlock>
+                                                    <TextBlock Text="{Binding Path=Adresse}" Style="{StaticResource TBData}"></TextBlock>
+                                                </StackPanel>
+                                                <StackPanel Orientation="Horizontal" >
+                                                    <TextBlock Style="{StaticResource RestauDataLb}">Téléphone:</TextBlock>
+                                                    <TextBlock Text="{Binding Path=Telephone}" Style="{StaticResource TBData}"/>
+                                                </StackPanel>
+                                                <StackPanel Orientation="Horizontal" >
+                                                    <TextBlock Style="{StaticResource RestauDataLb}">Catégorie:</TextBlock>
+                                                    <TextBlock Text="{Binding Path=NomCat}" Style="{StaticResource TBData}"/>
+                                                </StackPanel>
+
                                             </StackPanel>
-                                            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0">
-                                                <TextBlock Style="{StaticResource RestauDataLb}">Téléphone:</TextBlock>
-                                                <TextBlock Text="{Binding Path=Telephone}" Style="{StaticResource TBData}"/>
-                                            </StackPanel>
-                                            <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="0">
-                                                <TextBlock Style="{StaticResource RestauDataLb}">Catégorie:</TextBlock>
-                                                <TextBlock Text="{Binding Path=NomCat}" Style="{StaticResource TBData}"/>
-                                            </StackPanel>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Vertical" Style="{StaticResource mvpImagePanel}">
+                                            <Image Source="{Binding Converter={StaticResource DefaultMvpConverter}}" Style="{StaticResource mvpImage}"/>
                                         </StackPanel>
                                     </StackPanel>
                                 </Border>
@@ -108,8 +120,17 @@
                     </ListBox>
                 </Border>
             </StackPanel>
-            <StackPanel Orientation="Vertical">
-
+            <StackPanel Orientation="Vertical" Style="{StaticResource CommentPanel}">
+                <ListBox ItemsSource="{Binding Path=Comments}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Style="{StaticResource CommentName}" Text="{Binding Nom}"></TextBlock>
+                                <TextBlock Style="{StaticResource CommentContent}" Text="{Binding Commentaire}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
             </StackPanel>
         </StackPanel>
     </DockPanel>
