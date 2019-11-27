@@ -1,0 +1,7 @@
+﻿@model EssaiExam.Models.Building
+@foreach (var item in Model.Buildings)
+{
+    @Html.Partial("_House", item);  
+}
+
+

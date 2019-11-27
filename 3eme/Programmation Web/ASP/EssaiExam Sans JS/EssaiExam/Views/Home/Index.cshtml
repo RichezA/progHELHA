@@ -1,0 +1,61 @@
+﻿@model EssaiExam.Models.Building
+@using EssaiExam.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Header.cshtml";
+    EntityProceduresHelper helper = new EntityProceduresHelper();
+    List<GetCategories_Result> categoriesList;
+    List<GetDistinctLocalite_Result> locationsList;
+}
+<body>
+    <div id="filterBlock">
+        <form action="/Home/Index" method="post">
+            <label class="filteringLabel">Type de bien</label>
+            <select id="selectionTypeBien" name="selectionTypeBien" class="selectBox">
+                <option value="@Guid.Empty">Faites votre choix</option>
+                @{
+                    categoriesList = helper.GetCategories();
+                }
+
+                @foreach (var item in categoriesList)
+                {
+                    <option value="@item.IdCategorie">@item.Nom</option>
+                }
+            </select>
+            <label class="filteringLabel">Localisation</label>
+            <select id="selectionLocalisation" name="selectionLocalisation" class="selectBox">
+                <option value="@Guid.Empty">Faites votre choix</option>
+                @{
+                    locationsList = helper.GetLocations();
+                }
+
+                @foreach (var item in locationsList)
+                {
+                    <option value="@item.IdLocalite">@item.Localite</option>
+                }
+            </select>
+            <label class="filteringLabel">Nombre de chambres</label>
+            <input type="number" id="nbrChambreMin" name="nbrChambreMin" class="NbrChambreInput" />
+            <span> à </span>
+            <input type="number" id="nbrChambreMax" name="nbrChambreMax" class="NbrChambreInput" />
+
+            <button type="submit" class="btn-submit btnSubmit" id="submitBtn">Soumettre</button>
+        </form>
+    </div>
+
+    <div id="buildingListBlock">
+        @*Go through building list, format them and use them here*@
+        @foreach (var item in Model.Buildings)
+        {
+            @* Get data from fields *@
+            @Html.Partial("_House", item);
+        }
+    </div>
+</body>
+
+<script src="~/Scripts/filtering.js"></script>
+
+@section Styles {
+    <link href="~/Stylesheets/IndexContent.css" rel="stylesheet" />
+    <link href="~/Stylesheets/House.css" rel="stylesheet" />
+}

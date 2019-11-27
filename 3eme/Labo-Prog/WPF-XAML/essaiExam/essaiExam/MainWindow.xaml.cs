@@ -80,7 +80,7 @@ namespace essaiExam
             
             Console.WriteLine(sender);
 
-            this.FillCommentsList(selectedRestaurant.RestoId);
+             this.FillCommentsList(selectedRestaurant.RestoId);
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

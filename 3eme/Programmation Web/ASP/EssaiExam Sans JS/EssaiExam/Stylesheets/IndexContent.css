@@ -1,0 +1,57 @@
+﻿#filterBlock {
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    float: left;
+}
+
+.filteringLabel {
+    font-size: 18px;
+    color: blue;
+    display: block;
+}
+
+.NbrChambreInput {
+    width: 75px;
+}
+
+#filterBlock span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnSubmit {
+    background-color: teal;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+#buildingListBlock {
+    border: 1px solid;
+    float: left;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: lightgray;
+    width: calc(100% - 25%);
+    height: 225px;
+}
+
+.selectBox {
+    height: 30px;
+    width: 85%;
+    align-content:center;
+    text-align:center;
+}

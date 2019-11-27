@@ -58,5 +58,14 @@ namespace EssaiExam.Models
     
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetBuildingsByLocationANDnumbersOfRoomsANDTypeOfBuilding_Result>("GetBuildingsByLocationANDnumbersOfRoomsANDTypeOfBuilding", locationIDParameter, minNumberOfRoomsParameter, maxNumberOfRoomsParameter, typeOfBuildingParameter);
         }
+    
+        public virtual ObjectResult<string> GetDescriptionFromId(Nullable<System.Guid> idBien)
+        {
+            var idBienParameter = idBien.HasValue ?
+                new ObjectParameter("idBien", idBien) :
+                new ObjectParameter("idBien", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("GetDescriptionFromId", idBienParameter);
+        }
     }
 }

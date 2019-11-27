@@ -219,6 +219,8 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Shared\_House.cshtml" />
+    <Content Include="Views\Shared\_Houses.cshtml" />
+    <Content Include="Views\Shared\_Navbar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

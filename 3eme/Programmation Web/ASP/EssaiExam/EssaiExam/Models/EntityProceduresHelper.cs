@@ -29,5 +29,11 @@ namespace EssaiExam.Models
         {
             return entities.GetBuildingsByLocationANDnumbersOfRoomsANDTypeOfBuilding(locationId, minRooms, maxRooms, buildingType).ToList();
         }
+
+        public String GetDetails(Guid buildingID)
+        {
+            var result = entities.GetDescriptionFromId(buildingID).ToList();
+            return result.First();
+        }
     }
 }

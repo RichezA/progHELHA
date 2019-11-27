@@ -12,6 +12,9 @@
           <Parameter Name="typeOfBuilding" Type="uniqueidentifier" Mode="In" />
         </Function>
         <Function Name="GetCategories" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="GetDescriptionFromId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idBien" Type="uniqueidentifier" Mode="In" />
+        </Function>
         <Function Name="GetDistinctLocalite" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
         <EntityContainer Name="WebEssaiExamModelStoreContainer" />
       </Schema></edmx:StorageModels>
@@ -26,6 +29,9 @@
             <Parameter Name="minNumberOfRooms" Mode="In" Type="Int32" />
             <Parameter Name="maxNumberOfRooms" Mode="In" Type="Int32" />
             <Parameter Name="typeOfBuilding" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="GetDescriptionFromId" ReturnType="Collection(String)">
+            <Parameter Name="idBien" Mode="In" Type="Guid" />
           </FunctionImport>
         </EntityContainer>
         <ComplexType Name="GetCategories_Result">
@@ -78,6 +84,7 @@
               </ComplexTypeMapping>
             </ResultMapping>
           </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetDescriptionFromId" FunctionName="WebEssaiExamModel.Store.GetDescriptionFromId" />
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

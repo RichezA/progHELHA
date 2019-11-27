@@ -7,9 +7,9 @@
     List<GetCategories_Result> categoriesList;
     List<GetDistinctLocalite_Result> locationsList;
 }
-<body>
-    <div id="filterBlock">
-        <form action="/Home/Index" method="post">
+    <body>
+        <div id="filterBlock">
+            @*<form action="/Home/Index" method="post">*@
             <label class="filteringLabel">Type de bien</label>
             <select id="selectionTypeBien" name="selectionTypeBien" class="selectBox">
                 <option value="@Guid.Empty">Faites votre choix</option>
@@ -40,18 +40,17 @@
             <input type="number" id="nbrChambreMax" name="nbrChambreMax" class="NbrChambreInput" />
 
             <button type="submit" class="btn-submit btnSubmit" id="submitBtn">Soumettre</button>
-        </form>
-    </div>
-
-    <div id="buildingListBlock">
-        @*Go through building list, format them and use them here*@
-        @foreach (var item in Model.Buildings)
-        {
-            @* Get data from fields *@
-            @Html.Partial("_House", item);
-        }
-    </div>
-</body>
+            @*</form>*@
+        </div>
+        <div id="buildingListBlock">
+            @*Go through building list, format them and use them here*@
+            @*@foreach (var item in Model.Buildings)
+            {
+                @Html.Partial("_House", item);
+            }*@
+        </div>
+        <span id='popup'></span>
+    </body>
 
 <script src="~/Scripts/filtering.js"></script>
 
