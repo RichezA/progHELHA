@@ -1,0 +1,32 @@
+﻿@model Vendeur
+@using Caching.Models
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.cookie.js"></script>
+    <script>
+        $(document).ready(() => {
+            $("#btngen").on("click", () => {
+                let num = $("#Identite").val();
+                $.cookie("Id", num);
+               
+            });
+        });
+    </script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <input type="number" id="Identite"/>
+        <input type="button" id="btngen" value="Générer" />
+        <text>@Model.Nom</text> <text>@Model.Prenom</text>
+    </div>
+</body>
+</html>

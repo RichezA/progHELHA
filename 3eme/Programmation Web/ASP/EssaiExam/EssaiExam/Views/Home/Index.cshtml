@@ -3,21 +3,14 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Header.cshtml";
-    EntityProceduresHelper helper = new EntityProceduresHelper();
-    List<GetCategories_Result> categoriesList;
-    List<GetDistinctLocalite_Result> locationsList;
 }
     <body>
         <div id="filterBlock">
-            @*<form action="/Home/Index" method="post">*@
+            <form action="/Home/Index" method="post">
             <label class="filteringLabel">Type de bien</label>
             <select id="selectionTypeBien" name="selectionTypeBien" class="selectBox">
                 <option value="@Guid.Empty">Faites votre choix</option>
-                @{
-                    categoriesList = helper.GetCategories();
-                }
-
-                @foreach (var item in categoriesList)
+                @foreach (var item in Model.CategoriesList)
                 {
                     <option value="@item.IdCategorie">@item.Nom</option>
                 }
@@ -25,11 +18,7 @@
             <label class="filteringLabel">Localisation</label>
             <select id="selectionLocalisation" name="selectionLocalisation" class="selectBox">
                 <option value="@Guid.Empty">Faites votre choix</option>
-                @{
-                    locationsList = helper.GetLocations();
-                }
-
-                @foreach (var item in locationsList)
+                @foreach (var item in Model.LocationsList)
                 {
                     <option value="@item.IdLocalite">@item.Localite</option>
                 }
@@ -40,14 +29,14 @@
             <input type="number" id="nbrChambreMax" name="nbrChambreMax" class="NbrChambreInput" />
 
             <button type="submit" class="btn-submit btnSubmit" id="submitBtn">Soumettre</button>
-            @*</form>*@
+            </form>
         </div>
         <div id="buildingListBlock">
             @*Go through building list, format them and use them here*@
-            @*@foreach (var item in Model.Buildings)
+            @foreach (var item in Model.Buildings)
             {
-                @Html.Partial("_House", item);
-            }*@
+                @Html.Partial("_House", item)
+            }
         </div>
         <span id='popup'></span>
     </body>

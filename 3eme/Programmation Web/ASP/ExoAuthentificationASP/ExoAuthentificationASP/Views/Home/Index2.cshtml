@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index2</title>
+    <style>
+        #message{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        @if(ViewBag.Error.IsError)
+        {
+            <span id="message">@ViewBag.Error.Message</span>
+        }
+    </div>
+</body>
+</html>

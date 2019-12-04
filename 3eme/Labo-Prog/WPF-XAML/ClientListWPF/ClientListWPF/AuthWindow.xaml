@@ -1,0 +1,41 @@
+﻿<Window x:Class="ClientListWPF.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientListWPF"
+        mc:Ignorable="d"
+        Title="AuthWindow" Height="220" Width="600"
+        Closed="Window_Closed">
+    <Window.Resources>
+        <Style x:Key="FormStack" TargetType="StackPanel">
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style x:Key="LabelForm" TargetType="Label">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="MinWidth" Value="105" />
+        </Style>
+        <Style x:Key="LoginBtn" TargetType="Button">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Padding" Value="5" />
+        </Style>
+    </Window.Resources>
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="10" Background="DarkGray">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal" Style="{StaticResource FormStack}" >
+                    <Label Style="{StaticResource LabelForm}">Nom d'utilisateur</Label>
+                    <TextBox Width="250" Text="{Binding Username}"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Style="{StaticResource FormStack}" >
+                    <Label Style="{StaticResource LabelForm}">Mot de passe</Label>
+                    <TextBox Width="250" Text="{Binding Password}"></TextBox>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Style="{StaticResource FormStack}"  HorizontalAlignment="Center">
+                    <Button Style="{StaticResource LoginBtn}" Click="loginBtn_Click">Se connecter</Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

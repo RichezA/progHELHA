@@ -4,38 +4,39 @@
     let chinf;
     let chsup;
 
-    $('#submitBtn').on('click', () => {
-        getValues();
-        $('#buildingListBlock').html('');
+    setUpPopup();
+    //$('#submitBtn').on('click', () => {
+    //    getValues();
+    //    $('#buildingListBlock').html('');
 
-        var jsonToSend = {
-            selectionTypeBien: buildingType,
-            selectionLocalisation: local,
-            nbrChambreMin: chinf,
-            nbrChambreMax: chsup
-        };
+    //    var jsonToSend = {
+    //        selectionTypeBien: buildingType,
+    //        selectionLocalisation: local,
+    //        nbrChambreMin: chinf,
+    //        nbrChambreMax: chsup
+    //    };
 
-        console.log(jsonToSend);
+    //    console.log(jsonToSend);
 
-        $.ajax({
-            url: "/Home/GetBuildings",
-            method: "POST",
-            data: JSON.stringify(jsonToSend),
-            success: function (result) {
-                $('#buildingListBlock').html(result);
-                setUpPopup();
-            },
-            contentType: "JSON"
-        }).fail(function (xhr, textStatus, errorThrown) {
-            switch(xhr.status) {
-                case 404:
-            alert('Not found');
-            break;
-                default:
-                break;
-        }
-        });
-    });
+    //    $.ajax({
+    //        url: "/Home/GetBuildings",
+    //        method: "POST",
+    //        data: JSON.stringify(jsonToSend),
+    //        success: function (result) {
+    //            $('#buildingListBlock').html(result);
+    //            setUpPopup();
+    //        },
+    //        contentType: "JSON"
+    //    }).fail(function (xhr, textStatus, errorThrown) {
+    //        switch(xhr.status) {
+    //            case 404:
+    //        alert('Not found');
+    //        break;
+    //            default:
+    //            break;
+    //    }
+    //    });
+    //});
 
     $("#selectionTypeBien").on('change', () => {
         $('#selectionTypeBien option[value="00000000-0000-0000-0000-000000000000"]').remove();
