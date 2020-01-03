@@ -1,0 +1,38 @@
+﻿@model MagasinEnLigne.MVVM.MVVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Header.cshtml";
+}
+
+<body>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>?</th>
+                    <th>Photo</th>
+                    <th>Nom</th>
+                    <th>Prix</th>
+                    <th>Stock</th>
+                    <th>Quantité</th>
+                </tr>
+            </thead>
+            @foreach (var article in Model.Articles)
+            {
+                @Html.Partial("_Article", article)
+            }
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="5" />
+                <td>
+                    <input type="button" class="btn btn-primary" value="Enregistrer" id="saveBTN" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+@section scripts{
+    <script src="~/Scripts/cacheHandler.js"></script>
+}

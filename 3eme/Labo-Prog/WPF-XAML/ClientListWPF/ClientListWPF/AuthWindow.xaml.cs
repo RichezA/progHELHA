@@ -1,5 +1,6 @@
 ﻿using ClientListWPF.MVVM;
 using Microsoft.Win32;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,38 +28,46 @@ namespace ClientListWPF
         public Boolean isAuthenticated { get; set; }
         private MainWindow mainWindow { get; set; }
         public object NavigationService { get; private set; }
+        private Token bearerToken;
 
         public AuthWindow()
         {
             isAuthenticated = false;
             currentUser = new User();
+            bearerToken = null;
+
             this.DataContext = currentUser;
             InitializeComponent();
         }
 
-        private async Task<bool> Validate(String username, String password)
+        private async Task<String> Validate(String username, String password)
         {
             // Contact the api with the credentials and check if it's ok
-            bool authenticationGranted = false;
             using(var httpClient = new HttpClient())
             {
-                //var response = await httpClient.PostAsync(@"https://localhost:44391/api/login/", ));
-                //if (response.IsSuccessStatusCode)
-                //{
-                //    authenticationGranted = await response.Content.ReadAsAsync<bool>();
-                //}
+                var credentials = new List<KeyValuePair<String, String>>();
+                credentials.Add(new KeyValuePair<String, String>("Username", username));
+                credentials.Add(new KeyValuePair<String, String>("Password", password));
+                credentials.Add(new KeyValuePair<String, String>("grant_type", "password"));
+
+                var request = new HttpRequestMessage(HttpMethod.Post, @"https://localhost:44391/token") { Content = new FormUrlEncodedContent(credentials) };
+                var response = await httpClient.SendAsync(request);
+                if (response.IsSuccessStatusCode)
+                {
+                    bearerToken= await response.Content.ReadAsAsync<Token>();
+                }
             }
-            return authenticationGranted;
+            return bearerToken.access_token;
         }
 
         private async void loginBtn_Click(object sender, RoutedEventArgs e)
         {
-            var result = await Validate(currentUser.Username, GetHashCode(currentUser.Password));
-            if (result)
+            var response = await Validate(currentUser.Username, GetHashCode(currentUser.Password));
+            if (response != null)
             {
                 // OK
                 isAuthenticated = true;
-                mainWindow = new MainWindow();
+                mainWindow = new MainWindow(response);
                 mainWindow.Show();
                 this.Close();
             }
@@ -89,7 +98,7 @@ namespace ClientListWPF
             }
             else
             {
-                mainWindow = new MainWindow();
+                mainWindow = new MainWindow(bearerToken.access_token);
                 mainWindow.Show();
                 this.Close();
             }

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.cookie-1.4.1.min.js"></script>
+    @RenderSection("scripts", required: false)
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Stylesheet/header.css" rel="stylesheet" />
+    <link href="~/Stylesheet/articles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header></header>
+    @Html.Partial("_Navbar")
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

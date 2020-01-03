@@ -1,0 +1,44 @@
+﻿@model MagasinEnLigne.MVVM.Article
+
+@{ 
+}
+
+<tr>
+    <td>
+        <input type="checkbox"
+               data-article="@Model.id"
+               class="checkbox-article"/>
+    </td>
+    <td>
+        <img src="~/Home/GetImage?articleID=@Model.id" class="product-picture"/>
+    </td>
+    <td>
+        <label>
+            @Model.nom
+        </label>
+    </td>
+    <td>
+        @*<label>Stock: </label>*@
+        <label>
+            @Model.quantite
+        </label>
+    </td>
+    <td>
+        @*<label>Prix/u: </label>*@
+        <label>
+            @Model.prixUnit
+        </label>
+        <span>
+            €
+        </span>
+    </td>
+    <td>
+        <input type="number"
+               step="1"
+               min="0"
+               max="@Model.quantite"
+               value="0"
+               class="numbersInput"
+               data-articleNB="@Model.id" />
+    </td>
+</tr>

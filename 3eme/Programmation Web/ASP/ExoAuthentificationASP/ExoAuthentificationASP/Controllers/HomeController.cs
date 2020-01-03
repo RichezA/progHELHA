@@ -21,11 +21,27 @@ namespace ExoAuthentificationASP.Controllers
             return View();
         }
 
+        public ActionResult NotFound(string aspxerrorpath)
+        {
+            //ViewBag.Error = aspxerrorpath;
+            return View();
+        }
+
+        public ActionResult Unauthorize()
+        {
+            return View();
+        }
+
         public ActionResult Index2()
         {
-            ViewBag.Error.IsError = true;
-            ViewBag.Error.Message = "Je suis fatigué";
+            //ViewBag.Error.IsError = true;
+            //ViewBag.Error.Message = "Je suis fatigué";
             return View();
+        }
+
+        public ActionResult Index3()
+        {
+            throw new HttpException(401, "Unauthorized");
         }
 
         [HttpGet]

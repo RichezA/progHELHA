@@ -25,9 +25,11 @@ namespace ClientListWPF
     public partial class MainWindow : Window
     {
         public UserDataList Users { get; set; }
-        public MainWindow()
+        private String bearerToken;
+        public MainWindow(String bearerToken)
         {
             Users = new UserDataList();
+            this.bearerToken = bearerToken;
             InitializeComponent();
             DataContext = Users;
         }
@@ -36,6 +38,7 @@ namespace ClientListWPF
         {
             using (var httpClient = new HttpClient())
             {
+                httpClient.DefaultRequestHeaders.Add("Authorization", bearerToken);
                 var response = await httpClient.GetAsync(@"https://localhost:44391/api/users/");
                 if(response.IsSuccessStatusCode){
                     Users.Users = await response.Content.ReadAsAsync<ObservableCollection<UserData>>();

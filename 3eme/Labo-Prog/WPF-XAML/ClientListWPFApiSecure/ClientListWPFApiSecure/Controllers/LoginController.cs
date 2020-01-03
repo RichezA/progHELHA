@@ -1,9 +1,12 @@
-﻿using System;
+﻿using ClientListWPFApiSecure.Models;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Results;
 
 namespace ClientListWPFApiSecure.Controllers
 {
@@ -23,8 +26,18 @@ namespace ClientListWPFApiSecure.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string value)
+        [Authorize]
+        public JsonResult<Boolean> Post([FromBody]UserCredentials user)
         {
+            RegistryKey SoftKey = Registry.CurrentUser.OpenSubKey("Software", true);
+            RegistryKey InfoKey = SoftKey.CreateSubKey("Info2020");
+            RegistryKey UserKey = InfoKey.OpenSubKey(user.Username);
+
+            if (UserKey != null)
+            {
+                return Json(UserKey.GetValue("Password", string.Empty).ToString() == user.Password);
+            }
+            return Json(false);
         }
 
         // PUT api/<controller>/5

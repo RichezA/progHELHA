@@ -82,6 +82,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MVVM\Token.cs" />
     <Compile Include="MVVM\User.cs" />
     <Compile Include="MVVM\UserData.cs" />
     <Compile Include="MVVM\UserDataList.cs" />

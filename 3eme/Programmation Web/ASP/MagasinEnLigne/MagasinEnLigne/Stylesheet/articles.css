@@ -1,0 +1,23 @@
+﻿body {
+}
+
+.product-picture {
+    height: 250px;
+    width: 250px;
+}
+
+th {
+    padding: 10px;
+    border-right: 1px solid;
+    border-color: black;
+}
+
+td {
+    padding: 10px;
+    border-right: 1px solid;
+    border-color: black;
+}
+tr {
+    border-bottom: 1px solid;
+    border-color: black;
+}

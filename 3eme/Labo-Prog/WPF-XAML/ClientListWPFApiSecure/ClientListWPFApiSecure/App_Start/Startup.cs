@@ -1,12 +1,12 @@
-﻿using ClientListWPFApiSecure.Models;
+﻿using System;
+using System.Threading.Tasks;
+using ClientListWPFApiSecure.Models;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+
+[assembly: OwinStartup(typeof(ClientListWPFApiSecure.App_Start.Startup))]
 
 namespace ClientListWPFApiSecure.App_Start
 {

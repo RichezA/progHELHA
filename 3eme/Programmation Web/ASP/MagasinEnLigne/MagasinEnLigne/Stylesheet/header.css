@@ -1,0 +1,14 @@
+﻿body {
+    background-color: darkgray;
+}
+
+header {
+    background-image: url('../../Resources/brico.png');
+    background-color: darkgray;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    border-bottom: 1px solid;
+    border-color: darkred;
+    height: 240px;
+}
