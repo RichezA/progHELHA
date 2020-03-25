@@ -1,73 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f42ebb7-5b06-4d36-990a-964b27a2e2be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/dbtest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/dbtest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/score.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/score.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.def" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.def" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/database/sqlite3.h.gch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Projet/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Projet/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../examplegit" beforeDir="false" afterPath="$PROJECT_DIR$/../examplegit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../progtheoricallesson" beforeDir="false" afterPath="$PROJECT_DIR$/../progtheoricallesson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Exo récap examenQ2/Exo récap examenQ2/obj/Debug/Exo récap examenQ2.csproj.CoreCompileInputs.cache" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7f42ebb7-5b06-4d36-990a-964b27a2e2be" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="50" />
-    <option name="width" value="1400" />
-    <option name="height" value="830" />
-  </component>
+  <component name="ProjectId" id="1ZRr4lXKQdgpHoIE441Adwb4uJr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549444781175" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,46 +36,26 @@
       <option name="presentableId" value="Default" />
       <updated>1549438851249</updated>
       <workItem from="1549438857371" duration="1360000" />
+      <workItem from="1584812563610" duration="1378000" />
+      <workItem from="1584816968448" duration="94000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1360000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="100" y="50" width="1400" height="830" extended-state="0" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1459" y="162" key="SettingsEditor" timestamp="1584812595654">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584812595654" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584812566846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584812566846" />
+    <state x="-1796" y="140" key="new project wizard" timestamp="1584817060446">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1796" y="140" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1584817060446" />
   </component>
 </project>

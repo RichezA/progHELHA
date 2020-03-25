@@ -36,14 +36,17 @@ public class Main {
                 System.out.print(dis.readChar());
             }
         }
-        try(FileReader fr = new FileReader(file);
-        BufferedReader bfr = new BufferedReader(fr)){
+
+        try(
+            FileReader fr = new FileReader(file);
+            BufferedReader bfr = new BufferedReader(fr)
+            ) {
             bfr.lines().forEach(s -> System.out.println(s));
-//            String s = bfr.readLine();
-//            while(s != null){
-//                System.out.println(s);
-//                s = bfr.readLine();
-//            }
+        //    String s = bfr.readLine();
+        //    while(s != null){
+        //        System.out.println(s);
+        //        s = bfr.readLine();
+        //    }
         }
     }
 

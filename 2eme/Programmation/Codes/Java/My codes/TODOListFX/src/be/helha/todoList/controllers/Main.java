@@ -29,8 +29,6 @@ public class Main extends Application implements MainViewInteraction {
         toDoList.addItem("Étudier");
         toDoList.addItem("Continuer et finir les projets");
 
-
-
         FXMLLoader loader = new FXMLLoader(getClass().getResource("../views/MainView.fxml"));
         loader.load();
         Parent root = loader.getRoot();
@@ -55,15 +53,15 @@ public class Main extends Application implements MainViewInteraction {
 
     @Override
     public void addItem(String desc){
-        try{
+        try {
             toDoList.addItem(desc);
             controller.clearTaskField();
             controller.updateToDoList();
-        }catch(DuplicateException e){
+        } catch (DuplicateException e) {
             Alert alert = new Alert(Alert.AlertType.ERROR, "TEXTE DUPLIQUÉ");
             controller.clearTaskField();
             alert.showAndWait();
-        }catch(EmptyDescriptionException e){
+        } catch (EmptyDescriptionException e) {
             Alert alert = new Alert(Alert.AlertType.ERROR, "NON MAIS OH ???!!!");
             alert.showAndWait();
         }

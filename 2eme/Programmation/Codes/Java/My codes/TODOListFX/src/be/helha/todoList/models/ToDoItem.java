@@ -9,9 +9,9 @@ public class ToDoItem {
         if (!desc.trim().isEmpty()) {
             this.description = desc;
             this.done = false;
-        } else
+        } else {
             throw new EmptyDescriptionException();
-
+        }
     }
 
     public String getDescription() {

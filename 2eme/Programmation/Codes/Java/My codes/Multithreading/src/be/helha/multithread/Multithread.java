@@ -9,7 +9,7 @@ public class Multithread {
     }
 
     private void Test() {
-        Thread thread = new Thread(new Runnable() {
+        Thread thread = new Thread((new Runnable()) {
 
             @Override
             public void run() {

@@ -75,8 +75,11 @@ public class MainViewController /*implements Initializable*/ {
         checkbox.setSelected(item.isDone());
         BorderPane.setMargin(checkbox, new Insets(5,0,0,5));
 
-        checkbox.setOnMouseClicked(event -> { onCheckBoxClicked(item);});
-        //checkbox.setOnAction(this::onCheckBoxClick);
+        // checkbox.setOnMouseClicked(event -> {
+        //      onCheckBoxClicked(item);
+        // });
+        
+        checkbox.setOnAction(this::onCheckBoxClick);
         return checkbox;
     }
 
