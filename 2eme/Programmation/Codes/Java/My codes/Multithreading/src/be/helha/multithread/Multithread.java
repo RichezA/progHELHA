@@ -71,7 +71,6 @@ public class Multithread {
 
     }
 
-
     synchronized private void incJ() {
         j++;
     }
